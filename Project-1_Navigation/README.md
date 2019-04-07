@@ -18,7 +18,9 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+### Completion criteria
+
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Environment
 
@@ -40,6 +42,28 @@ and launch the *Deep-Q-Network* procedure as follows:
 
   agent = **Agent**(state_size=37, action_size=4, seed=1, fc1_units=fc1_nodes, fc2_units=fc2_nodes)       
   scores, episodes = **dqn**(n_episodes = 2000, eps_start = epsilon_start, train_numb=i)  # train with current params
+
+### Training parameters
+
+We experience the following parameters:  _fc1_units_, _fc2_units_,  _eps_start_
+At the end of each session these parameters together with the episode number (at which the training is finished) 
+are saved into the corresponding lists. These lists are used on the step of testing of weights.
+
+### Deep-Q-Network algorithm
+
+The _Deep-Q-Network_ procedure **dqn** performs the **double loop**. External loop (by _epsodes_) is executed till 
+the number of episodes reached the maximal number of episodes _n_episodes = 2000_ or the _completion criteria_ is executed.
+For the completion criteria, we check  
+
+  _np.mean(scores_window) >=13_,  
+
+where _scores_window_ is the array of the type deque realizing  thw shifting window of length <= 100.
+The element _scores_window[i]_ contains the _score_ achieved by the algorithm on the episode _i_.
+
+The internal loop of **dqn** gets the current _action_ from the **agent**.
+After that **dqn** gets _state_ and _reward_ from Unity environment.
+Then, the **agent** accept params _state,action,reward,next_state, done_
+to the next training step. The variable _score_ accumulate obtained rewards.
 
 
 
