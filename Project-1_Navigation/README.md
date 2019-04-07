@@ -57,13 +57,13 @@ For the completion criteria, we check
 
   _np.mean(scores_window) >=13_,  
 
-where _scores_window_ is the array of the type deque realizing  thw shifting window of length <= 100.
+where _scores_window_ is the array of the type deque realizing  the shifting window of length <= 100.
 The element _scores_window[i]_ contains the _score_ achieved by the algorithm on the episode _i_.
 
-The internal loop of **dqn** gets the current _action_ from the **agent**.
-After that **dqn** gets _state_ and _reward_ from Unity environment.
+In thw internal loop,  **dqn** gets the current _action_ from the **agent**,
+after that by this _action_ **dqn** gets _state_ and _reward_ from Unity environment.
 Then, the **agent** accept params _state,action,reward,next_state, done_
-to the next training step. The variable _score_ accumulate obtained rewards.
+to the next training step. The variable _score_ accumulates obtained rewards.
 
 
 
