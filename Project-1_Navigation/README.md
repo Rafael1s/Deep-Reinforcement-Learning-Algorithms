@@ -38,11 +38,8 @@ For example, if _numb_of_trains_ = 5, we get files:
 For each training session we cocstruct new agent with different parameters
 and launch the *Deep-Q-Network* procedure as follows:
 
-    agent = _Agent_(state_size=37, action_size=4, seed=1, fc1_units=fc1_nodes, fc2_units=fc2_nodes)       
-    scores, episodes = _dqn_(n_episodes = 2000, eps_start = epsilon_start, train_numb=i)  # train with current params
-
-
-
+  agent = **Agent**(state_size=37, action_size=4, seed=1, fc1_units=fc1_nodes, fc2_units=fc2_nodes)       
+  scores, episodes = **dqn**(n_episodes = 2000, eps_start = epsilon_start, train_numb=i)  # train with current params
 
 
 
