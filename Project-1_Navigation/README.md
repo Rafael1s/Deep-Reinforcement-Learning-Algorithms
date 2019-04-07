@@ -27,15 +27,21 @@ We start the environment as follows:
 
 _env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")_
 
-### Training
+### Training sessions
 
-We execute training several times in according the variable _numb_of_trains_.
+We perform several training sessions in according  tothe variable _numb_of_trains_.
 For each training, the result weights are saved into the file 'weights_'+str(train_numb)+'.trn'.
 For example, if _numb_of_trains_ = 5, we get files:
 
    _weights_0.trn,  weights_1.trn,  weights_2.trn,  weights_3.trn, weights_0.trn._
 
-For each training we 
+For each training session we cocstruct new agent with different parameters
+and launch the *Deep-Q-Network* procedure as follows:
+
+    agent = _Agent_(state_size=37, action_size=4, seed=1, fc1_units=fc1_nodes, fc2_units=fc2_nodes)       
+    scores, episodes = _dqn_(n_episodes = 2000, eps_start = epsilon_start, train_numb=i)  # train with current params
+
+
 
 
 
