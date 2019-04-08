@@ -73,5 +73,13 @@ to the next training step. The variable _score_ accumulates obtained rewards.
 
 ### Agent
 
-The class **Agent** is defined in _dqn_agent.py_
+The class **Agent** is defined in _dqn_agent.py_. This is the well-known class with the following mechanisms:
+
+* Two Q-Networks (local and target) using the convolutional neural network.
+* Replay memory (using the class ReplayBuffer)
+* Epsilon-greedy mechanism
+* Q-learning, i.e., using the max value for all possible actions
+* Computing the loss function by MSE loss
+* Minimize the loss by gradient descend mechanism using the ADAM optimizer
+
 
