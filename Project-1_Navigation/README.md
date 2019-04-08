@@ -37,9 +37,7 @@ _env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")_
 
 We run several training sessions in according  to the variable _numb_of_trains_.
 For each training session, the obtained weights are saved into the file 'weights_'+str(train_numb)+'.trn'.
-We get files:
-
-   _weights_0.trn,  weights_1.trn,  weights_2.trn,  ...
+We get files: _weights_0.trn_,  _weights_1.trn_,  _weights_2.trn_,  etc.
 
 For each training session, we construct the **agent** with different parameters
 and we run the *Deep-Q-Network* procedure **dqn** as follows:
