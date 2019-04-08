@@ -52,7 +52,7 @@ At the end of each session these parameters together with the episode number (at
 are saved into the corresponding lists. These lists are used on the step of testing of weights.
 For each training session, 
  * _eps_start_ is played out as a random value from 0.988 to 0.955 with step 0.001, 
- * _fc1_units is played out as a random value from 48 to 128 with step 16,
+ * _fc1_units_ is played out as a random value from 48 to 128 with step 16,
  * _fc2_inits_ is played out as a random value from fc1_units - 16 to fc1_units - 16 with step 8.
 
 ### Deep-Q-Network algorithm
