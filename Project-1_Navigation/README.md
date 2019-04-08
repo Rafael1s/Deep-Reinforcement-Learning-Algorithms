@@ -3,6 +3,8 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif 
 "Trained Agent"
 
+[image2]: layers_96x80_output.png "layer_96x80"
+
 # Project 1: Navigation
 
 ### Introduction
@@ -73,7 +75,8 @@ to the next training step. The variable _score_ accumulates obtained rewards.
 
 ### Agent
 
-The class **Agent** is defined in _dqn_agent.py_. This is the well-known class with the following mechanisms:
+The class **Agent** is defined in _dqn_agent.py_. This is the well-known class implementing 
+the following mechanisms:
 
 * Two Q-Networks (local and target) using the convolutional neural network.
 * Replay memory (using the class ReplayBuffer)
@@ -81,5 +84,34 @@ The class **Agent** is defined in _dqn_agent.py_. This is the well-known class w
 * Q-learning, i.e., using the max value for all possible actions
 * Computing the loss function by MSE loss
 * Minimize the loss by gradient descend mechanism using the ADAM optimizer
+
+### Model Q-Network
+
+Both Q-Networks (local and target) are implemented by the class
+**QNetwork** lying in the file _model.py_. This class implements the simple
+convolution neural network (CNN) with 3 fully-connected layers and 2 
+rectified nonlinear layers. This CNN **QNetwork** is realized in the framework 
+of package **PyTorch**. The number of neurons of the fully-connected layers are 
+as follows:
+
+ * Layer fc1,  number of neurons: _state_size_ x _fc1_units_, 
+ * Layer fc2,  number of neurons: _fc1_units_ x _fc2_units_,
+ * Layer fc3,  number of neurons: _fc2_units_ x _action_size_,
+ 
+ where _state_size_ = 37, _action_size_ = 8, _fc1_units_ and _fc2_units_
+ are the input params.
+ 
+### Output of training
+
+Her, we present the typical output of one of training sessions:
+
+ fc1_units:  96 , fc2_units:  80   
+ train_numb:  2 eps_start:  0.992   
+ Episode 577: elapsed: 0:14:12.180000, Avg.Score: 13.03,  score 15.0, How many scores >= 13: 59, eps.: 0.10  
+ terminating at episode : 577 average reward reached +13 over 100 episodes  
+
+![layer_96x80][image2]
+
+
 
 
