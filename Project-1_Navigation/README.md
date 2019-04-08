@@ -103,7 +103,7 @@ as follows:
  
 ### Output of training
 
-Her, we present the typical output of one of training sessions:
+Here, we present the typical output of one of training sessions:
 
  fc1_units:  96 , fc2_units:  80   
  train_numb:  2 eps_start:  0.992   
