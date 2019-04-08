@@ -119,6 +119,7 @@ Here, we present the typical output of one of training sessions:
 
 We run testing for each file _weights_i.trn_, where i = 0,1,2,...
 The testing procedure is implemented by the function **checkWeights**.
+
 **Important**: the function **checkWeights** constructs again the agent with 
 the parameters _fc1_units_ and _fc2_units_ corresponding to the fiven weights file.
 The environment _env_  is reset with the paarmeter _train_mode_=_False_.
