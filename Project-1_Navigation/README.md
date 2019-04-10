@@ -3,7 +3,11 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif 
 "Trained Agent"
 
-[image2]: layers_64x56_590ep.png "layer_64x56"
+[image2]: layers_96x88_585ep.png  "im2_96x88_585ep"
+[image3]: layers_48x32_579ep.png  "im3_48x32_579ep"
+[image4]: layers_80x88_572ep.png  "im4_80x88_572ep"
+[image5]: layers_64x56_590ep.png  "im5_64x56_590ep"
+
 
 # Project 1: Navigation
 
@@ -107,13 +111,30 @@ are the input params.
 ### Output of training
 
 This is the typical output of training sessions:
- 
- fc1_units:  64 , fc2_units:  56    
- train_numb:  3 eps_start:  0.994   
- Episode: 590, elapsed: 0:09:39.475603, Avg.Score: 13.02,  score 18.0, How many scores >= 13: 57, eps.: 0.09  
- terminating at episode : 590 ave reward reached +13 over 100 episodes   
 
-![layer_64x56][image2]
+ fc1_units:  96 , fc2_units:  88   
+ train_numb:  0 eps_start:  0.99    
+ Episode: 585, elapsed: 0:09:51.835191, Avg.Score: 13.02,  score 16.0, How many scores >= 13: 58, eps.: 0.09    
+ terminating at episode : 585 avg.reward reached +13 over 100 episodes      
+ ![im2_96x88_585ep][image2]      
+ 
+ fc1_units:  48 , fc2_units:  32      
+ train_numb:  1 eps_start:  0.992   
+ Episode: 579, elapsed: 0:09:29.603803, Avg.Score: 13.00,  score 18.0, How many scores >= 13: 51, eps.: 0.10   
+ terminating at episode : 579 avg.reward reached +13 over 100 episodes   
+ ![im3_48x32_579ep][image3]   
+ 
+ fc1_units:  80 , fc2_units:  88      
+ train_numb:  2 eps_start:  0.992   
+ Episode: 572, elapsed: 0:09:32.363203, Avg.Score: 13.00,  score 18.0, How many scores >= 13: 65, eps.: 0.10   
+ terminating at episode : 572 avg.reward reached +13 over 100 episodes   
+ ![im4_80x88_572ep][image4]   
+
+ fc1_units:  64 , fc2_units:  56      
+ train_numb:  3 eps_start:  0.994   
+ Episode: 590, elapsed: 0:09:39.475603, Avg.Score: 13.02,  score 18.0, How many scores >= 13: 57, eps.: 0.09   
+ terminating at episode : 590 avg.reward reached +13 over 100 episodes    
+![im5_64x56_590ep][image5]   
 
 ### Testing sessions
 
