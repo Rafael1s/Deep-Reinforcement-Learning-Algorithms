@@ -162,16 +162,43 @@ Train: 2, Test: 4, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992,
 Train: 2, Test: 5, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 13.0   
 
        Average Score:  16.0  
-=========================================================  
-Train: 3, Test: 0, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 17.0   
-Train: 3, Test: 1, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 15.0   
-Train: 3, Test: 2, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 11.0   
-Train: 3, Test: 3, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 11.0   
-Train: 3, Test: 4, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 16.0   
-Train: 3, Test: 5, Episode: 593, fc1_units: 80, fc2_units: 72, eps_start: 0.993, Score: 17.0   
+=========================================================   
+Train: 1, Test: 0, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 15.0   
+Train: 1, Test: 1, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 9.0   
+Train: 1, Test: 2, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 17.0   
+Train: 1, Test: 3, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 17.0    
+Train: 1, Test: 4, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 18.0   
+Train: 1, Test: 5, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 17.0   
 
-       Average Score:  14.5
-=========================================================
+       Average Score:  15.5     
+=========================================================  
+Train: 2, Test: 0, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 18.0   
+Train: 2, Test: 1, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 11.0  
+Train: 2, Test: 2, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 12.0   
+Train: 2, Test: 3, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 10.0   
+Train: 2, Test: 4, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 13.0  
+Train: 2, Test: 5, Episode: 572, fc1_units: 80, fc2_units: 88, eps_start: 0.992, Score: 13.0  
+
+       Average Score:  12.83   
+=========================================================   
+Train: 3, Test: 0, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 13.0   
+Train: 3, Test: 1, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 20.0   
+Train: 3, Test: 2, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 19.0   
+Train: 3, Test: 3, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 16.0  
+Train: 3, Test: 4, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 18.0  
+Train: 3, Test: 5, Episode: 590, fc1_units: 64, fc2_units: 56, eps_start: 0.994, Score: 14.0 
+
+       Average Score:  16.67
+=========================================================  
+Train: 4, Test: 0, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 16.0  
+Train: 4, Test: 1, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 15.0   
+Train: 4, Test: 2, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 16.0   
+Train: 4, Test: 3, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 14.0   
+Train: 4, Test: 4, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 16.0   
+Train: 4, Test: 5, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989, Score: 12.0   
+
+        Average Score:  14.83
+=========================================================    
 
 ### Output of testing (the best from workspace)
 
