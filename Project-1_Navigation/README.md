@@ -153,15 +153,15 @@ to get the average score for the given set of parameters.
 
 ### Output of testing (from local machine)
 
-=========================================================
-Train: 2, Test: 0, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 19.0   
-Train: 2, Test: 1, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 13.0     
-Train: 2, Test: 2, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 14.0    
-Train: 2, Test: 3, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 19.0   
-Train: 2, Test: 4, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 18.0   
-Train: 2, Test: 5, Episode: 577, fc1_units: 96, fc2_units: 80, eps_start: 0.992, Score: 13.0   
-
-       Average Score:  16.0  
+=========================================================   
+Train: 0, Test: 0, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 13.0   
+Train: 0, Test: 1, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 16.0   
+Train: 0, Test: 2, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 18.0   
+Train: 0, Test: 3, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 14.0   
+Train: 0, Test: 4, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 13.0   
+Train: 0, Test: 5, Episode: 585, fc1_units: 96, fc2_units: 88, eps_start: 0.99, Score: 17.0   
+       
+       Average Score:  15.17          
 =========================================================   
 Train: 1, Test: 0, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 15.0   
 Train: 1, Test: 1, Episode: 579, fc1_units: 48, fc2_units: 32, eps_start: 0.992, Score: 9.0   
