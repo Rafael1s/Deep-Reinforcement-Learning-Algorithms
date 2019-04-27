@@ -58,13 +58,13 @@ Let _R_ be the current accumulated return, and _best_R_ be best return found.
     
 If _R >= best_R_ we **gradually reduce** the extra element containing noise:
     
-   _noise_scale = max(1e-3, noise_scale / 2)_   
-   _policy.w += noise_scale * np.random.rand(*policy.w.shape)_    
+       noise_scale = max(1e-3, noise_scale / 2)
+       policy.w += noise_scale * np.random.rand(*policy.w.shape)
     
 otherwise we **gradually increase** the additional element that contains noise 
 
-   _noise_scale = min(2, noise_scale * 2)_   
-   _policy.w = best_w + noise_scale * np.random.rand(*policy.w.shape)_    
+       noise_scale = min(2, noise_scale * 2)
+       policy.w = best_w + noise_scale * np.random.rand(*policy.w.shape)
          
 
 
