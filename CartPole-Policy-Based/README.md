@@ -14,9 +14,12 @@ system trained from scratch in just 7 trials (on youtube).
 
 ## Policy-based method
 
-Hill Climbing is the **policy-based method** and does not use   
-policy-gradient methods such as gradient ascent.    
-The environment is solved in just 113 episodes!   
+Hill Climbing is the **policy-based method** and does not use policy-gradient methods          
+such as gradient ascent. In policy-based methods, instead of learning a **value function**    
+that tells us what is the expected sum of rewards given a state and an action, we learn directly    
+the **policy function** that maps state to action (select actions without using a value function).     
+
+The environment is solved in just 113 episodes!     
 
 ## Class Policy
 
