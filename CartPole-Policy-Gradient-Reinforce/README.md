@@ -2,10 +2,10 @@
 
 ## Power-Gradient Method - REINFORCE
 
-REINFORCE algorithm is based on finding the **local maximum** of a function  
+REINFORCE algorithm is based on finding the **local maximum** of a function   
 using a procedure known as **gradient ascent**.
 
-![](gradient_ascent.jpg)
+![](gradient_ascent.jpg) 
 
 ## Class Policy
 
