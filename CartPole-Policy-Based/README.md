@@ -4,7 +4,7 @@ In this notebook, we train the **Hill Climbing** Agent with
 **Adaptive Noise Scaling** with OpenAI Gym's Cartpole environment.
 
 ## Real CartPole system 
-Clickable image, get real CartPole system trained from scratch in just 7 trials (on youtube).   
+Clickable image, get the real CartPole system trained from scratch in just 7 trials (on youtube).   
        
 [![Inverted Pendulum](Inverted_pendulum.png)](https://www.youtube.com/watch?time_continue=14&v=XiigTGKZfks)
 
