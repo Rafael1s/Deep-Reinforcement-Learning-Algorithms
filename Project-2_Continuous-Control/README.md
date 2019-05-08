@@ -21,7 +21,7 @@ Every entry in the action vector should be a number between -1 and 1.
 
 ### Environment
 
-The environment is simulated by **Unity application** _Reacher_ lying in the subdirectory _Reacher_Windows_x86_64_
+The environment is simulated by Unity application _Reacher_ lying in the subdirectory _Reacher_Windows_x86_64_.
 We start the environment as follows:
 
       env = UnityEnvironment(file_name='Reacher_Windows_x86_64/Reacher.exe')
