@@ -13,3 +13,7 @@ time steps as possible.  The accompanying research paper can be found [here](htt
 reinforcement learning see the [Googl AI Blog paper](https://ai.googleblog.com/2016/10/how-robots-can-acquire-new-skills-from.html).
 
 ![Trained Agent][image1]
+
+The observation space (i.e., state space) has 33 dimensions corresponding to position, rotation, velocity, 
+and angular velocities of the arm. The action space has 4 dimensions corresponding to torque applicable to two joints. 
+Every entry in the action vector should be a number between -1 and 1.
