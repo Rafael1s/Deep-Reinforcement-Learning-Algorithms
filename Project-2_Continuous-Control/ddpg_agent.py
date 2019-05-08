@@ -16,8 +16,10 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1e-3         # learning rate of the actor
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
-EPSILON = 1.0
-EPSILON_DECAY = 1e-6
+EPSILON = 1.0           # epsilon noise parameter
+EPSILON_DECAY = 1e-6    # decay parameter of epsilon
+LEARNING_PERIOD = 20    # learning frequency  
+UPDATE_FACTOR   = 10    # how much to learn
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -64,8 +66,8 @@ class Agent():
             self.memory.add(state, action, reward, next_state, done)
 
         # Learn, if enough samples are available in memory
-        if len(self.memory) > BATCH_SIZE and timestep % 20 == 0:
-            for _ in range(10):
+        if len(self.memory) > BATCH_SIZE and timestep % LEARNING_PERIOD == 0:
+            for _ in range(UPDATE_FACTOR):
                 experiences = self.memory.sample()
                 self.learn(experiences, GAMMA)
 
