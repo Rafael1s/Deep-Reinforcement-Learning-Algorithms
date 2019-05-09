@@ -101,11 +101,11 @@ You need at least the following three packages:
       The environment was solved in 195 episodes, they are printed after [6].     
       
    [7]  Print graph of scores over all episodes. 
-        After the episode 143, the score achived the value 30.         
-        The **model weights are saved** into two following files:
+        After the episode 143, the score achived the value 30.  
         
-        checkpoint_actor.pth
-        checkpoint_critic.pth
+### Weights
+  
+  The **weights** of the trained agent are saved into the files _checkpoint_actor.pth_  and  _checkpoint_critic.pth_.
 
 ### Watch the Trained Agent
 
@@ -129,4 +129,7 @@ You need at least the following three packages:
      Episode: 1 Average Score (over agents): 38.71349913468585   
      Episode: 2 Average Score (over agents): 38.77949913321063   
      
+### Credit
+
+Most of the code is based on the Udacity code for DDPG.     
   
