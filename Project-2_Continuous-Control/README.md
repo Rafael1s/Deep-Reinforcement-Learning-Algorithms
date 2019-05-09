@@ -31,3 +31,41 @@ of +30 (over 100 consecutive episodes, and over all agents). After each episode,
 agent, to get a score for each agent. This yields 20 (potentially different) scores. We then take the **average score**          
 over all 20 agents. The environment is considered solved, when the average (over 100 episodes) of those average scores   
 is at least +30. 
+
+### Prepare environment on the local machine
+
+You need at least the following three packages:
+
+1. **deep-reinforcement-learning  (DRLND)**        
+   The instructions to set up the DRLND repository can be found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). This repository contains material related to Udacity's [Deep Reinforcement Learning Nanodegree program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+
+2. **ml-agents  (ML-Agents Toolkit)**
+   To set up the ML-Agents Toolkit for Windows you need to do following steps:
+    
+    2.1  Creating a new Conda environment:
+    
+       conda create -n ml-agents python=3.6
+       
+    2.2 Activating ml-agents by the following command:
+    
+       activate ml-agents
+       
+    2.3 Latest versions of TensorFlow won't work, so you will need to make sure that you install version 1.7.1:
+    
+       pip install tensorflow==1.7.1
+       
+  For details, see the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md).     
+    
+3. **Unity environment _Reacher_**
+
+For this project, we not need to install Unity because the environment already built.
+For 20 agents, the environment can be downloaded as follows:
+
+   Windows (64-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)    
+   Windows (32-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)     
+
+Download this environment zip into  **p2_continuous-control/** folder, and unzip the file.
+
+
+
+
