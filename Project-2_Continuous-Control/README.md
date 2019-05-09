@@ -132,4 +132,5 @@ You need at least the following three packages:
 ### Credit
 
 Most of the code is based on the Udacity code for DDPG.     
-  
+Thanks to Amita K. from the Udacity Knowledge forum for the great tip cocerning the    
+convergence of the algorithm, see ch. Hyperparameters in my Report file.  
