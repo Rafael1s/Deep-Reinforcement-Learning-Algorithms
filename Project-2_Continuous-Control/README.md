@@ -101,8 +101,12 @@ You need at least the following three packages:
       The environment was solved in 195 episodes, they are printed after [6].     
       
    [7]  Print graph of scores over all episodes. 
-        After the episode 143, the score achived the value 30. 
+        After the episode 143, the score achived the value 30.         
+        The **model weights are saved** into two following files:
         
+        checkpoint_actor.pth
+        checkpoint_critic.pth
+
 ### Watch the Trained Agent
 
  Run the notebook _WatchAgent.ipynb_
