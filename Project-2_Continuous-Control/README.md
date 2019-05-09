@@ -94,5 +94,35 @@ You need at least the following three packages:
      env_info = env.reset(train_mode=True)[brain_name]      
      agent = Agent(state_size=state_size, action_size=action_size, random_seed=15)     
 
+   [6]  Define and run the main function _ddpg_ :
+   
+      scores = ddpg()
 
+      The environment was solved in 195 episodes, they are printed after [6].     
+      
+   [7]  Print graph of scores over all episodes. 
+        After the episode 143, the score achived the value 30. 
+        
+### Watch the Trained Agent
 
+ Run the notebook _WatchAgent.ipynb_
+ 
+ [1]  Start the Environment for Trained Agent
+ [2]  Prepare Player _play_
+ [3]  Play Before Training
+ 
+      play(agent, episodes=2)    
+      
+      Episode: 0 Average Score (over agents): 0.0    
+      Episode: 1 Average Score (over agents): 0.0    
+      
+ [4] Load Trained Weights
+ [5] Play After Training
+ 
+     play(agent, episodes=3)
+     
+     Episode: 0 Average Score (over agents): 38.78149913316592
+     Episode: 1 Average Score (over agents): 38.71349913468585
+     Episode: 2 Average Score (over agents): 38.77949913321063
+     
+  
