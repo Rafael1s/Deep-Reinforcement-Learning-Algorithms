@@ -37,7 +37,7 @@ is at least +30.
 You need at least the following three packages:
 
 1. **deep-reinforcement-learning  (DRLND)**        
-   The instructions to set up the DRLND repository can be found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). This repository contains material related to Udacity's [Deep Reinforcement Learning Nanodegree program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+   The instructions to set up the DRLND repository can be found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). This repository contains material related to Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
 
 2. **ml-agents  (ML-Agents Toolkit)**
    To set up the ML-Agents Toolkit for Windows you need to do following steps:
