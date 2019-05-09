@@ -111,22 +111,22 @@ You need at least the following three packages:
 
  Run the notebook _WatchAgent.ipynb_
  
- [1]  Start the Environment for Trained Agent
- [2]  Prepare Player _play_
- [3]  Play Before Training
+ [1]  Start the Environment for Trained Agent   
+ [2]  Prepare Player _play_   
+ [3]  Play Before Training    
  
-      play(agent, episodes=2)    
+      play(agent, episodes=2)      
       
-      Episode: 0 Average Score (over agents): 0.0    
-      Episode: 1 Average Score (over agents): 0.0    
+      Episode: 0 Average Score (over agents): 0.0      
+      Episode: 1 Average Score (over agents): 0.0      
       
- [4] Load Trained Weights
- [5] Play After Training
+ [4] Load Trained Weights   
+ [5] Play After Training    
  
      play(agent, episodes=3)
      
-     Episode: 0 Average Score (over agents): 38.78149913316592
-     Episode: 1 Average Score (over agents): 38.71349913468585
-     Episode: 2 Average Score (over agents): 38.77949913321063
+     Episode: 0 Average Score (over agents): 38.78149913316592   
+     Episode: 1 Average Score (over agents): 38.71349913468585   
+     Episode: 2 Average Score (over agents): 38.77949913321063   
      
   
