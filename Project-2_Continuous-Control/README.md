@@ -103,7 +103,7 @@ You need at least the following three packages:
    [7]  Print graph of scores over all episodes. 
         After the episode 143, the score achived the value 30.  
         
-### Weights
+### Weights of the Trained Agent
   
   The **weights** of the trained agent are saved into the files _checkpoint_actor.pth_  and  _checkpoint_critic.pth_.
 
