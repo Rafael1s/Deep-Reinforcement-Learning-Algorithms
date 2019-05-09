@@ -54,17 +54,17 @@ You need at least the following three packages:
     
        pip install tensorflow==1.7.1
        
-  For details, see the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md).     
+    For details on installing the ML-Agents Toolkit, see the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md).     
     
 3. **Unity environment _Reacher_**
 
-For this project, we not need to install Unity because the environment already built.
-For 20 agents, the environment can be downloaded as follows:
+    For this project, we not need to install Unity because the environment already built. For 20 agents, the environment     
+    can be downloaded as follows:
 
    Windows (64-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)    
    Windows (32-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)     
 
-Download this environment zip into  **p2_continuous-control/** folder, and unzip the file.
+   Download this environment zip into  **p2_continuous-control/** folder, and unzip the file.
 
 
 
