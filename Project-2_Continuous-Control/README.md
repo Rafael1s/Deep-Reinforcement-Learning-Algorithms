@@ -97,7 +97,7 @@ You need at least the following three packages:
    
       scores = ddpg()
 
-      The environment was solved in 195 episodes, they are printed after [6].     
+   The environment was solved in **195 episodes**, see _Continuous_Control.ipynb_ or _REPORT.ipynb_.     
       
    [7]  Print graph of scores over all episodes. 
         After the episode 143, the score achived the value 30.  
