@@ -26,7 +26,7 @@ We start the environment as follows:
 
       env = UnityEnvironment(file_name='Reacher_Windows_x86_64/Reacher.exe')
 
-We consider for solving the version of the environment with 20 agents. In particular, our agents must get an average score       
+We are considering the version of the environment with 20 agents. In particular, our agents must get an average score       
 of +30 (over 100 consecutive episodes, and over all agents). After each episode, we add up the rewards received by each    
 agent, to get a score for each agent. This yields 20 (potentially different) scores. We then take the **average score**          
 over all 20 agents. The environment is considered solved, when the average (over 100 episodes) of those average scores   
