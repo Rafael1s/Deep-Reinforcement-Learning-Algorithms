@@ -39,7 +39,7 @@ You need at least the following three packages:
    The instructions to set up the DRLND repository can be found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). This repository contains material related to Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program.
 
 2. **ml-agents  (ML-Agents Toolkit)**
-   To set up the ML-Agents Toolkit for Windows you need to do following steps:
+   To configure the ML-Agents Toolkit for Windows you need to complete the following steps:
     
     2.1  Creating a new Conda environment:
     
