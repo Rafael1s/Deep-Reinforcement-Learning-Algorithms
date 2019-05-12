@@ -70,7 +70,9 @@ otherwise we **gradually increase** the additional element that contains noise
        policy.w = best_w + noise_scale * np.random.rand(*policy.w.shape)
          
 
+## Credit 
 
+Most of the code is based on the Udacity code for the Hill Climbing algorithm applied to CartPole.
 
 
 
