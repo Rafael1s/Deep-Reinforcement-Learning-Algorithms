@@ -13,4 +13,6 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 * [_Reinforcement Learning in Continuous Space (Deep Q-Network)_](https://en.wikipedia.org/wiki/Reinforcement_learning)
 * [_Function Aproximation and Neural Network_](https://medium.com/biffures/rl-course-by-david-silver-lectures-5-to-7-576188d3b033)
 * [_Policy-Based Methods_](https://towardsdatascience.com/policy-based-reinforcement-learning-the-easy-way-8de9a3356083), [_Hill Climbing_](https://en.wikipedia.org/wiki/Hill_climbing), [_Simulating Annealing_](https://medium.com/@macromoltek/machine-learning-and-simulated-annealing-588b2e70d0cc)     
-Random-restart _hill climbing_ is a surprisingly effective algorithm in many cases.  _Simulated annealing_ is a good probabilistic     technique because it does not accidentally think a local extrema is a globsl extrema.
+Random-restart _hill climbing_ is a surprisingly effective algorithm in many cases.  _Simulated annealing_ is a good probabilistic     technique because it does not accidentally think a local extrema is a global extrema.
+* [_Policy-Gradient Methods_],[_REINFORCE_], [_PPO_]
+* [_Actor-Critic Methods_], [_A3C_], [_A2C_], [_DDPG_]
