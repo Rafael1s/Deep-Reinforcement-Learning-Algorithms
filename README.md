@@ -6,4 +6,4 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 [**_Value-Based Methods and Bellman Equation_**](https://medium.com/@jonathan_hui/rl-value-learning-24f52b49c36d), 
 [**_Policy-Based Methods_**](https://towardsdatascience.com/policy-based-reinforcement-learning-the-easy-way-8de9a3356083), 
 [**_Policy-Gradient Methods_**](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d) and 
-[**_Actor-Critic_**] Methods.
+[**_Actor-Critic_**](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f) Methods.
