@@ -19,3 +19,12 @@ Random-restart _hill climbing_ is a surprisingly effective algorithm in many cas
 The key difference from A2C is the Asynchronous part. A3C consists of multiple independent agents(networks) with   
 their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore    
 a bigger part of the state-action space in much less time.
+
+### Projects, models and methods
+
+[CartPole, Policy Based Methods, Hill Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing)    
+
+[CartPole, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce)
+
+
+
