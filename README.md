@@ -12,8 +12,8 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 * [_Temporal Difference Methods and Q-learning_](https://en.wikipedia.org/wiki/Temporal_difference_learning)
 * [_Reinforcement Learning in Continuous Space (Deep Q-Network)_](https://en.wikipedia.org/wiki/Reinforcement_learning)
 * [_Function Approximation and Neural Network_](https://medium.com/biffures/rl-course-by-david-silver-lectures-5-to-7-576188d3b033)    
-The [Universal Approximation Theorem (UAT) states](https://towardsdatascience.com/the-approximation-power-of-neural-networks-with-python-codes-ddfc250bdb58) that feed-forward **neural networks** containing a single     
-hidden layer with a finite number of nodes can be used to approximate any continuous function provided      
+The [Universal Approximation Theorem (UAT) states](https://towardsdatascience.com/the-approximation-power-of-neural-networks-with-python-codes-ddfc250bdb58) that feed-forward _neural networks_ containing a  
+_single hidden layer_ with a finite number of nodes can be used to approximate any continuous function provided      
 rather mild assumptions about the form of the activation function are satisfied.
 * [_Policy-Based Methods_](https://towardsdatascience.com/policy-based-reinforcement-learning-the-easy-way-8de9a3356083), [_Hill Climbing_](https://en.wikipedia.org/wiki/Hill_climbing), [_Simulating Annealing_](https://medium.com/@macromoltek/machine-learning-and-simulated-annealing-588b2e70d0cc)     
 Random-restart _hill climbing_ is a surprisingly effective algorithm in many cases.  _Simulated annealing_ is a good probabilistic     technique because it does not accidentally think a local extrema is a global extrema.
