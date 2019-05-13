@@ -7,3 +7,6 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 [**_Policy-Based Methods_**](https://towardsdatascience.com/policy-based-reinforcement-learning-the-easy-way-8de9a3356083), 
 [**_Policy-Gradient Methods_**](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d) and 
 [**_Actor-Critic_**](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f) Methods.
+
+* [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)
+* [_Temporal Difference Methods_](https://en.wikipedia.org/wiki/Temporal_difference_learning)
