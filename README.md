@@ -11,4 +11,4 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)
 * [_Temporal Difference Methods and Q-learning_](https://en.wikipedia.org/wiki/Temporal_difference_learning)
 * [_Reinforcement Learning in Continuous Space (Deep Q Network)_](https://en.wikipedia.org/wiki/Reinforcement_learning)
-* [_Function Aproximation and Neural Network_]
+* [_Function Aproximation and Neural Network_](https://medium.com/@SeoJaeDuk/archived-post-tutorial-introduction-to-reinforcement-learning-with-function-approximation-2-72eaf9ab367d)
