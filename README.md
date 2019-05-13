@@ -9,5 +9,6 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 [**_Actor-Critic_**](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f) Methods.
 
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)
-* [_Temporal Difference Methods_and Q-learning](https://en.wikipedia.org/wiki/Temporal_difference_learning)
-* [_Reinforcement Learning in Continuous Space]
+* [_Temporal Difference Methods and Q-learning_](https://en.wikipedia.org/wiki/Temporal_difference_learning)
+* [_Reinforcement Learning in Continuous Space (Deep Q Network)_](https://en.wikipedia.org/wiki/Reinforcement_learning)
+* [_Function Aproximation and Neural Network_]
