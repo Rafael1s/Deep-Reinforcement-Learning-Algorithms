@@ -25,3 +25,7 @@ Episode 600	Average Score: 160.65
 Episode 700	Average Score: 167.15   
 
 Environment solved in 791 episodes!	Average Score: 196.69   
+
+## Credit
+
+Most of the code is based on the Udacity code for the REINFORCE algorithm applied to CartPole.
