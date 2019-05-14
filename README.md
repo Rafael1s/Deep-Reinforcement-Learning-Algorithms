@@ -37,5 +37,6 @@ a bigger part of the state-action space in much less time.
 
 [Project 2: Continuous Control, Double-Jointed Arm, DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control)
 
+* uses environment [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)
 
 
