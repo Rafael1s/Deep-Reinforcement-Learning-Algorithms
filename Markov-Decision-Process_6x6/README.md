@@ -15,9 +15,9 @@
 
 ## Transitions
 
-Let the agent be in the cell (0,0), the  left-up cell. If the agent should get the action=**Up**, then he has      
-10% chance of going down, 10% of going left and 80% chance of remaining in place because the agent cannot go up   
-from this cell. The same for the action=**Left** because the agent cannot go left from the cell=(0,0).   
+Let the agent be in the cell (0,0), the  left-up cell. If the agent should get the action=**Up**, then he has 10% chance 
+of going down, 10% of going left and 80% chance of remaining in place because the agent cannot    
+go up from this cell. The same for the action=**Left** because the agent cannot go left from the cell=(0,0).   
 Assume the agent is in the cell=(0,3), and the action=**Up**. Then the agent has 10% chance of going down,   
 10% of going left, 10% of going right and 70% chance of remaining in place because the agent cannot go up   
 from this cell. For the action=**Left** he has 10% chance of going down, of going right, of remaining in place    
