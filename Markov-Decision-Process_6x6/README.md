@@ -15,15 +15,15 @@
 
 ## Transitions
 
-Let the agent be in the cell (0,0), the  left-up cell. If the agent should get the action=**Up**, then he has 10% chance 
-of going down, 10% of going left and 80% chance of remaining in place because the agent cannot    
+Let the agent be in the cell (0,0), the  left-up cell. If the agent should get the action=**Up**, then he has 10%   
+chance of going down, 10% of going left and 80% chance of remaining in place because the agent cannot    
 go up from this cell. The same for the action=**Left** because the agent cannot go left from the cell=(0,0).   
 Assume the agent is in the cell=(0,3), and the action=**Up**. Then the agent has 10% chance of going down,   
 10% of going left, 10% of going right and 70% chance of remaining in place because the agent cannot go up   
 from this cell. For the action=**Left** he has 10% chance of going down, of going right, of remaining in place    
-and 70% chance of going left. For each action out {**Up**, **Left**, **Right**, **Down**}, the probabilties    
-of going to one of 4 cells or of remaining in place are given in the picture below. Here, the transitions rules  
-are given almost for any cell. For remaining cells, the transitions rules are similarly given.  
+and 70% chance of going left. For each action out {**Up**, **Left**, **Right**, **Down**}, the probabilties of going   
+to one of 4 cells or of remaining in place are given in the picture below. Here, the transitions rules are   
+given almost for any cell. For remaining cells, the transitions rules are similarly given.  
 
 ![](actions_from_cell.png)
 
