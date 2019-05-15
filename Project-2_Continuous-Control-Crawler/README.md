@@ -4,6 +4,8 @@
 
 For this project, we work with the [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler) environment.   
 
+![](images/crawler.gif)
+
 ### Training History
 
  * 1. Input: fc1_units = 1024, fc2_units = 1024, Max Step of Episode = 1000   
