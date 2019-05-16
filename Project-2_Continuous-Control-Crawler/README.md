@@ -74,5 +74,8 @@ You need at least the following three packages:
  * 4. InputL fc1_units = 128, fc2_units = 128, Max Step of Episode = 2000       
     Result: 678 episodes, score = 1200   
    ![](images/plot_1200score.png)   
-   
+
+### Credit   
+
+Most of the code is based on the Udacity code.
    
