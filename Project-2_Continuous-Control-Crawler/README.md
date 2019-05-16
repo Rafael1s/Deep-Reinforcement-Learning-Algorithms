@@ -46,6 +46,16 @@ You need at least the following three packages:
 
    Download this environment zip into  **p2_continuous-control/** folder, and unzip the file.
 
+### Train the Agent
+
+   The environment was solved   
+ * in **676 episodes** with **score 500**, see _Crawler_PPO_676epis_500score.ipynb_   
+ 
+ * in **550 episodes** with **score 650**, see _Crawler_PPO_550epis_650score.ipynb_
+ 
+ * in **532 episodes** with **score 800**, see _Crawler_PPO_532epis_800score.ipynb_
+ 
+ * in **678 episodes** with **score 1200**, see _Crawler_PPO_678epis_1200score.ipynb_
 
 ### Training History
 
