@@ -2,7 +2,13 @@
 
 ### Introduction
 
-For this project, we work with the [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler) environment.   
+For this project, we work with the [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler) environment. A creature with 4 arms and 4 forearms.   
+Agent Reward Function (independent):
+* +0.03 times body velocity in the goal direction.
+* +0.01 times body direction alignment with goal direction.
+
+Observation space size (per agent): 129   
+Action space size (per agent): 20
 
 ![](images/crawler.gif)
 
