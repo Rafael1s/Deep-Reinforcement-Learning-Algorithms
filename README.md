@@ -28,7 +28,7 @@ The key difference from A2C is the Asynchronous part. A3C consists of multiple i
 their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore    
 a bigger part of the state-action space in much less time.
 
-For some details 
+For more links 
   * on _Policy-Gradient Methods_, see [here](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146).   
   * on _PPO_,  see [here](https://medium.com/arxiv-bytes/summary-proximal-policy-optimization-ppo-86e41b557a8b) and [here](https://openai.com/blog/openai-baselines-ppo/).    
 
