@@ -74,6 +74,12 @@ You need at least the following three packages:
  * 4. InputL fc1_units = 128, fc2_units = 128, Max Step of Episode = 2000       
     Result: 678 episodes, score = 1200   
    ![](images/plot_1200score.png)   
+   
+### Watch the Trained Agent
+
+For both neural networks, the actor and the critic, we save the trained weights into checkpoint files   
+with the extension pth.  For all cases, the corresponding files are saved into the directory checkpoints.    
+Using notebook _WatchAgent.ipynb_ we can load the trained weights and replay them.
 
 ### Credit   
 
