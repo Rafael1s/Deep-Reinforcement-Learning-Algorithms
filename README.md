@@ -29,8 +29,11 @@ their own weights, who interact with a different copy of the environment in para
 a bigger part of the state-action space in much less time.
 
 For more links 
-  * on _Policy-Gradient Methods_, see [1](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146), [2](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c).      
+  * on _Policy-Gradient Methods_, see [1](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146).
+  * on _REINFORCE_, see [1](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c).  
   * on _PPO_,  see [1](https://medium.com/arxiv-bytes/summary-proximal-policy-optimization-ppo-86e41b557a8b), [2](https://openai.com/blog/openai-baselines-ppo/), [3](https://towardsdatascience.com/the-pursuit-of-robotic-happiness-how-trpo-and-ppo-stabilize-policy-gradient-methods-545784094e3b), [4](https://medium.com/@jonathan_hui/rl-proximal-policy-optimization-ppo-explained-77f014ec3f12).     
+  * on _DDPG_, see [1](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287).    
+  * on _A3C_, see [1](https://towardsdatascience.com/advanced-reinforcement-learning-6d769f529eb3), [2] (https://blog.goodaudience.com/a3c-what-it-is-what-i-built-6b91fe5ec09c).    
 
 ### Projects, models and methods
 
