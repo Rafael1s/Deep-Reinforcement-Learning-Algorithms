@@ -28,6 +28,9 @@ The key difference from A2C is the Asynchronous part. A3C consists of multiple i
 their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore    
 a bigger part of the state-action space in much less time.
 
+The main paper related to PPO is [here](https://arxiv.org/abs/1707.06347). For some interesting details, see [here](https://openai.com/blog/openai-baselines-ppo/).    
+For details on Policy-Gradient Methods, see [here](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html).  
+
 ### Projects, models and methods
 
 [CartPole, Policy Based Methods, Hill Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing)    
