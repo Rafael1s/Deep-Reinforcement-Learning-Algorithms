@@ -28,14 +28,6 @@ The key difference from A2C is the Asynchronous part. A3C consists of multiple i
 their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore    
 a bigger part of the state-action space in much less time.
 
-For more links 
-  * on _Policy-Gradient Methods_, see [1](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146), [2](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c), [3](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d).
-  * on _REINFORCE_, see [1](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c),
-  [2](http://karpathy.github.io/2016/05/31/rl/), [3](https://medium.com/mini-distill/discrete-optimization-beyond-reinforce-5ca171bebf17).       
-  * on _PPO_,  see [1](https://medium.com/arxiv-bytes/summary-proximal-policy-optimization-ppo-86e41b557a8b), [2](https://openai.com/blog/openai-baselines-ppo/), [3](https://towardsdatascience.com/the-pursuit-of-robotic-happiness-how-trpo-and-ppo-stabilize-policy-gradient-methods-545784094e3b), [4](https://medium.com/@jonathan_hui/rl-proximal-policy-optimization-ppo-explained-77f014ec3f12), [5](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9).        
-  * on _DDPG_, see [1](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287), [2](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#the-q-learning-side-of-ddpg).        
-  * on _Actor-Critic Methods_, and _A3C_, see [1](https://towardsdatascience.com/advanced-reinforcement-learning-6d769f529eb3), [2](https://blog.goodaudience.com/a3c-what-it-is-what-i-built-6b91fe5ec09c), [3](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f), [4](http://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf).          
-
 ### Projects, models and methods
 
 [CartPole, Policy Based Methods, Hill Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing)    
@@ -53,3 +45,13 @@ For more links
 [Project 2: Continuous Control-Crawler, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Crawler)    
 
 * uses environment [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler)   
+
+### For more links 
+
+  * on _Policy-Gradient Methods_, see [1](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146), [2](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c), [3](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d).
+  * on _REINFORCE_, see [1](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c),
+  [2](http://karpathy.github.io/2016/05/31/rl/), [3](https://medium.com/mini-distill/discrete-optimization-beyond-reinforce-5ca171bebf17).       
+  * on _PPO_,  see [1](https://medium.com/arxiv-bytes/summary-proximal-policy-optimization-ppo-86e41b557a8b), [2](https://openai.com/blog/openai-baselines-ppo/), [3](https://towardsdatascience.com/the-pursuit-of-robotic-happiness-how-trpo-and-ppo-stabilize-policy-gradient-methods-545784094e3b), [4](https://medium.com/@jonathan_hui/rl-proximal-policy-optimization-ppo-explained-77f014ec3f12), [5](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-part-ii-trpo-ppo-87f2c5919bb9).        
+  * on _DDPG_, see [1](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287), [2](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#the-q-learning-side-of-ddpg).        
+  * on _Actor-Critic Methods_, and _A3C_, see [1](https://towardsdatascience.com/advanced-reinforcement-learning-6d769f529eb3), [2](https://blog.goodaudience.com/a3c-what-it-is-what-i-built-6b91fe5ec09c), [3](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f), [4](http://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf).          
+
