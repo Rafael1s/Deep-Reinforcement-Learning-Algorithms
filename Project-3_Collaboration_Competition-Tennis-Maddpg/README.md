@@ -119,19 +119,19 @@ You need at least the following three packages:
             
  [4] Play after training in 1600 games 
  
-      Game: 1, partial score: [1, 0],  Score #0: 2.70, Score #1: 2.60, Timesteps: 1000    
-      Game: 2, partial score: [2, 0],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000    
-      Game: 3, partial score: [3, 0],  Score #0: 0.10, Score #1: 0.09, Timesteps: 38     
-      Game: 4, partial score: [4, 0],  Score #0: 2.10, Score #1: 1.99, Timesteps: 810    
-      Game: 5, partial score: [4, 1],  Score #0: 0.00, Score #1: 0.09, Timesteps: 30    
+      Game: 1, partial score: [1, 0],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000     
+      Game: 2, partial score: [2, 0],  Score #0: 2.70, Score #1: 2.60, Timesteps: 1000     
+      Game: 3, partial score: [3, 0],  Score #0: 0.20, Score #1: 0.19, Timesteps: 104     
+      Game: 4, partial score: [3, 1],  Score #0: 0.09, Score #1: 0.10, Timesteps: 50     
+      Game: 5, partial score: [4, 1],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000    
       
  [5] Play after Training in 1700 games   
  
-     Game: 1, partial score: [0, 1],  Score #0: 0.00, Score #1: 0.09, Timesteps: 29 
-     Game: 2, partial score: [1, 1],  Score #0: 0.00, Score #1: -0.01, Timesteps: 13 
-     Game: 3, partial score: [1, 2],  Score #0: -0.01, Score #1: 0.10, Timesteps: 28 
-     Game: 4, partial score: [2, 2],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000 
-     Game: 5, partial score: [3, 2],  Score #0: 2.70, Score #1: 2.60, Timesteps: 1000    
+     Game: 1, partial score: [1, 0],  Score #0: 2.70, Score #1: 2.60, Timesteps: 1000 
+     Game: 2, partial score: [2, 0],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000 
+     Game: 3, partial score: [3, 0],  Score #0: 0.10, Score #1: 0.09, Timesteps: 37 
+     Game: 4, partial score: [3, 1],  Score #0: -0.01, Score #1: 0.10, Timesteps: 30 
+     Game: 5, partial score: [4, 1],  Score #0: 2.60, Score #1: 2.60, Timesteps: 1000 
      
 ### Credit
 
