@@ -101,8 +101,8 @@ You need at least the following three packages:
         
 ### Weights of the Trained Agent
   
-  The **weights** of the trained agent are saved into files
-    _checkpoint_actor_0.pth_,  _checkpoint_actor_1.pth_,  _checkpoint_critic_0.pth_, _checkpoint_critic_1.pth_  
+  The **weights** of the trained agent are saved into files    
+              _checkpoint_actor_0.pth_,  _checkpoint_actor_1.pth_,  _checkpoint_critic_0.pth_, _checkpoint_critic_1.pth_     
   into the directory 'dir_chk_1700d_episodes'
 
 ### Watch the Trained Agent
