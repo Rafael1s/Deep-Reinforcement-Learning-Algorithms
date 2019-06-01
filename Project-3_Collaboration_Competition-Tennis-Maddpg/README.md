@@ -2,7 +2,7 @@
 [//]: # (Image References)
 [image1]:Tennis.gif  "Trained Agent"
 
-# Project 2: Continuous Control
+# Project 3: Collaboration and Competition
 
 ### Introduction
 
@@ -63,7 +63,7 @@ You need at least the following three packages:
 
 ### Train the Agent
 
-   Run the notebook _Continuous_Control.ipynb_
+   Run the notebook _Tennis.ipynb_
    
    [1] import UnityEnvironment    
    [2] env = UnityEnvironment(seed=seed, file_name="Tennis_Windows_x86_64/Tennis.app")   # create environment        
