@@ -11,7 +11,7 @@ If an agent hits a ball over net, the agent receives a reward of +0.1. If an age
 out of bounds, the agent receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.    
 The observation space is 24-dimensional consisting of 8 variables corresponding to the position and velocity  
 of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding 
-to movement toward (or away from) the net, and jumping. The accompanying research paper can be found [here](https://arxiv.org/pdf/1706.02275.pdf)
+to movement toward (or away from) the net, and jumping. The accompanying research paper can be found [here](https://arxiv.org/pdf/1706.02275.pdf).
 
 ![Trained Agent][image1]
 
@@ -66,8 +66,8 @@ You need at least the following three packages:
    Run the notebook _Continuous_Control.ipynb_
    
    [1] import UnityEnvironment    
-   [2] env = UnityEnvironment(seed=seed, file_name="Tennis_Windows_x86_64/Tennis.app")   # create environment      
-   [3] Environments contain _brains_ which are responsible for deciding the actions of their associated agents. 
+   [2] env = UnityEnvironment(seed=seed, file_name="Tennis_Windows_x86_64/Tennis.app")   # create environment        
+   [3] Environments contain _brains_ which are responsible for deciding the actions of their associated agents.     
        We check for the first brain available.      
    [4] Examine the State and Action Spaces. We get the information frame as follows:   
        
@@ -90,10 +90,10 @@ You need at least the following three packages:
      scores_total, scores_global = train(maddpg, env, dir_chkpoints, n_episodes=1700)  
       
    [7]  Print graph of scores_total (blue bars) over all episodes, and  scores_global  
-        (the line 'Avg on 100 episodes' - orange points)
-        The environment was solved in **1302 episodes**,  i.e., the **Average Score** is achived to **+0.5**,   
-        see _Continuous_Control.ipynb_ or _REPORT.ipynb_. 
-        At **1700 episode** the **Average Score** is achived to **+1.42** ! 
+        (the line 'Avg on 100 episodes' - orange points)    
+        The environment was solved in **1302 episodes**,  i.e., the **Average Score** is achived to **+0.5**,    
+        see _Tennis.ipynb_ or _REPORT.ipynb_.   
+        At **1700 episode** the **Average Score** is achived to **+1.42** !   
         
 ### Weights of the Trained Agent
   
