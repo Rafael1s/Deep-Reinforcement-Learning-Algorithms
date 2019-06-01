@@ -6,9 +6,7 @@
 
 ### Introduction
 
-For this project, we work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment. 
-The environment for this project involves a **Tennis** game, where 
-where two agents control rackets to bounce ball over a net.
+For this project, we work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment, where two agents control rackets to bounce ball over a net.     
 If an agent hits a ball over net, the agent receives a reward of +0.1. 
 If an agent lets a ball hit the ground or hits the ball out of bounds, the agent receives a reward of -0.01.
 Thus, the goal of each agent is to keep the ball in play.
