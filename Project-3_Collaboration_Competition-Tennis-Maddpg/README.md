@@ -33,10 +33,6 @@ of single agent RL by independently training the two agents does not work very w
 are independently updating their policies as learning progresses. And this causes the environment to appear 
 non-stationary from the viewpoint of any one agent. 
 
-In MADDPG, __each agent’s critic is trained using the observations and actions from all the agents__, 
-whereas each __agent’s actor is trained using just its own observations__.
-
-
 ### Prepare environment on the local machine
 
 You need at least the following three packages:
