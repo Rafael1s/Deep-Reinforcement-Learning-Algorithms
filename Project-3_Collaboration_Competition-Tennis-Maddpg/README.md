@@ -1,6 +1,6 @@
 
 [//]: # (Image References)
-[image1]:tennis_two_agents.gif  "Trained Agent"
+[image1]:Tennis.gif  "Trained Agent"
 
 # Project 2: Continuous Control
 
