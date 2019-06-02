@@ -1,6 +1,8 @@
 
 [//]: # (Image References)
-[image1]:Tennis.gif  "Trained Agent"
+[image1]:images/Tennis.gif  "Trained Agent"
+[image2]:images/plot_1600episodes.png "Plot_1600"
+[image3]:images/plot_1700episodes.png "Plot_1700"
 
 # Project 3: Collaboration and Competition
 
@@ -87,9 +89,18 @@ You need at least the following three packages:
       
    [7]  Print graph of scores_total (blue bars) over all episodes, and  scores_global  
         (the line 'Avg on 100 episodes' - orange points)    
-        The environment was solved in **1302 episodes**,  i.e., the **Average Score** is achived to **+0.5**,    
+        The environment was solved in **1302 episodes**,  at this point the **Average Score** is achieved to **+0.5**,    
         see _Tennis.ipynb_ or _REPORT.ipynb_.   
-        At **1700 episode** the **Average Score** is achived to **+1.42** !   
+        
+        
+### Train History
+
+1. At **1600 episode** the **Average Score** is achived to **+1.14**.  
+![Plot_1600][image2]
+
+2. At **1700 episode** the **Average Score** is achived to **+1.42**.   
+![Plot_1700][image3]
+
         
 ### Weights of the Trained Agent
   
