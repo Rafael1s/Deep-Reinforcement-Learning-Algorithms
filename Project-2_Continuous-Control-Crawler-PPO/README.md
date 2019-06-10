@@ -83,5 +83,5 @@ Using notebook _WatchAgent.ipynb_ we can load the trained weights and replay the
 
 ### Credit   
 
-Most of the code is based on the Udacity code.
+Most of the code is based on the Udacity code for PPO.
    
