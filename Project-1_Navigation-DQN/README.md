@@ -85,7 +85,7 @@ to the next training step. The variable _score_ accumulates obtained rewards.
 The class **Agent** is defined in _dqn_agent.py_. This is the well-known class implementing 
 the following mechanisms:
 
-* Two Q-Networks (local and target) using the convolutional neural network.
+* Two Q-Networks (local and target) using the simple neural network.
 * Replay memory (using the class ReplayBuffer)
 * Epsilon-greedy mechanism
 * Q-learning, i.e., using the max value for all possible actions
@@ -96,8 +96,8 @@ the following mechanisms:
 
 Both Q-Networks (local and target) are implemented by the class
 **QNetwork** lying in the file _model.py_. This class implements the simple
-convolution neural network (CNN) with 3 fully-connected layers and 2 
-rectified nonlinear layers. This CNN **QNetwork** is realized in the framework 
+neural network with 3 fully-connected layers and 2 
+rectified nonlinear layers. This **QNetwork** is realized in the framework 
 of package **PyTorch**. The number of neurons of the fully-connected layers are 
 as follows:
 
