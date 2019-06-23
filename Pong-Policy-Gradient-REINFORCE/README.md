@@ -18,9 +18,9 @@ Algorithm REINFORCE can be breifly described  as the loop of 3 components:
 
 ### Line 1.
 
-Here, \tau^i are the trajectories of steps a_t,s_t) , and \pi_\theta(a_t, s_t)
+Here, **\tau^i** are the trajectories of steps **(a_t,s_t)** , and **\pi_\theta(a_t, s_t)**
 are probabilities (depending on the weights \theta) of the
-action a^i_t if the last state was s^i_t.  In this component, 
+action **a^i_t** if the last state was **s^i_t**.  In this component, 
 the algorithm collects the data, see the function
 
      def collect_trajectories(envs, policy, tmax=200, nrand=5)
