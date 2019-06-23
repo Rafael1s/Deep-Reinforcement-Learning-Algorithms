@@ -57,17 +57,6 @@ which is realised in pong-REINFORCE notebook, in the traing lines
 
 Here, L means the **loss function** (depending on \theta).
 
-
-### Train the Agent
-
-The environment was solved
-
-* in 2300 episodes and tmax = 100 with score 1.77
-
-* in 2000 episodes and tmax = 300  with score 2.46
-
-* in 2300 episodes and tmax = 300  with score 4.82
-
 ### Training History
 
 The environment was solved, see the following results.
