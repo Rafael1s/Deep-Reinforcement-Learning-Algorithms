@@ -25,24 +25,24 @@ the algorithm collects the data, see the function
 
      def collect_trajectories(envs, policy, tmax=200, nrand=5)
 
-in pong_util.py.  Here, tmax  is the length of the trajectory (parameter also
-known as __horizon__) The function __collect_\__trajectories__ performs
-5 (nrand) random steps (in the RIGHT or LEFT) and get 2 consecutive frames
-__fr1__ and __fr2__.  The function _preprocess_\__batch_  
-crops image and downsample to 80x80 stack two frames together as input.
-The probabilies __probs__ returned from the finction __policy__ are given only 
+in _pong_util.py_.  Here, tmax  is the length of the trajectory (parameter also
+known as _horizon_) The function _collect_\__trajectories_ performs
+5 random steps (in the RIGHT or LEFT) and get 2 consecutive frames
+_fr1_ and _fr2_.  The function _preprocess_\__batch_ crops image and downsample 
+to 80x80 stack two black-white frames together as input.
+The probabilies _probs_ returned from the finction _policy_ are given only 
 for the action LEFT, the probability for the RIGHT are calculated as
-1 - __probs__.  
+1 - _probs_.  
 
 ### Line 2.
 
-Here, __J(\theta)__ is the calculated expected return,
+Here, _J(\theta)_ is the calculated expected return,
 see the function
 
      def surrogate(policy, old_probs, states, actions, rewards, \
               discount = 0.995, beta=0.01)
 
-The value __J(\theta)__ is the discounted sum. Further, we calculate
+The value _J(\theta)_ is the discounted sum. Further, we calculate
 log-probabilities.
 
 ### Line 3.
