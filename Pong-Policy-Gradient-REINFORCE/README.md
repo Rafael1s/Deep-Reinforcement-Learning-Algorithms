@@ -46,6 +46,7 @@ The value _J(\theta)_ is the discounted sum. Further, in this component,
 log-probabilities as a part of the gradient function (in line 2) are calculated.
 
 ### Line 3.
+
 Here, we use the the **gradient ascent** mechanism,
 which is realised in pong-REINFORCE notebook, in the traing lines
 
@@ -56,6 +57,16 @@ which is realised in pong-REINFORCE notebook, in the traing lines
 
 Here, L means the **loss function** (depending on \theta).
 
+
+### Train the Agent
+
+The environment was solved
+
+* in 2300 episodes and tmax = 100 with score 1.77
+
+* in 2000 episodes and tmax = 300  with score 2.46
+
+* in 2300 episodes and tmax = 300  with score 4.82
 
 
 
