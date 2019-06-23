@@ -74,7 +74,9 @@ The environment was solved, see the following results.
    ![](images/plot_11_2300ep_sc-4-82.png)   
       
 
+### Credit   
 
+Most of the code is based on the Udacity code for algorithm REINFORCE.
 
 
 
