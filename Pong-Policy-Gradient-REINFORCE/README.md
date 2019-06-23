@@ -8,13 +8,13 @@ The  model described in [Deep Reinforcement Learning:
 Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/), 
 which contains an introduction and background to this model.
 
-![](pong-before-train.jpg)
+![](images/pong-before-train.jpg)
 
 ## Algorithm REINFORCE
 
 Algorithm REINFORCE can be breifly described  as the loop of 3 components:
 
-![](REINFORCE-algorithm.png)
+![](images/REINFORCE-algorithm.png)
 
 ### Line 1.
 
@@ -67,6 +67,23 @@ The environment was solved
 * in 2000 episodes and tmax = 300  with score 2.46
 
 * in 2300 episodes and tmax = 300  with score 4.82
+
+### Training History
+
+The environment was solved, see the following results.
+
+  1. Input: 2300 episodes and tmax = 100   
+   Result: score = 1.77    
+   ![](images/plot_5A_2300ep_sc-1-77)    
+   
+  2. Input: 2000 episodes and tmax = 300    
+   Result: score = 2.46       
+   ![](images/plot_10_2000ep_sc-2-46)   
+     
+  3. Input: 2300 episodes and tmax = 300   
+   Result: score = 4.82    
+   ![](images/plot_11_2300ep_sc-4-82)   
+      
 
 
 
