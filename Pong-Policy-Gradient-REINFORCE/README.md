@@ -57,20 +57,20 @@ which is realised in pong-REINFORCE notebook, in the traing lines
 
 Here, L means the **loss function** (depending on \theta).
 
-### Training History
+### Training the Agent
 
 The environment was solved, see the following results.
 
   1. Input: 2300 episodes and tmax = 100   
-   Result: score = 1.77    
+   Result: score = **1.77**,  Running time - **1h.50m**    
    ![](images/plot_5A_2300ep_sc-1-77.png)    
    
   2. Input: 2000 episodes and tmax = 300    
-   Result: score = 2.46       
+   Result: score = **2.84**,  Running time - **4h.30m**       
    ![](images/plot_10_2000ep_sc-2-46.png)   
      
   3. Input: 2300 episodes and tmax = 300   
-   Result: score = 4.82    
+   Result: score = **4.82**,  Running time - **5h.11m**     
    ![](images/plot_11_2300ep_sc-4-82.png)   
       
 
