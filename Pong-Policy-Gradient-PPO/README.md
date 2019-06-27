@@ -33,3 +33,7 @@ SGD_epoch = 1.
 
 V. External loop, back to step 1. Set \theta=\theta',
  go to new epsodes, and new trajectories.
+
+
+## Credit   
+Most of the code is based on the Udacity code for the PPO algorithm.   
