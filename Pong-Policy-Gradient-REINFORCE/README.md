@@ -76,7 +76,7 @@ The environment was solved, see the following results.
 
 ### Credit   
 
-Most of the code is based on the Udacity code for algorithm REINFORCE.
+Most of the code is based on the Udacity code for the REINFORCE algorithm.
 
 
 
