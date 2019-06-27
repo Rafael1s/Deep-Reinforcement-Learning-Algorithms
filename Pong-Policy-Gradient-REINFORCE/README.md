@@ -1,4 +1,4 @@
-# Project:  Pong - REINFORCE
+# Pong with REINFORCE
 
 ## Introduction
 
