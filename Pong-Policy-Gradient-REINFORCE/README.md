@@ -12,7 +12,7 @@ which contains an introduction and background to this model.
 
 ## Algorithm REINFORCE
 
-Algorithm REINFORCE can be breifly described  as the loop of 3 components:
+Algorithm REINFORCE can be briefly described  as the loop of 3 components:
 
 ![](images/REINFORCE-algorithm.png)
 
