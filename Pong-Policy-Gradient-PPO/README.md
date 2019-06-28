@@ -16,11 +16,7 @@ initialize  \theta' = \theta.
 
 II. Compute the gradient for the clipped surrogate function
 
-![](images/L_CLIPPED_SURR_FUNC_2.png)
-
-where r_t(\theta) is the ratio of new probabilities and old probabilities:
-
-![](images/prob_ratio_B.png)
+![](images/L_CLIPPED.png)
 
 III. Gradient ascent, update \theta':
 
