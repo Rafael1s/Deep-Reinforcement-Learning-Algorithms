@@ -23,7 +23,7 @@ III. Gradient ascent, update \theta':
 ![](images/gradient_ascent.png)
 
 IV. The internal loop of the PPO training: Steps II and III are repeated _k_ times,      
-i.e., every trajectory is used _k_ times before it is trown away. In our case _k_ = 4.    
+i.e., every trajectory is used _k_ times before it is trown away. In our case, _k_ = 4.    
 For the case REINFORCE, _k_ = 1. In the code,  _k_ = _SGD_\__epoch_,  see file _pong_\__utils.py_,    
 function _clipped_\__surrogate_.
 
