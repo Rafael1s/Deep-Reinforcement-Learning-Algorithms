@@ -30,6 +30,13 @@ function _clipped_\__surrogate_.
 V. External loop: back to step 1. Set \theta=\theta',
  go to new epsodes with new trajectories.
  
+ ### Rewards
+ 
+ RL uses the idea of rewards in order to determine which actions to perform.      
+ The reward is simply a +1 for every round the Agent wins, and a -1 for every round the opponent CPU wins.   
+ For more [complex games](https://towardsdatascience.com/intro-to-reinforcement-learning-pong-92a94aa0f84d), rewards can be tied to score increments. In real-life applications  computing rewards    
+ can be trickier,  especially when there is no obvious single score or objective to optimize.   
+ 
  ### Training the Agent
 
 The environment was solved:
