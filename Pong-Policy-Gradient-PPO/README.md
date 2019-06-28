@@ -29,6 +29,14 @@ function _clipped_\__surrogate_.
 
 V. External loop: back to step 1. Set \theta=\theta',
  go to new epsodes with new trajectories.
+ 
+ ### Training the Agent
+
+The environment was solved:
+
+  * Input: 800 episodes and tmax = 300   
+    Result: score = **4.625**,  Running time - **56m**    
+   ![](images/pong_ppo_800epis_sc_4-625.png)  
 
 ## Credit       
 Most of the code is based on the Udacity code for the PPO algorithm.  
