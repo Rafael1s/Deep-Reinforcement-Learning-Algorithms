@@ -1,7 +1,7 @@
 # Project - BipedalWalker with Twin Delayed DDPG (TD3)    
 
 
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](images/bipedalwalker.jpg)
+             ![](images/bipedalwalker.jpg)
 
 
 ### Video
