@@ -54,6 +54,8 @@ a bigger part of the state-action space in much less time.
 
 * uses environment [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis)     
 
+[BipedalWalker-TwinDelayed-DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))
+
 ### For more links 
 
   * on _Policy-Gradient Methods_, see [1](https://medium.com/@jonathan_hui/rl-policy-gradients-explained-9b13b688b146), [2](https://towardsdatascience.com/an-intuitive-explanation-of-policy-gradient-part-1-reinforce-aa4392cbfd3c), [3](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d).
