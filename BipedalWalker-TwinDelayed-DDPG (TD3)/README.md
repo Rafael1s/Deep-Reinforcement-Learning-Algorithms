@@ -3,8 +3,6 @@
 
 __Solved environment in 1795 episodes!__    
 
- __Sorce paper: https://arxiv.org/abs/1802.09477__
-
 
 ![](images/bipedalwalker.jpg)
 
@@ -28,3 +26,9 @@ __Solved environment in 1795 episodes!__
 ![](plots/plot_1086epis_304score.png)
 
 More points in fewer episodes. It happens!
+
+
+### Credit
+
+The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)  
+by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger.
