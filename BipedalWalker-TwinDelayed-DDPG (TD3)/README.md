@@ -1,6 +1,9 @@
 # Project - BipedalWalker with Twin Delayed DDPG (TD3)    
 
 
+__Solved environment in 1795 episodes!__    
+
+
 ![](images/bipedalwalker.jpg)
 
 
@@ -16,8 +19,6 @@
 
 2.  Score 300.5, Achived in 1795 episodes   
      
-     __Solved environment!__
-
 ![](plots/plot_1795epis_300.5score.png)
 
 3. Score 304, Achieved in 1086 episodes
