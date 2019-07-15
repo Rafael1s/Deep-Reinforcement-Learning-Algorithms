@@ -1,6 +1,12 @@
-# Project - BipedalWalker with Twin Delayed DDPG (TD3)
+# Project - BipedalWalker with Twin Delayed DDPG (TD3)    
+
 
 ![](images/bipedalwalker.jpg)
+
+
+### Video
+
+ See video [here](https://youtu.be/vyH1C7b_Ca4)
 
 ### Training History
 
