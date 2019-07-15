@@ -1,8 +1,9 @@
 # Project - BipedalWalker with Twin Delayed DDPG (TD3)    
 
-
-__Solved environment in 1795 episodes!__    
-
+Solving the environment require an average total reward of over 300 over 100 consecutive episodes.  
+Training of BipedalWalker is considered as [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html), 
+in particular, it is very difficult to train BipedalWalker by DDPG. In this directory we solve the environment in __1795 episodes__
+by usage of the __Twin Delayed DDPG (TD3)__ algorithm, see [here](https://arxiv.org/abs/1802.09477).
 
 ![](images/bipedalwalker.jpg)
 
