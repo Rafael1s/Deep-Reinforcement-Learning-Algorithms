@@ -3,6 +3,8 @@
 
 __Solved environment in 1795 episodes!__    
 
+ __Sorce paper: https://arxiv.org/abs/1802.09477__
+
 
 ![](images/bipedalwalker.jpg)
 
