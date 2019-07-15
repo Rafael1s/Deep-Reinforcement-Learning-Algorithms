@@ -1,4 +1,8 @@
- ### Training History
+# Project - BipedalWalker with Twin Delayed DDPG (TD3)
+
+![](images/bipedalwalker.jpg)
+
+### Training History
 
 1.  Score 293, Achieved in 2000 episodes   
 
