@@ -7,7 +7,7 @@ algorithm PPO ([Proximal Policy Optimization](https://openai.com/blog/openai-bas
 As with the [REINFORCE version](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE), 
 the model learns from pixels.
 
-![](images/cat_pong_giphy.gif)
+![](images/pong.gif)
 
 ## Algorithm PPO 
 
