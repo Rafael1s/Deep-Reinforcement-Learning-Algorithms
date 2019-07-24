@@ -1,6 +1,6 @@
 ## Deep Reinforcement Learning Nanodegree Udacity
 
-Here you can find several projects dedicated to the Deep Reinforcement Learnin methods.   
+Here you can find several projects dedicated to the Deep Reinforcement Learning methods.   
 These projects are developed as part of the [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).    
 Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**](https://arxiv.org/pdf/1806.08894.pdf), 
 [**_Value-Based Methods and Bellman Equation_**](https://medium.com/@jonathan_hui/rl-value-learning-24f52b49c36d), 
