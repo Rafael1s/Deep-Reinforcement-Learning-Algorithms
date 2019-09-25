@@ -7,3 +7,4 @@ State consists of 96x96 pixels. Reward is -0.1 every frame and +1000/N for every
 where N is the total number of tiles in track. For example, if you have finished in 732 frames, 
 your reward is 1000 - 0.1\*732 = 926.8 points. The indicators shown at the bottom of the window. 
 
+![](images/plot_Reward_200-1000.png)
