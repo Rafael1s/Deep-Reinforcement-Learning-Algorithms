@@ -15,5 +15,26 @@ The environment is simulated by OpenAI package __gym__ as follows:
 
       env = gym.make('CarRacing-v0', verbose=0)
       
-### Training sessions
-We run several training sessions in according to the variable numb_of_trains. For each training session, the obtained weights are saved into the file 'weights_'+str(train_numb)+'.trn'. We get files: weights_0.trn, weights_1.trn, weights_2.trn, etc.      
+### Training the agent
+
+We train the agent to understand that it can use information from its surroundings to inform the next best action.
+
+### Hyperparameters
+
+Agent uses the following hyperparameters:
+
+**GAMMA=0.99** # the coefficient related to the **next state** and using to calculatie target reward and advantage 
+
+**EPOCH= 8** # the parameter in the update mexanism of the PPO  (beter than 10)
+
+**MAX_SIZE = 2000** # the maximal size of the buffer used in the update mechanism
+
+**BATCH=128**  # optimizer and backward mechisms work after sampling BATCH elements
+
+**LEARNING_RATE = 0.001**
+
+**EPS=0.1** # the clipping parameter using for calculation of the **action loss** in the update mechanism 
+
+     surr1 = ratio * advantage
+     surr2 = torch.clamp(ratio, 1.0 - EPS, 1.0 + EPS) * advantage
+     action_loss = -torch.min(surr1, surr2)
