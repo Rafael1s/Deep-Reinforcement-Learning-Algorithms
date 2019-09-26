@@ -137,7 +137,7 @@ Episode 3	Average Score: 432.31,	Score: 109.06 	Time: 00:00:08
 Episode 4	Average Score: 480.99,	Score: 627.01 	Time: 00:00:11   
 Episode 5	Average Score: 517.67,	Score: 664.38 	Time: 00:00:11   
 
-  III.  The weights file _model_weights_820-980.pth_. Score values are about 820-980. 
+  III.  The weights file _model_weights_820-980.pth_. Score values are about 820-980.     
   Repalyed 5 episodes:     
   
 Episode 1	Average Score: 1003.80,	Score: 1003.80 	Time: 00:00:10   
