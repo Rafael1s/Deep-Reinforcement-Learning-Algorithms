@@ -80,7 +80,7 @@ Ep. 2758, Ep.Timesteps 100, Score: 989.55, Avg.Score: 895.27, Run.Score 893.06, 
 Ep. 2759, Ep.Timesteps 100, Score: 986.25, Avg.Score: 901.81, Run.Score 893.99, Time: 06:52:59    
 Solved environment! Running score is 893.99, Avg.Score: 901.81 !    
 
-### Learning from Row Pixels
+### Learning from Raw Pixels
 
 * Move image to DarkGreen
 Let's see that the triple [0.299, 0.587, 0.114] represents the vector    
