@@ -66,6 +66,7 @@ The score **901.81** was achieved on the episide **2760** after trainibg **6 hou
 
 ![](images/plot_2760episodes.png)
 
+#### Last Episodes
 .....     
 Ep. 2750, Ep.Timesteps 94, Score: 1006.80, Avg.Score: 893.55, Run.Score 888.10, Time: 06:51:32      
 Ep. 2751, Ep.Timesteps 100, Score: 992.34, Avg.Score: 893.43, Run.Score 889.14, Time: 06:51:41     
