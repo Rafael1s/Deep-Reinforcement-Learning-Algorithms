@@ -114,14 +114,34 @@ Function **rgb2gray** returns the image in Graylevels
      stack.pop(0)      
      stack.append(img_gray)   
 
+### Watch the Trained Agent
  
-     
+  The trained weights are daved in the directory **dir_chk**.    
+  The car racing trajectory can be replayed by the notebook **WatchAgent**.
+  
+  I. The weights file  _model_weights_350-550.pth_. Score values are about 350-550.   
+  Repalyed 5 episodes are as follows:    
+  
+Episode 1	Average Score: 63.53,	Score: 63.53 	Time: 00:00:04   
+Episode 2	Average Score: 305.90,	Score: 548.28 	Time: 00:00:10    
+Episode 3	Average Score: 370.60,	Score: 500.00 	Time: 00:00:11   
+Episode 4	Average Score: 366.48,	Score: 354.09 	Time: 00:00:07   
+Episode 5	Average Score: 304.39,	Score: 56.03 	Time: 00:00:05  
 
+  II. The weights file _model_weights_480-660.pth_. Score values are about 480-660.  
+  Repalyed 5 episodes:     
+  
+Episode 1	Average Score: 603.72,	Score: 603.72 	Time: 00:00:12    
+Episode 2	Average Score: 593.94,	Score: 584.16 	Time: 00:00:11   
+Episode 3	Average Score: 432.31,	Score: 109.06 	Time: 00:00:08   
+Episode 4	Average Score: 480.99,	Score: 627.01 	Time: 00:00:11   
+Episode 5	Average Score: 517.67,	Score: 664.38 	Time: 00:00:11   
 
-
-
-
-
-     
-     
-
+  III.  The weights file _model_weights_820-980.pth_. Score values are about 820-980. 
+  Repalyed 5 episodes:     
+  
+Episode 1	Average Score: 1003.80,	Score: 1003.80 	Time: 00:00:10   
+Episode 2	Average Score: 958.42,	Score: 913.04 	Time: 00:00:11   
+Episode 3	Average Score: 943.30,	Score: 913.04 	Time: 00:00:11   
+Episode 4	Average Score: 943.02,	Score: 942.18 	Time: 00:00:11   
+Episode 5	Average Score: 938.26,	Score: 919.25 	Time: 00:00:11     
