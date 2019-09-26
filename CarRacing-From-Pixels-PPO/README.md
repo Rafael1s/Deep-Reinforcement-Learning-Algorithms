@@ -15,10 +15,6 @@ The environment is simulated by OpenAI package __gym__ as follows:
 
       env = gym.make('CarRacing-v0', verbose=0)
       
-### Training the agent
-
-We train the agent to understand that it can use information from its surroundings to inform the next best action.
-
 ### Hyperparameters
 
 Agent uses the following hyperparameters:
@@ -52,8 +48,8 @@ The rewards, target and advatage values are calculated by the model:
 The CNN model is used for calculation of parameters __alpha__ and __beta__ of the Beta distribuion.
 The Beta distribution (torch.distributions.beta) is used to fetch the action samples.
 
-       alpha, beta = net(state[index])[0]  ## 0-th return parameter of the forward function
-       dist = Beta(alpha, beta)
+     alpha, beta = net(state[index])[0]  ## 0-th return parameter of the forward function
+     dist = Beta(alpha, beta)
 
 #### References
 Modeling policies as beta distributions was supposed in
@@ -63,7 +59,12 @@ by Po-Wei Chou, Daniel Maturana, Sebastian Scherer, in Proceedings of the 34th I
 
 See also "_Clipped Action Policy Gradient_" by Yasuhiro Fujita, Shin-ichi Maeda, https://arxiv.org/abs/1802.07564
 
+### Training 
 
+We train the agent to understand that it can use information from its surroundings to inform the next best action.
+The score **901.81** was achieved on the episide **2760** after trainibg **6 hours 53 minutes**.   
+
+![](images/plot_2760episodes.png)
 
 
      
