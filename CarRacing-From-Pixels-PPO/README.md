@@ -80,6 +80,17 @@ Ep. 2758, Ep.Timesteps 100, Score: 989.55, Avg.Score: 895.27, Run.Score 893.06, 
 Ep. 2759, Ep.Timesteps 100, Score: 986.25, Avg.Score: 901.81, Run.Score 893.99, Time: 06:52:59    
 Solved environment! Running score is 893.99, Avg.Score: 901.81 !    
 
+### Learning from Row Pixels
+
+* Move image to Grayscale   
+Let's see that the triple [0.299, 0.587, 0.114] represents the vector 'Dark Green' in the color space.   
+First, let's go to integer gray levels: [(int)(0.299\*256), (int)(0.587\*256), (int)(0.114\*256)] = [76, 150, 29].        
+Convert this set to hex numbers:   [hex(76), hex(150), hex(29)] = ('0x4c', '0x96', '0x1d')    
+In the browser field, we just enter:  color(4d961d), and we get the 'Dark Green'.    
+
+
+
+
 
      
      
