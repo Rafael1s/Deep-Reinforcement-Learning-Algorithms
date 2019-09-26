@@ -10,6 +10,11 @@ CarRacing-v0 defines "solving" as getting average reward of 900 over 100 consecu
 
 ![](images/plot_Reward_200-1000.png)
 
+### Requirement
+
+* [pytorch 0.41](https://pytorch.org/)
+* [gym 0.10](https://github.com/openai/gym)
+
 ### Environment
 The environment is simulated by OpenAI package __gym__ as follows:
 
@@ -59,7 +64,7 @@ by Po-Wei Chou, Daniel Maturana, Sebastian Scherer, in Proceedings of the 34th I
 
 See also "_Clipped Action Policy Gradient_" by Yasuhiro Fujita, Shin-ichi Maeda, https://arxiv.org/abs/1802.07564
 
-### Training 
+### Training the Agent
 
 We train the agent to understand that it can use information from its surroundings to inform the next best action.
 The score **901.81** was achieved on the episide **2760** after trainibg **6 hours 53 minutes**.   
@@ -105,7 +110,8 @@ Function **rgb2gray** returns the image in Graylevels
     img_gray = rgb2gray(img_rgb)   
     
  * _Stack of 4 frames_   
- For frames are allocated in the function **reset()** (class Wrapper)   
+ State is defined as adjacent 4 frames in shape (4, 96, 96).   
+ Four frames are allocated in the function **reset()** (class Wrapper)   
     
      self.stack = [img_gray] * 4   
  At every time step the first frame is discarded and one frame (img_gray) is  
@@ -145,3 +151,8 @@ Episode 2	Average Score: 958.42,	Score: 913.04 	Time: 00:00:11
 Episode 3	Average Score: 943.30,	Score: 913.04 	Time: 00:00:11   
 Episode 4	Average Score: 943.02,	Score: 942.18 	Time: 00:00:11   
 Episode 5	Average Score: 938.26,	Score: 919.25 	Time: 00:00:11     
+
+### Credit
+
+Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma. 
+
