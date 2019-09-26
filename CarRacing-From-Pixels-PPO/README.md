@@ -38,3 +38,14 @@ Agent uses the following hyperparameters:
      surr1 = ratio * advantage
      surr2 = torch.clamp(ratio, 1.0 - EPS, 1.0 + EPS) * advantage
      action_loss = -torch.min(surr1, surr2)
+
+### Neural Network Model
+
+We use the CNN model with 6 levels Conv2d (torch.nn.Conv2d) and 6 ectified linear units ReLU (torch.nn.ReLU).
+The rewards, target and advatage values are calculated by the model:
+
+     target = r + GAMMA * net(next_state)
+     advantage = target - self.net(state)
+     
+     
+
