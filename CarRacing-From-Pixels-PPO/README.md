@@ -54,7 +54,14 @@ The Beta distribution (torch.distributions.beta) is used to fetch the action sam
 
        alpha, beta = net(state[index])[0]  ## 0-th return parameter of the forward function
        dist = Beta(alpha, beta)
-       
+
+#### References
+Modeling policies as beta distributions was supposed in
+
+"Improving Stochastic Policy Gradients in Continuous Control with Deep Reinforcement Learning using the Beta Distribution"
+by Po-Wei Chou, Daniel Maturana, Sebastian Scherer, in Proceedings of the 34th International Conference on Machine Learning, PMLR 70:834-843, 2017., http://proceedings.mlr.press/v70/chou17a.html
+
+See also "Clipped Action Policy Gradient" by Yasuhiro Fujita, Shin-ichi Maeda, https://arxiv.org/abs/1802.07564
 
 
 
