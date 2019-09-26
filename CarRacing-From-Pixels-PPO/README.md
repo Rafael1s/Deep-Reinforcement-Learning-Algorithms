@@ -85,15 +85,15 @@ Solved environment! Running score is 893.99, Avg.Score: 901.81 !
 * Move image to DarkGreen
 Let's see that the triple [0.299, 0.587, 0.114] represents the vector    
 'DarkGreen' in the color space. First, let's go to integer gray levels:      
-     **[(int)(0.299\*256), (int)(0.587\*256), (int)(0.114\*256)] = [76, 150, 29].**
-Convert this set to hex numbers:   [hex(76), hex(150), hex(29)] = ('0x4c', '0x96', '0x1d')    
+     **[(int)(0.299\*256), (int)(0.587\*256), (int)(0.114\*256)] = [76, 150, 29].**    
+Convert this set to hex numbers:   [hex(76), hex(150), hex(29)] = ('0x4c', '0x96', '0x1d')        
 In the browser field, we just enter:  color(4d961d), and we get the 'Dark Green'.    
 
 * Move image to Grayscale
 We project all pixels (as vectors in the color space) to the DarkGreen vector    
     **v = [0.299, 0.587, 0.114]**.   
 For any pizel z = (a,b,c) the project of z on the vector v is 
-      pr(z) = (z, v) /|v|,
+      pr(z) = (z, v) /|v|,      
 i.e., all pixel values are propotional to the **inner vector (z, v)**.       
 
 
