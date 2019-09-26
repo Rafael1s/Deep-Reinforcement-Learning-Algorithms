@@ -1,4 +1,4 @@
-# Project - CarRacing with PPO, Learning from Pixels 
+# Project - CarRacing with PPO, Learning from Raw Pixels 
 
 ### Introduction
 
@@ -23,7 +23,7 @@ We train the agent to understand that it can use information from its surroundin
 
 Agent uses the following hyperparameters:
 
-**GAMMA=0.99** # the coefficient related to the **next state** and using to calculatie target reward and advantage 
+**GAMMA=0.99** # discount, the coefficient related to the **next state**  
 
 **EPOCH= 8** # the parameter in the update mexanism of the PPO  (beter than 10)
 
