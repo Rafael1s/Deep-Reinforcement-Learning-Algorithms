@@ -92,9 +92,10 @@ In the browser field, we just enter:  color(4d961d), and we get the 'Dark Green'
 * Move image to Grayscale
 We project all pixels (as vectors in the color space) to the DarkGreen vector    
     **v = [0.299, 0.587, 0.114]**.   
-For any pizel z = (a,b,c) the project of z on the vector v is 
-      pr(z) = (z, v) /|v|,      
-i.e., all pixel values are propotional to the **inner vector (z, v)**.       
+For any pixel z = (a,b,c) the project of z on the vector v is 
+      pr(z) = (z, v) /|v|.      
+Then all pixel values are propotional to  the DarkGreen vector **v**  with the coefficient
+**inner vector (z, v)**.       
 
 
 
