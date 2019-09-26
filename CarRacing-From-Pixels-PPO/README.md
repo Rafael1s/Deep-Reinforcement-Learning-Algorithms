@@ -82,20 +82,41 @@ Solved environment! Running score is 893.99, Avg.Score: 901.81 !
 
 ### Learning from Raw Pixels
 
-* Move image to DarkGreen
+* _Move image to DarkGreen_
 Let's see that the triple [0.299, 0.587, 0.114] represents the vector    
 'DarkGreen' in the color space. First, let's go to integer gray levels:      
      **[(int)(0.299\*256), (int)(0.587\*256), (int)(0.114\*256)] = [76, 150, 29].**    
 Convert this set to hex numbers:   [hex(76), hex(150), hex(29)] = ('0x4c', '0x96', '0x1d')        
 In the browser field, we just enter:  color(4d961d), and we get the 'Dark Green'.    
 
-* Move image to Grayscale
+* _Move image to Grayscale_
 We project all pixels (as vectors in the color space) to the DarkGreen vector    
     **v = [0.299, 0.587, 0.114]**.   
 For any pixel z = (a,b,c) the project of z on the vector v is 
       pr(z) = (z, v) /|v|.      
 Then all pixel values are propotional to  the DarkGreen vector **v**  with the coefficient
 **inner vector (z, v)**.       
+For example,   
+    image.shape = (433, 735, 3)    
+    im_dot = np.dot(image, [0.299, 0.587, 0.114])      
+    im_dot.shape = (433, 735)         
+Function **rgb2gray** returns the image in Graylevels   
+
+    img_gray = rgb2gray(img_rgb)   
+    
+ * _Stack of 4 frames_   
+ For frames are allocated in the function **reset()** (class Wrapper)   
+    
+     self.stack = [img_gray] * 4   
+ At every time step the first frame is discarded and one frame (img_gray) is  
+ added to the stack (of 4 frames), see function **step()** (class Wrapper)   
+        
+     stack.pop(0)      
+     stack.append(img_gray)   
+
+ 
+     
+
 
 
 
