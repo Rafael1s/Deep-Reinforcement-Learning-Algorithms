@@ -39,13 +39,26 @@ Agent uses the following hyperparameters:
      surr2 = torch.clamp(ratio, 1.0 - EPS, 1.0 + EPS) * advantage
      action_loss = -torch.min(surr1, surr2)
 
-### Neural Network Model
+### Neural Network
 
 We use the CNN model with 6 levels Conv2d (torch.nn.Conv2d) and 6 ectified linear units ReLU (torch.nn.ReLU).
 The rewards, target and advatage values are calculated by the model:
 
      target = r + GAMMA * net(next_state)
-     advantage = target - self.net(state)
+     advantage = target - net(state)[[1]  ## 1-st return parameter of the forward function
+     
+### Beta Distribution
+
+The CNN model is used for calculation of parameters __alpha__ and __beta__ of the Beta distribuion.
+The Beta distribution (torch.distributions.beta) is used to fetch the action samples.
+
+       alpha, beta = net(state[index])[0]  ## 0-th return parameter of the forward function
+       dist = Beta(alpha, beta)
+       
+
+
+
+
      
      
 
