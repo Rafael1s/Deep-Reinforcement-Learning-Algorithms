@@ -1,7 +1,7 @@
 # Project - BipedalWalker with PPO, Vectorized Environment
 
 
-### Environment
+### Introduction
 
 Solving the environment require an average total reward of over 300 over 100 consecutive episodes.
 Training of BipedalWalker is considered as [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html), in particular, it is very difficult to train BipedalWalker by DDPG and PPO (with one agent). In this directory we solve the environment 
@@ -15,3 +15,13 @@ in **450** episodes by usage of the __PPO (with multi-agent)__ algorithm, see [M
 * [python 3.7](https://www.python.org) 
 * [pytorch 1.0.1](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
+
+### Environment
+
+The environment is simulated as list of 16 **gym** environments. They run in 16
+subprocesses  adopted from [openai baseline](https://github.com/openai/baselines):
+
+     envs = parallelEnv('BipedalWalker-v2', n=num_processes, seed=seed),       
+     
+where num_processes=16.      
+
