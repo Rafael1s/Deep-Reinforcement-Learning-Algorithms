@@ -152,6 +152,9 @@ Episode 3	Average Score: 943.30,	Score: 913.04 	Time: 00:00:11
 Episode 4	Average Score: 943.02,	Score: 942.18 	Time: 00:00:11   
 Episode 5	Average Score: 938.26,	Score: 919.25 	Time: 00:00:11     
 
+### Video
+See video ![here](https://www.youtube.com/watch?v=55buBR2pPdc).
+
 ### Credit
 
 Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma. 
