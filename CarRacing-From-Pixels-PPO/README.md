@@ -28,7 +28,7 @@ _GAMMA=0.99_ # discount, the coefficient related to the _next state_
 _EPOCH= 8_ # the parameter in the update mexanism of the PPO  (beter than 10)   
 _MAX_SIZE = 2000_ # the maximal size of the buffer used in the update mechanism   
 _BATCH=128_  # optimizer and backward mechisms work after sampling BATCH elements   
-_LEARNING_RATE = 0.001   
+_LEARNING_RATE = 0.001_   
 _EPS=0.1_ # the clipping parameter using for calculation of the _action loss_    
 
      surr1 = ratio * advantage
