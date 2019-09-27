@@ -1,1 +1,1 @@
-Project - BipedalWalker with PPO
+# Project - BipedalWalker with PPO, Vectorized Environment
