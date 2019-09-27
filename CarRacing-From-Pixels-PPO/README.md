@@ -22,19 +22,14 @@ The environment is simulated by OpenAI package __gym__ as follows:
       
 ### Hyperparameters
 
-Agent uses the following hyperparameters:
+Agent uses the following hyperparameters:   
 
-**GAMMA=0.99** # discount, the coefficient related to the **next state**  
-
-**EPOCH= 8** # the parameter in the update mexanism of the PPO  (beter than 10)
-
-**MAX_SIZE = 2000** # the maximal size of the buffer used in the update mechanism
-
-**BATCH=128**  # optimizer and backward mechisms work after sampling BATCH elements
-
-**LEARNING_RATE = 0.001**
-
-**EPS=0.1** # the clipping parameter using for calculation of the **action loss** in the update mechanism 
+_GAMMA=0.99_ # discount, the coefficient related to the _next state_    
+_EPOCH= 8_ # the parameter in the update mexanism of the PPO  (beter than 10)   
+_MAX_SIZE = 2000_ # the maximal size of the buffer used in the update mechanism   
+_BATCH=128_  # optimizer and backward mechisms work after sampling BATCH elements   
+_LEARNING_RATE = 0.001   
+_EPS=0.1_ # the clipping parameter using for calculation of the _action loss_    
 
      surr1 = ratio * advantage
      surr2 = torch.clamp(ratio, 1.0 - EPS, 1.0 + EPS) * advantage
