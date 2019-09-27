@@ -9,3 +9,9 @@ in **450** episodes by usage of the __PPO (with multi-agent)__ algorithm, see [M
 [BipedalWalker-TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3)). 
 
 ![](images/bwalker.png)
+
+### Requirement
+
+* [python 3.7](https://www.python.org) 
+* [pytorch 1.0.1](https://pytorch.org/)
+* [gym 0.13.1](https://github.com/openai/gym)
