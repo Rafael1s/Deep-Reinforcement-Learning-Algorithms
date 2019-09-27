@@ -18,10 +18,9 @@ in **450** episodes by usage of the __PPO (with multi-agent)__ algorithm, see [M
 
 ### Environment
 
-The environment is simulated as list of 16 **gym** environments. They run in 16
-subprocesses  adopted from [openai baseline](https://github.com/openai/baselines):
+The environment is simulated as list of 16 **gym** environments. They run in 16     
+subprocesses adopted from [openai baseline](https://github.com/openai/baselines):
 
-     envs = parallelEnv('BipedalWalker-v2', n=num_processes, seed=seed),       
+     num_processes=16
+     envs = parallelEnv('BipedalWalker-v2', n=num_processes, seed=seed)       
      
-where num_processes=16.      
-
