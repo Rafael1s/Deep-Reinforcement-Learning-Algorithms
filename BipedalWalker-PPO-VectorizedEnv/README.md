@@ -24,3 +24,13 @@ subprocesses adopted from [openai baseline](https://github.com/openai/baselines)
      num_processes=16
      envs = parallelEnv('BipedalWalker-v2', n=num_processes, seed=seed)       
      
+### Hyperparameters
+
+Agent uses the following hyperparameters:
+
+_gamma=0.99_ # discount    
+_epoch = 16_ # the parameter in the update mexanism of the PPO   
+_mini_batch=16_ # optimizer and backward mechisms work after sampling BATCH elements   
+_lr = 0.001_ # learning rate    
+_eps=0.2_ # the clipping parameter using for calculation of the _action loss_   
+     
