@@ -73,7 +73,7 @@ Parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO
 ### Training the Agent
 
 We train the agent to understand that it can use information from its surroundings to inform the next best action.
-The score **901.81** was achieved on the episide **2760** after trainibg **6 hours 53 minutes**.   
+The score **901.81** was achieved in the episode **2760** after training **6 hours 53 minutes**.   
 
 ![](images/plot_2760episodes.png)
 
