@@ -34,6 +34,24 @@ _mini_batch=16_ # optimizer and backward mechisms work after sampling BATCH elem
 _lr = 0.001_ # learning rate    
 _eps=0.2_ # the clipping parameter using for calculation of the _action loss_   
 
+### Update mechanism
+
+Standard policy gradient methods perform one gradient update per data sample.     
+In the [original paper](https://arxiv.org/abs/1707.06347) it was proposed a novel objective function that enables **multiple epochs**.   
+This is  the **loss** function _L\_t(\\theta)_, which is (approximately) maximized each iteration:    
+
+![](images/objective_function_07.png)
+
+Parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
+In this agent, c1 = -0.5,   c2 = 0.01. 
+
+                value_loss = (return_batch - values).pow(2)
+                loss = -torch.min(surr1, surr2) + 0.5 * value_loss - 0.01 * dist_entropy 
+
+The update is performed in the function **ppo_agent.update()**.
+
+
+
 ### Other PPO projects  
   * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
   * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
