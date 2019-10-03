@@ -46,7 +46,7 @@ The environment was solved:
    ![](images/pong_ppo_800epis_sc_4-625.png)  
    
 ### Other PPO projects  
-  * [CarRacing](../CarRacing-From-Pixels-PPO)
+  * [CarRacing](../CarRacing-From-Pixels-PPO), Learning from Pixels
   * [Crawler](../Project-2_Continuous-Control-Crawler-PPO)
   * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv)
 
