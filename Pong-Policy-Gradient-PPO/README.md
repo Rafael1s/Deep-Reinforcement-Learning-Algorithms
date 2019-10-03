@@ -46,9 +46,9 @@ The environment was solved:
    ![](images/pong_ppo_800epis_sc_4-625.png)  
    
 ### Other PPO projects  
-  * [CarRacing](../CarRacing-From-Pixels-PPO), Learning from Pixels
+  * [CarRacing](../CarRacing-From-Pixels-PPO),  Learning from pixels
   * [Crawler](../Project-2_Continuous-Control-Crawler-PPO)
-  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv)
+  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
 
 ## Credit       
 Most of the code is based on the Udacity code for the PPO algorithm.  
