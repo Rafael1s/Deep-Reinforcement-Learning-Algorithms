@@ -1,4 +1,4 @@
-# Pong with PPO
+# Pong with PPO, Learning from Raw Pixels
 
 ### Introduction 
 
@@ -44,6 +44,11 @@ The environment was solved:
   * Input: 800 episodes and tmax = 300   
     Result: score = **4.625**,  Running time - **56m**    
    ![](images/pong_ppo_800epis_sc_4-625.png)  
+   
+### Other PPO projects  
+  * [CarRacing](../CarRacing-From-Pixels-PPO)
+  * [Crawler](../Project-2_Continuous-Control-Crawler-PPO)
+  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv)
 
 ## Credit       
 Most of the code is based on the Udacity code for the PPO algorithm.  
