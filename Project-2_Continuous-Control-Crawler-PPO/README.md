@@ -61,6 +61,8 @@ In this agent, c1 = -0.5,   c2 = 0.01.
                 value_loss = 0.5 * (sampled_returns - values).pow(2)
                 loss = policy_loss + value_loss 
 
+The update is performed in the function **agent.step()**.
+
 
 ### Train the Agent
 
