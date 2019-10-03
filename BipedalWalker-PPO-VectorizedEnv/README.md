@@ -50,7 +50,12 @@ In this agent, c1 = -0.5,   c2 = 0.01.
 
 The update is performed in the function **ppo_agent.update()**.
 
+### Training the Agent
 
+We train the agent to understand that it can use information from its surroundings to inform the next best action.     
+The score **300.5** was achieved in the episode **450** after training **2 hours 33 minutes**.     
+
+![](images/plot_16agents.png)
 
 ### Other PPO projects  
   * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
