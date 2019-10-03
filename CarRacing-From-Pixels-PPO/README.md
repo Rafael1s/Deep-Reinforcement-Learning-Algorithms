@@ -67,7 +67,7 @@ This is  the **loss** function _L\_t(\\theta)_, which is (approximately) maximiz
 
 ![](images/objective_function_07.png)
 
-parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
+Parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
 
  
 ### Training the Agent
