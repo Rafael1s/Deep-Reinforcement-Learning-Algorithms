@@ -55,7 +55,7 @@ The update is performed in the function **ppo_agent.update()**.
 We train the agent to understand that it can use information from its surroundings to inform the next best action.     
 The score **300.5** was achieved in the episode **450** after training **2 hours 33 minutes**.     
 
-![](images/plot_16agents.png)
+![](images/plot_450episodes.png)
 
 ### Other PPO projects  
   * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
