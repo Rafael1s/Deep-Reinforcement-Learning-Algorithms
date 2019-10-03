@@ -45,9 +45,16 @@ The environment was solved:
     Result: score = **4.625**,  Running time - **56m**    
    ![](images/pong_ppo_800epis_sc_4-625.png)  
    
+### Parallel Environmnets   
+
+The training is performed by 8 parallel agents. The agents run in independent
+environments and learn the same Neural Network.
+
+     envs = parallelEnv('PongDeterministic-v4', n=8)
+   
 ### Other PPO projects  
   * [CarRacing](../CarRacing-From-Pixels-PPO),  Learning from pixels
-  * [Crawler](../Project-2_Continuous-Control-Crawler-PPO)
+  * [Crawler,  ](../Project-2_Continuous-Control-Crawler-PPO) 12 parallel agents
   * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
 
 ## Credit       
