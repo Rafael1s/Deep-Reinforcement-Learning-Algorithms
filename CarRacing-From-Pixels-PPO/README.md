@@ -45,7 +45,7 @@ The rewards, target and advatage values are calculated by the model:
      
 ### Beta Distribution
 
-The CNN model is used for calculation of parameters __alpha__ and __beta__ of the Beta distribuion.
+The CNN model is used for calculation of parameters __alpha__ and __beta__ of the Beta distribuion.    
 The Beta distribution (torch.distributions.beta) is used to fetch the action samples.
 
      alpha, beta = net(state[index])[0]  ## 0-th return parameter of the forward function
@@ -59,6 +59,16 @@ by Po-Wei Chou, Daniel Maturana, Sebastian Scherer, in Proceedings of the 34th I
 
 See also "_Clipped Action Policy Gradient_" by Yasuhiro Fujita, Shin-ichi Maeda, https://arxiv.org/abs/1802.07564
 
+### Update mechanism
+
+Standard policy gradient methods perform one gradient update per data sample.     
+In the [original paper](https://arxiv.org/abs/1707.06347) it was proposed a novel objective function that enables **multiple epochs**.
+
+![](images/objective_function_07.png)
+
+The parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
+
+ 
 ### Training the Agent
 
 We train the agent to understand that it can use information from its surroundings to inform the next best action.
