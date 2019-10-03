@@ -37,7 +37,7 @@ V. External loop: back to step 1. Set \theta=\theta',
  For more [complex games](https://towardsdatascience.com/intro-to-reinforcement-learning-pong-92a94aa0f84d), rewards can be tied to score increments. In real-life applications  computing rewards    
  can be trickier,  especially when there is no obvious single score or objective to optimize.   
  
- ### Training the Agent
+### Training the Agent
 
 The environment was solved:
 
@@ -47,8 +47,8 @@ The environment was solved:
    
 ### Parallel Environmnets   
 
-The training is performed by 8 parallel agents. The agents run in independent
-environments and learn the same Neural Network.
+The training is performed by **8 parallel agents**. The agents run in    
+8 independent environments and learn the same Neural Network.
 
      envs = parallelEnv('PongDeterministic-v4', n=8)
    
