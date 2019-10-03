@@ -53,8 +53,8 @@ The training is performed by **8 parallel agents**. The agents run in
      envs = parallelEnv('PongDeterministic-v4', n=8)
    
 ### Other PPO projects  
-  * [CarRacing](../CarRacing-From-Pixels-PPO),  Learning from pixels
-  * [Crawler,  ](../Project-2_Continuous-Control-Crawler-PPO) 12 parallel agents
+  * [CarRacing](../CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
+  * [C r a w l e r  ](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
   * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
 
 ## Credit       
