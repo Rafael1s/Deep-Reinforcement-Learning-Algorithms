@@ -81,6 +81,11 @@ For both neural networks, the actor and the critic, we save the trained weights 
 with the extension pth.  For all cases, the corresponding files are saved into the directory checkpoints.    
 Using notebook _WatchAgent.ipynb_ we can load the trained weights and replay them.
 
+### Other PPO projects  
+  * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
+  * [CarRacing](../CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
+  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
+
 ### Credit   
 
 Most of the code is based on the Udacity code for PPO.
