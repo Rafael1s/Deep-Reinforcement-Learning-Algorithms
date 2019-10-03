@@ -62,11 +62,12 @@ See also "_Clipped Action Policy Gradient_" by Yasuhiro Fujita, Shin-ichi Maeda,
 ### Update mechanism
 
 Standard policy gradient methods perform one gradient update per data sample.     
-In the [original paper](https://arxiv.org/abs/1707.06347) it was proposed a novel objective function that enables **multiple epochs**.
+In the [original paper](https://arxiv.org/abs/1707.06347) it was proposed a novel objective function that enables **multiple epochs**.   
+This is  the **loss** function _L\_t(\\theta)_, which is (approximately) maximized each iteration:    
 
 ![](images/objective_function_07.png)
 
-The parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
+parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
 
  
 ### Training the Agent
