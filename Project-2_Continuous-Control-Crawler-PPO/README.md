@@ -45,6 +45,22 @@ You need at least the following three packages:
    Windows (32-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86.zip)     
 
    Download this environment zip into  **p2_continuous-control/** folder, and unzip the file.
+   
+### Update mechanism
+
+Standard policy gradient methods perform one gradient update per data sample.     
+In the [original paper](https://arxiv.org/abs/1707.06347) it was proposed a novel objective function that enables **multiple epochs**.   
+This is  the **loss** function _L\_t(\\theta)_, which is (approximately) maximized each iteration:    
+
+![](images/objective_function_07.png)
+
+Parameters **c1**, **c2** and **epoch** are essential hyperparameters in the PPO algorithm.
+In this agent, c1 = -0.5,   c2 = 0.01. 
+
+                policy_loss = -torch.min(obj, obj_clipped) - 0.01 * entropy_loss
+                value_loss = 0.5 * (sampled_returns - values).pow(2)
+                loss = policy_loss + value_loss 
+
 
 ### Train the Agent
 
