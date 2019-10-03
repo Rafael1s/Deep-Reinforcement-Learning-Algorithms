@@ -33,4 +33,9 @@ _epoch = 16_ # the parameter in the update mexanism of the PPO
 _mini_batch=16_ # optimizer and backward mechisms work after sampling BATCH elements   
 _lr = 0.001_ # learning rate    
 _eps=0.2_ # the clipping parameter using for calculation of the _action loss_   
+
+### Other PPO projects  
+  * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
+  * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
+  * [CarRacing](../CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
      
