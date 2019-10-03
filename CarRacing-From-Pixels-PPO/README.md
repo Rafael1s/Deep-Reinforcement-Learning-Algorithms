@@ -150,6 +150,11 @@ Episode 5	Average Score: 938.26,	Score: 919.25 	Time: 00:00:11
 ### Video
 See video on [youtube](https://www.youtube.com/watch?v=55buBR2pPdc).
 
+### Other PPO projects  
+  * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
+  * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
+  * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
+  
 ### Credit
 
 Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma. 
