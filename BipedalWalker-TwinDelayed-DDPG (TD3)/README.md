@@ -20,6 +20,7 @@ and uses the smaller of the two Q-values to form the targets in the Bellman erro
 
 * **Trick Two:**  “Delayed” Policy Updates. TD3 updates the policy (and target networks) less frequently      
 than the Q-function. The paper recommends one policy update for every two Q-function updates.   
+ (see parameter **policy_freq**  in the function _train()_, _class TD3_.)
 
 * **Trick Three**: Target Policy Smoothing. TD3 adds noise to the target action, to make it harder   
 for the policy to exploit Q-function errors by smoothing out Q along changes in action.   
