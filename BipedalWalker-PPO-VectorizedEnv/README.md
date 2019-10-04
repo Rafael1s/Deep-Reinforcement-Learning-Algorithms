@@ -58,7 +58,12 @@ The score **300.5** was achieved in the episode **450** after training **2 hours
 ![](images/plot_450episodes.png)
 
 ### Other PPO projects  
+
   * [Pong](../Pong-Policy-Gradient-PPO), 8 parallel agents
   * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
   * [CarRacing](../CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
+  
+### Credit   
+
+Most of the code is based on the Udacity code for PPO, and the github code of Ilya Kostrikov.
      
