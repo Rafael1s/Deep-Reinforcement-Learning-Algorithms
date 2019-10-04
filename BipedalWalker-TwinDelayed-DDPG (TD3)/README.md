@@ -20,10 +20,16 @@ and uses the smaller of the two Q-values to form the targets in the Bellman erro
 
 * **Trick Two:**  “Delayed” Policy Updates. TD3 updates the policy (and target networks) less frequently      
 than the Q-function. The paper recommends one policy update for every two Q-function updates.   
- (see parameter **policy_freq**  in the function _train()_, _class TD3_.)
+See parameter **policy_freq**  in the function _train()_, _class TD3_.
 
 * **Trick Three**: Target Policy Smoothing. TD3 adds noise to the target action, to make it harder   
 for the policy to exploit Q-function errors by smoothing out Q along changes in action.   
+See parameter **policy_noise**  in the function _train()_, _class TD3_.
+
+            # Select action according to policy and add clipped noise 
+            noise = torch.FloatTensor(u).data.normal_(0, policy_noise).to(device)
+            noise = noise.clamp(-noise_clip, noise_clip)
+            next_action = (self.actor_target(next_state) + noise).clamp(-self.max_action, self.max_action)
 
 Together, these three tricks result in substantially improved performance over baseline DDPG.     
 
