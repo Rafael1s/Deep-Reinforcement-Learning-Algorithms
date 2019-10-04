@@ -26,8 +26,6 @@ for the policy to exploit Q-function errors by smoothing out Q along changes in 
 
 Together, these three tricks result in substantially improved performance over baseline DDPG.     
 
-Quick Facts
-
 ### Video
 
  See video [here](https://youtu.be/vyH1C7b_Ca4)
