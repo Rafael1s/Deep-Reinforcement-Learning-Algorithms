@@ -9,6 +9,24 @@ by usage of the __Twin Delayed DDPG (TD3)__ algorithm, see [here](https://arxiv.
 
 ![](images/bipedalwalker.jpg)
 
+### Three TD3 tricks   
+
+A common failure mode for DDPG is that the learned Q-function begins to dramatically overestimate Q-values,      
+which then leads to the policy breaking, because it exploits the errors in the Q-function.     
+Twin Delayed DDPG (TD3) is an algorithm which addresses this issue by [introducing three critical tricks:](https://spinningup.openai.com/en/latest/algorithms/td3.html)
+
+* **Trick One:** Clipped Double-Q Learning. TD3 learns two Q-functions instead of one (hence “twin”),        
+and uses the smaller of the two Q-values to form the targets in the Bellman error loss functions.      
+
+* **Trick Two:**  “Delayed” Policy Updates. TD3 updates the policy (and target networks) less frequently      
+than the Q-function. The paper recommends one policy update for every two Q-function updates.   
+
+* **Trick Three**: Target Policy Smoothing. TD3 adds noise to the target action, to make it harder   
+for the policy to exploit Q-function errors by smoothing out Q along changes in action.   
+
+Together, these three tricks result in substantially improved performance over baseline DDPG.     
+
+Quick Facts
 
 ### Video
 
