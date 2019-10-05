@@ -9,7 +9,7 @@ in **280** episodes by usage of the __SAC__ algorithm, see [Off-Policy Maximum E
 Another solution (based on the single agent) is given in this repository is
 [BipedalWalker-TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3)). 
 
-![](images/bwalker_sac.png)
+![](images/bwalker_sac_08.png)
 
 ### Requirement
 
