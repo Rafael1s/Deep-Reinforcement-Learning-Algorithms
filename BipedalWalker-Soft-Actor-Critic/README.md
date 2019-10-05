@@ -67,5 +67,5 @@ to inform the next best action. The score **300.5** was achieved in the episode 
   
 ### Credit   
 
-Most of the code is based on the Udacity code for PPO, and the github code of Pranjal Tandon (pranz24).
+Most of the code is based on the Udacity code, and Pranjal Tandon's code (https://github.com/pranz24).
      
