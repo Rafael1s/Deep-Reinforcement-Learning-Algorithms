@@ -65,5 +65,5 @@ The score **300.5** was achieved in the episode **450** after training **2 hours
   
 ### Credit   
 
-Most of the code is based on the Udacity code for PPO, and the github code of Ilya Kostrikov (ikostrikov).
+Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
      
