@@ -9,6 +9,29 @@ by usage of the __Twin Delayed DDPG (TD3)__ algorithm, see [here](https://arxiv.
 
 ![](images/bipedalwalker.jpg)
 
+### Three TD3 tricks   
+
+A common failure mode for DDPG is that the learned Q-function begins to dramatically overestimate Q-values,      
+which then leads to the policy breaking, because it exploits the errors in the Q-function.     
+Twin Delayed DDPG (TD3) is an algorithm which addresses this issue by [introducing three critical tricks:](https://spinningup.openai.com/en/latest/algorithms/td3.html)
+
+* **Trick One:** Clipped Double-Q Learning. TD3 learns two Q-functions instead of one (hence “twin”),        
+and uses the smaller of the two Q-values to form the targets in the Bellman error loss functions.      
+
+* **Trick Two:**  “Delayed” Policy Updates. TD3 updates the policy (and target networks) less frequently      
+than the Q-function. The paper recommends one policy update for every two Q-function updates.   
+See parameter **policy_freq**  in the function _train()_, _class TD3_.
+
+* **Trick Three**: Target Policy Smoothing. TD3 adds noise to the target action, to make it harder   
+for the policy to exploit Q-function errors by smoothing out Q along changes in action.   
+See parameter **policy_noise**  in the function _train()_, _class TD3_.
+
+            # Select action according to policy and add clipped noise 
+            noise = torch.FloatTensor(u).data.normal_(0, policy_noise).to(device)
+            noise = noise.clamp(-noise_clip, noise_clip)
+            next_action = (self.actor_target(next_state) + noise).clamp(-self.max_action, self.max_action)
+
+Together, these three tricks result in substantially improved performance over baseline DDPG.     
 
 ### Video
 
