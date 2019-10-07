@@ -42,11 +42,11 @@ a bigger part of the state-action space in much less time.
 
 [Project 1: Navigation, Deep-Q-Network, ReplayBuffer](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN)   
 
-[Project 2: Continuous Control-Reacher, DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Reacher-DDPG) uses environment [Reacher (Double-Jointed-Arm)](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)    
+[Project 2: Continuous Control-Reacher, DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Reacher-DDPG), environment [Reacher (Double-Jointed-Arm)](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher)    
 
-[Project 2: Continuous Control-Crawler, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Crawler-PPO) uses environment [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler)    
+[Project 2: Continuous Control-Crawler, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Crawler-PPO), environment [Crawler](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler)    
      
-[Project 3: Collaboration_Competition-Tennis, Multi-agent DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-3_Collaboration_Competition-Tennis-Maddpg) uses environment [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis)     
+[Project 3: Collaboration_Competition-Tennis, Multi-agent DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-3_Collaboration_Competition-Tennis-Maddpg), environment [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis)     
 
 [BipedalWalker, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))     
 
