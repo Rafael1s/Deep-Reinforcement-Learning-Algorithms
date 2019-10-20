@@ -57,7 +57,7 @@ Two Q-functions are used to mitigate the positive bias in the policy improvement
 
 ### Video
 
-See video [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)
+See video [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4).
 
 
 ### Training the Agent
