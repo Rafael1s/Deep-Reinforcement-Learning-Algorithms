@@ -58,7 +58,7 @@ Two Q-functions are used to mitigate the positive bias in the policy improvement
 ### Video
 
 See video [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4) demonsrated 
-4 different BipedalWalker-walks related with 4 different SAC-hyperparameters.
+4 different BipedalWalker-walks related with 4 different sets of SAC-hyperparameters.
 
 ### Training the Agent
 
