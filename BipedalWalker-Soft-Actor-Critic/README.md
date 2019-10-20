@@ -60,9 +60,23 @@ Two Q-functions to mitigate positive bias in the policy improvement step
 
 We train the agent to understand that it can use information from its surroundings to inform the next best action. 
 
-I. The score **300.5** was achieved in the episode **756** after training  **13 hours 5 minutes**.     
+I. The score **300.5** was achieved in the episode **756** after training  **13 hours 5 minutes**.    
+   lr = 0.0001
 
 ![](images/plot_SAC_756episodes.png)
+
+
+II. The score **300.5** was achieved in the episode **408** after training  **7 hours 29 minutes**.    
+   lr = 0.00008
+
+![](images/plot_SAC_408episodes.png)
+
+
+III. The score **300.5** was achieved in the episode **540** after training  **4 hours 41 minutes**.    
+   lr = 0.0005
+
+![](images/plot_SAC_540episodes.png)
+
 
   
 ### Credit   
