@@ -35,7 +35,8 @@ Together, these three tricks result in substantially improved performance over b
 
 ### Video
 
- See video [here](https://www.youtube.com/watch?v=g01mIFbxVns)
+ See video [BipedalWalker by Training Stages](https://www.youtube.com/watch?v=g01mIFbxVns) demonstrating 5 different
+ levels of the TD3 training. 
 
 ### Training History
 
