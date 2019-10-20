@@ -55,6 +55,10 @@ but it incorporates the clipped **double-Q trick**:
         
 Two Q-functions are used to mitigate the positive bias in the policy improvement step.
 
+### Video
+
+See video ![Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)
+
 
 ### Training the Agent
 
