@@ -5,7 +5,7 @@
 
 Solving the environment require an average total reward of over 300 over 100 consecutive episodes.
 Training of BipedalWalker is considered as [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html), in particular, it is very difficult to train BipedalWalker by DDPG and PPO (with one agent). In this directory we solve the environment 
-in **280** episodes by usage of the __SAC__ algorithm, see [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290/). 
+in **755** episodes by usage of the __SAC__ algorithm, see [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290/). 
 Another solution (based on the single agent) is given in this repository is
 [BipedalWalker-TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3)). 
 
@@ -59,10 +59,10 @@ Two Q-functions to mitigate positive bias in the policy improvement step
 ### Training the Agent
 
 We train the agent to understand that it can use information from its surroundings    
-to inform the next best action. The score **300.5** was achieved in the episode **280** after training 
-**4 hours 41 minutes**.     
+to inform the next best action. The score **300.5** was achieved in the episode **755** after training 
+**13 hours 5 minutes**.     
 
-![](images/plot_SAC_280episodes.png)
+![](images/plot_755episodes.png)
 
   
 ### Credit   
