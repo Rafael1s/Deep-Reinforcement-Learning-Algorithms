@@ -35,7 +35,7 @@ Together, these three tricks result in substantially improved performance over b
 
 ### Video
 
- See video [here](https://youtu.be/vyH1C7b_Ca4)
+ See video [here](https://www.youtube.com/watch?v=g01mIFbxVns)
 
 ### Training History
 
