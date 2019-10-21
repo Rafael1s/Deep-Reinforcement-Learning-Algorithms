@@ -6,6 +6,7 @@ Solving the environment require an average total reward of over 300 over 100 con
 Training of BipedalWalker is considered as [difficult task](https://ctmakro.github.io/site/on_learning/rl/bipedal.html), 
 in particular, it is very difficult to train BipedalWalker by DDPG. In this directory we solve the environment in __1795 episodes__
 by usage of the __Twin Delayed DDPG (TD3)__ algorithm, see [here](https://arxiv.org/abs/1802.09477).
+For another solution (based on the single agent), see [BipedalWalker-Soft-Actor-Critic](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic).
 
 ![](images/bipedalwalker.jpg)
 
