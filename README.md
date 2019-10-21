@@ -57,7 +57,7 @@ a bigger part of the state-action space in much less time.
 [CarRacing with PPO, Learning from Raw Pixels](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/blob/master/CarRacing-From-Pixels-PPO)
 
 ### Projects with PPO
-
+  * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master//Pong-Policy-Gradient-PPO), 8 parallel agents
   * [CarRacing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
   * [C r a w l e r  ](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
   * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master//BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
