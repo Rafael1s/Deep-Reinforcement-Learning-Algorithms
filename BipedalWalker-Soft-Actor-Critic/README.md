@@ -62,7 +62,7 @@ In the **agent.update_parameters** we get the batch of (_state, action, reward, 
         memory = ReplayMemory(replay_size)
         ....
         
-        # Sample a batch from memory
+        # Sample a batch from memory, _batch_size_ = 256
         state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
 
         state_batch = torch.FloatTensor(state_batch).to(self.device)
@@ -70,18 +70,18 @@ In the **agent.update_parameters** we get the batch of (_state, action, reward, 
         action_batch = torch.FloatTensor(action_batch).to(self.device)
         reward_batch = torch.FloatTensor(reward_batch).to(self.device).unsqueeze(1)
         mask_batch = torch.FloatTensor(mask_batch).to(self.device).unsqueeze(1)
-
-
             
-We compute the average of _actor_loss_ over all elements of the _batch_ and perform the _backward propogation_
-of this average:
+We compute the average of _policy_loss_ and _alpha_loss_  (entropy factor) over all elements of the    
+_batch_ and perform the _backward propogation_ of these averages:
 
-                # Compute average for actor loss
-                actor_loss = -self.critic.Q1(state, self.actor(state)).mean()
-                # Optimize the actor 
-                self.actor_optimizer.zero_grad()
-                actor_loss.backward()
-                self.actor_optimizer.step()
+        self.policy_optim.zero_grad()  
+        policy_loss.backward()   
+        self.policy_optim.step()  
+        ...  
+        
+        self.alpha_optim.zero_grad()
+        alpha_loss.backward()
+        self.alpha_optim.step()
 
 ### Video
 
