@@ -36,7 +36,7 @@ Together, these three tricks result in substantially improved performance over b
 
 ### Off-policy
 
-TD3 is is an **off-policy** algorithm. It means that the TD3 algorithm allows reusing the already collected data.
+TD3 is an **off-policy** algorithm. In other words, the TD3 algorithm allows reusing the already collected data.
 
 ### Video
 
