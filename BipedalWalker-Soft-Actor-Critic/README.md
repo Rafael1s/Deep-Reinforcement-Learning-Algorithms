@@ -54,6 +54,35 @@ but it incorporates the clipped **double-Q trick**:
         
 Two Q-functions are used to mitigate the positive bias in the policy improvement step.
 
+### Off-policy
+
+SAC is an **off-policy** algorithm. In other words, the SAC algorithm allows reusing the already collected data.
+In the **agent.update_parameters** we get the batch of (_state, action, reward,  next_state, mask_)  of the _length = batch_size_:  
+
+        memory = ReplayMemory(replay_size)
+        ....
+        
+        # Sample a batch from memory
+        state_batch, action_batch, reward_batch, next_state_batch, mask_batch = memory.sample(batch_size=batch_size)
+
+        state_batch = torch.FloatTensor(state_batch).to(self.device)
+        next_state_batch = torch.FloatTensor(next_state_batch).to(self.device)
+        action_batch = torch.FloatTensor(action_batch).to(self.device)
+        reward_batch = torch.FloatTensor(reward_batch).to(self.device).unsqueeze(1)
+        mask_batch = torch.FloatTensor(mask_batch).to(self.device).unsqueeze(1)
+
+
+            
+We compute the average of _actor_loss_ over all elements of the _batch_ and perform the _backward propogation_
+of this average:
+
+                # Compute average for actor loss
+                actor_loss = -self.critic.Q1(state, self.actor(state)).mean()
+                # Optimize the actor 
+                self.actor_optimizer.zero_grad()
+                actor_loss.backward()
+                self.actor_optimizer.step()
+
 ### Video
 
 See video [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4) demonsrating 
