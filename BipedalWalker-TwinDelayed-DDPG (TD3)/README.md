@@ -32,7 +32,11 @@ See parameter **policy_noise**  in the function _train()_, _class TD3_.
             noise = noise.clamp(-noise_clip, noise_clip)
             next_action = (self.actor_target(next_state) + noise).clamp(-self.max_action, self.max_action)
 
-Together, these three tricks result in substantially improved performance over baseline DDPG.     
+Together, these three tricks result in substantially improved performance over baseline DDPG.    
+
+### Off-policy
+
+TD3 is is an **off-policy** algorithm. It means that the TD3 algorithm allows reusing the already collected data.
 
 ### Video
 
