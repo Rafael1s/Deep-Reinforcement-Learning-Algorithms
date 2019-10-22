@@ -37,6 +37,27 @@ Together, these three tricks result in substantially improved performance over b
 ### Off-policy
 
 TD3 is an **off-policy** algorithm. In other words, the TD3 algorithm allows reusing the already collected data.
+In the **agent.train** we get the batch of (_state, action, next_state, done, reward_)  of the _length = batch_size_:  
+
+            # Sample replay buffer 
+            x, y, u, r, d = replay_buffer.sample(batch_size)
+            state = torch.FloatTensor(x).to(device)
+            action = torch.FloatTensor(u).to(device)
+            next_state = torch.FloatTensor(y).to(device)
+            done = torch.FloatTensor(1 - d).to(device)
+            reward = torch.FloatTensor(r).to(device)
+            
+We compute the average of _actor_loss_ over all elements of the _batch_ and perform the _backward propogation_
+of this average:
+
+                # Compute average for actor loss
+                actor_loss = -self.critic.Q1(state, self.actor(state)).mean()
+                # Optimize the actor 
+                self.actor_optimizer.zero_grad()
+                actor_loss.backward()
+                self.actor_optimizer.step()
+
+
 
 ### Video
 
