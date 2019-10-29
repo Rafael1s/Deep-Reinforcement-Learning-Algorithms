@@ -54,7 +54,10 @@ a bigger part of the state-action space in much less time.
 
 [BipedalWalker, Soft-Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)
 
+[BipedalWalker, A2C, Vectorized Environment](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)
+
 [CarRacing with PPO, Learning from Raw Pixels](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/blob/master/CarRacing-From-Pixels-PPO)
+
 
 ### Projects with PPO
   * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO), 8 parallel agents
@@ -72,5 +75,6 @@ a bigger part of the state-action space in much less time.
   * on _DDPG_, see [1](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287), [2](https://spinningup.openai.com/en/latest/algorithms/ddpg.html#the-q-learning-side-of-ddpg).        
   * on _Actor-Critic Methods_, and _A3C_, see [1](https://towardsdatascience.com/advanced-reinforcement-learning-6d769f529eb3), [2](https://blog.goodaudience.com/a3c-what-it-is-what-i-built-6b91fe5ec09c), [3](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f), [4](http://papers.nips.cc/paper/1786-actor-critic-algorithms.pdf).          
    * on _TD3_, see [1](https://arxiv.org/abs/1802.09477), [2](https://spinningup.openai.com/en/latest/algorithms/td3.html), [3](https://stable-baselines.readthedocs.io/en/master/modules/td3.html)    
-   * on _SAC_, see [1](https://arxiv.org/abs/1801.01290), [2](https://towardsdatascience.com/soft-actor-critic-demystified-b8427df61665), [3](https://stable-baselines.readthedocs.io/en/master/modules/sac.html), [4](https://spinningup.openai.com/en/latest/algorithms/sac.html), [5](https://sites.google.com/view/sac-and-applications)   
+   * on _SAC_, see [1](https://arxiv.org/abs/1801.01290), [2](https://towardsdatascience.com/soft-actor-critic-demystified-b8427df61665), [3](https://stable-baselines.readthedocs.io/en/master/modules/sac.html), [4](https://spinningup.openai.com/en/latest/algorithms/sac.html), [5](https://sites.google.com/view/sac-and-applications)     
+   * on _A2C_,  see [1](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f), [2](https://openai.com/blog/baselines-acktr-a2c/), [3](https://sergioskar.github.io/Actor_critics/), [4](https://hackernoon.com/intuitive-rl-intro-to-advantage-actor-critic-a2c-4ff545978752)      
 
