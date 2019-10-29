@@ -10,7 +10,7 @@ For other solutions (based on the single agent) see
 [BipedalWalker-TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))
 and [BipedalWalker-SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic).
 
-![](images/bwalker_sac.png)     
+![](images/bwalker_a2c.png)     
 
 ### Requirement
 
