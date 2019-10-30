@@ -109,7 +109,11 @@ The score **300.5** was achieved
 
 ![](images/plot_SAC_756episodes.png)
 
+### Other BipedalWalker projects:
 
+* [BipedalWalker, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
+* [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-PPO-VectorizedEnv)  
+* [BipedalWalker, A2C](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)  
   
 ### Credit   
 
