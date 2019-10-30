@@ -18,6 +18,21 @@ and [BipedalWalker-SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-
 * [pytorch 1.0.1](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
 
+
+### Training the Agent
+We train the agent to understand that it can use information from its surroundings to inform the next best action.    
+The score 300.5 was achieved    
+
+* in the episode **1646** after training **11 hours 44 minutes**.
+lr = **0.001**, optimizer = **RMSprop**.
+
+![](images/plot_a2c_1646epis.png) 
+
+* in the episode **2188** after training **14 hours 43 minutes**.
+lr = **0.0005**, optimizer = **Adam**.
+
+![](images/plot_a2c_2188epis.png) 
+
 ### Credit   
 
 Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
