@@ -33,6 +33,12 @@ lr = **0.0005**, optimizer = **Adam**.
 
 ![](images/plot_a2c_2188epis.png) 
 
+### Other BipedalWalker projects:
+
+* [BipedalWalker, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
+* [BipedalWalker, SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)    
+* [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-PPO-VectorizedEnv)  
+
 ### Credit   
 
 Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
