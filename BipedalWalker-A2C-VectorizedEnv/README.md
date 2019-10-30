@@ -17,3 +17,7 @@ and [BipedalWalker-SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-
 * [python 3.7](https://www.python.org) 
 * [pytorch 1.0.1](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
+
+### Credit   
+
+Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
