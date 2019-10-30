@@ -64,6 +64,13 @@ The score **300.5** was achieved in the episode **450** after training **2 hours
   * [Crawler](../Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
   * [CarRacing](../CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
   
+### Other BipedalWalker projects:
+
+* [BipedalWalker, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
+* [BipedalWalker, SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)    
+* [BipedalWalker, A2C](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)  
+  
+  
 ### Credit   
 
 Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
