@@ -113,7 +113,7 @@ The score **300.5** was achieved
 
 * [BipedalWalker, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
 * [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-PPO-VectorizedEnv)  
-* [BipedalWalker, A2C](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)  
+* [BipedalWalker, A2C, VectorizedEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)  
   
 ### Credit   
 
