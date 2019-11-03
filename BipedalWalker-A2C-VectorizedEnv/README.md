@@ -18,6 +18,25 @@ and [BipedalWalker-SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-
 * [pytorch 1.0.1](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
 
+### Advantage function
+
+Q-values can be decomposed into two pieces: the _state-value_ function **V(s)** and    
+the _advantage_ function **A(s, a)**:     
+              
+             Q(s, a)= V(s)+ A(s,a)   
+
+where **s** is the current state, and **a** is the current action.              
+The value function **V(s)** captures how good it is to be at the state **s**.     
+The advantage function **A(s, a)** captures how better an action is compared to the others at a given state:
+
+             A(s,a) = Q(s,a) - V(s)   
+             A(s,a)= r + γV(s_next) - V(s)    
+             
+### Advantage Actor-Critic (A2C)             
+
+Instead of having the critic to learn the _Q-values_ **Q(s,a)**, we make him learn the _advantage values_ **A(s,a)**. 
+That way the evaluation of an action is based **not only on how good the action is**, but also **how much better it can be**,
+see [The idea behind Actor-Critics](https://sergioskar.github.io/Actor_critics/).
 
 ### Training the Agent
 We train the agent to understand that it can use information from its surroundings to inform the next best action.    
