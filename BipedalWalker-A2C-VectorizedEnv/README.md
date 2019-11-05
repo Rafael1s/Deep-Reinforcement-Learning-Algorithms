@@ -60,4 +60,5 @@ lr = **0.0005**, optimizer = **Adam**.
 
 ### Credit   
 
-Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).
+Most of the code is based on the Udacity code, and Ilya Kostrikov's code (https://github.com/ikostrikov).     
+["In my experience, A2C works better than A3C and ACKTR is better than both of them."](https://github.com/ikostrikov/pytorch-a3c)   
