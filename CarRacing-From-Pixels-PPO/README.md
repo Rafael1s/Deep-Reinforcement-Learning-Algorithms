@@ -168,5 +168,5 @@ See video on [youtube](https://www.youtube.com/watch?v=55buBR2pPdc).
   
 ### Credit
 
-Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma. 
+Most of the code is based on the Udacity code for PPO, and the github code of Xiaoteng Ma (https://github.com/xtma/pytorch_car_caring). 
 
