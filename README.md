@@ -82,4 +82,10 @@ a bigger part of the state-action space in much less time.
 
 [How the Bellman equation works in Deep Reinforcement Learning?](https://medium.com/@r.stekol/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)
 
+### Videos
+[Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
+[BipedalWalker by Training Stages](https://www.youtube.com/watch?v=g01mIFbxVns)  
+[CarRacing by Training Stages](https://www.youtube.com/watch?v=55buBR2pPdc)
+
+
 
