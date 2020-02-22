@@ -12,6 +12,8 @@ For another solution, see [CartPole-Policy-Based-Hill-Climbing](https://github.c
 ### Deep Q-Learning   
 
 For another Deep Q-Learning project, see [Navigation](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN).    
+In the project _Navigation_,  4 discrete actions are available:  0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
+In the project _Cartpole_, 2 discrete actions are available:  0 - push cart to the left, 1 - push cart to the right.    
 
 ### Agent   
 
