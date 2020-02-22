@@ -9,6 +9,22 @@ For another solution, see [CartPole-Policy-Based-Hill-Climbing](https://github.c
 
 ![](images/gif_cartpole.gif)
 
+### Deep Q-Learning   
+
+For another Deep Q-Learning project, see [Navigation](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN).    
+
+### Agent   
+
+The class **Agent** is defined in _agent.py_. This is the well-known class implementing 
+the following mechanisms:
+
+* Two Q-Networks (local and target) using the simple neural network.
+* Replay memory (using the class ReplayBuffer)
+* Epsilon-greedy mechanism
+* Q-learning, i.e., using the max value for all possible actions
+* Computing the loss function by MSE loss
+* Minimize the loss by gradient descend mechanism using the ADAM optimizer
+
 ### Training History
 
 1.  For Cartpole-v0, Score 195, Achieved in 962 episodes   
