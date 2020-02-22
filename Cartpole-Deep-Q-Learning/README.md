@@ -9,3 +9,15 @@ For another solution, see [CartPole-Policy-Based-Hill-Climbing](https://github.c
 
 ![](images/gif_cartpole.gif)
 
+### Training History
+
+1.  For Cartpole-v0, Score 195, Achieved in 962 episodes   
+
+![](images/plot_v0_962epis.png)
+
+2.  For Cartpole-v1, Score 475, Achived in 1795 episodes   
+     
+![](images/plot_v1_1620epis.png)
+
+
+
