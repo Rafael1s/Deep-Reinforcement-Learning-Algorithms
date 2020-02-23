@@ -29,13 +29,13 @@ the following mechanisms:
 
 ### Training History
 
-1.  For Cartpole-v0: Score 195 achieved in 962 episodes   
+1.  For Cartpole-v0: Score **195** achieved in **962** episodes   
 
 ![](images/plot_v0_962epis.png)
 
-2.  For Cartpole-v1: Score 475 achived in 1795 episodes   
+2.  For Cartpole-v1: Score **475** achived in **1345** episodes   
      
-![](images/plot_v1_1620epis.png)
+![](images/plot_v1_1345epis.png)
 
 ### Credit
 The following github projects were helpful to me:  [pytorch/tutorials](https://github.com/pytorch/tutorials/blob/master/intermediate_source/reinforcement_q_learning.py)  and  [Pocuston/Cartpole-v0](https://gist.github.com/Pocuston/13f1a7786648e1e2ff95bfad02a51521).  
