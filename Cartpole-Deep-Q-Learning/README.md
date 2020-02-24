@@ -27,6 +27,12 @@ the following mechanisms:
 * Computing the loss function by MSE loss
 * Minimize the loss by gradient descend mechanism using the ADAM optimizer
 
+### Neural Networks
+
+The Deep Q-Learning agent uses 3 following _neural networks_ (see method _learn()_):
+
+![](images/3_netws_wt_unsq_070_wt_cap.png)
+
 ### Training History
 
 1.  For Cartpole-v0: Score **195** achieved in **962** episodes   
