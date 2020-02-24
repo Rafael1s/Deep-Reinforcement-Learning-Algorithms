@@ -80,7 +80,7 @@ a bigger part of the state-action space in much less time.
 
 ### Paper on Medium.com
 
-[How the Bellman equation works in Deep Reinforcement Learning?](https://medium.com/@r.stekol/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)
+[How does the Bellman equation work in Deep Reinforcement Learning?](https://medium.com/@r.stekol/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)
 
 ### Videos
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
