@@ -22,8 +22,8 @@ class Agent(object):
         """Agent class that choose action and train
 
         Args:
-            input_dim (int): input dimension
-            output_dim (int): output dimension
+            n_states (int): input dimension
+            n_actions (int): output dimension
             hidden_dim (int): hidden dimension
         """
         
@@ -69,7 +69,7 @@ class Agent(object):
         """Prepare minibatch and train them
 
         Args:
-        experiences (List[Transition]): Minibatch of `Transition`
+        experiences (List[Transition]): batch of `Transition`
         gamma (float): Discount rate of Q_target
         """
         
@@ -89,10 +89,10 @@ class Agent(object):
             
         # Compute Q(s_t, a) - the model computes Q(s_t), then we select the
         # columns of actions taken. These are the actions which would've been taken
-        # for each batch state according to policy_net
-        Q_expected = self.q_local(states).gather(1, actions) ## current    
+        # for each batch state according to newtork q_local (current estimate)
+        Q_expected = self.q_local(states).gather(1, actions)     
 
-        Q_targets_next = self.q_target(next_states).detach().max(1)[0] ## .unsqueeze(1)
+        Q_targets_next = self.q_target(next_states).detach().max(1)[0] 
 
         # Compute the expected Q values
         Q_targets = rewards + (gamma * Q_targets_next * (1-dones))
@@ -103,14 +103,7 @@ class Agent(object):
         # backpropagation of loss to NN        
         loss.backward()
         self.optim.step()
-       
-        #for param in self.q_local.parameters():
-        #   param.grad.data.clamp_(-1, 1)
-        
-        
-        # ----------------------- update target networks ----------------------- #
-        #self.soft_update(self.q_local, self.q_target, TAU)
-        
+               
         
     def soft_update(self, local_model, target_model, tau):
         """ tau (float): interpolation parameter"""
