@@ -10,7 +10,7 @@ The episode ends when the pole > 15 degrees from vertical, or the cart moves > 2
 
 ![](images/cartpole_3.png)
 
-<center><img src="images/cartpole_3.png"></center>
+
 
 For another solution, see    
 * [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing), or
