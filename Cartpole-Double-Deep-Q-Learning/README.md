@@ -8,10 +8,10 @@ The system is controlled by applying a force of +1 or -1 to the cart. The pendul
 the goal is to prevent it from falling over. A reward of +1 is provided for every timestep that the pole remains upright.     
 The episode ends when the pole > 15 degrees from vertical, or the cart moves > 2.4 units from the center.  
 
-![](images/cartpole_3.png) 
 
-<center><img src="images/cartpole_3.png"></center>
-
+<p align="center">
+  <img width="460" height="300" src="images/cartpole_3.png">
+</p>
 
 
 For another solution, see    
