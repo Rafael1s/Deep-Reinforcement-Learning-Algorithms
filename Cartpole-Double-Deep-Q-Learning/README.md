@@ -12,3 +12,19 @@ For another solution, see
 * [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing), or
 *  [CartPole-Policy-Gradient-Reinforce](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce), or      
 * [Cartpole with Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning).         
+### Training History
+
+1.  For Cartpole-v0: Score **195** achieved in **246** episodes   
+
+![](images/plot_v0_ddqn_246episodes.png)
+
+2.  For Cartpole-v0: Score **195** achieved in **612** episodes   
+
+![](images/plot_v0_ddqn_612epis.png)
+
+Note that such a quick achievement (246 episodes) of threshold 195       
+is a very rare case, the second example (612 episodes) is a much more typical result.    
+
+3.  For Cartpole-v1: Score **475** achived in **1030** episodes   
+     
+![](images/plot_v1-ddqn_1030epis.png)
