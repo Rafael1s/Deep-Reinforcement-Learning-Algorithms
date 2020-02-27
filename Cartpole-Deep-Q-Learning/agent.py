@@ -103,16 +103,4 @@ class Agent(object):
         # backpropagation of loss to NN        
         loss.backward()
         self.optim.step()
-               
-        
-    def soft_update(self, local_model, target_model, tau):
-        """ tau (float): interpolation parameter"""
-        
-        for target_param, local_param in zip(target_model.parameters(), local_model.parameters()):
-            target_param.data.copy_(tau*local_param.data + (1.0-tau)*target_param.data)     
-            
-    def hard_update(self, local, target):
-        for target_param, param in zip(target.parameters(), local.parameters()):
-            target_param.data.copy_(param.data)            
-            
-
+                                   
