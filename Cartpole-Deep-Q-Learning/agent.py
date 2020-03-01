@@ -92,7 +92,6 @@ class Agent(object):
 
         Q_targets_next = self.q_target(next_states).detach().max(1)[0] 
 
-        # Compute the expected Q values
         Q_targets = rewards + (gamma * Q_targets_next * (1-dones))
         
         #self.q_local.train(mode=True)        
