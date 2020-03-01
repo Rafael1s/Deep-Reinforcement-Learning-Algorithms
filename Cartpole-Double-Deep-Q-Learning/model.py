@@ -17,7 +17,6 @@ class QNetwork(nn.Module):
 
         self.layer1 = torch.nn.Sequential(
             torch.nn.Linear(input_dim, hidden_dim),
-#            torch.nn.BatchNorm1d(hidden_dim),
             torch.nn.PReLU()
         )
 
@@ -43,7 +42,6 @@ class QNetwork(nn.Module):
             torch.Tensor: Q_value, 2-D tensor of shape (n, output_dim)            
         """
         
-        ## print('type(x) of forward:', type(x))
         x = self.layer1(x)
         x = self.layer2(x)
         x = self.layer3(x)
