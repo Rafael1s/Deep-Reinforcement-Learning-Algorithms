@@ -57,8 +57,6 @@ class Agent(object):
                # t.max(1) will return largest column value of each row.
                # second column on max result is index of where max element was
                # found, so we pick action with the larger expected reward.
-               ## UserWarning: volatile was removed and now has no effect. 
-               ## Use `with torch.no_grad():` instead.
                return self.q_local(Variable(state).type(FloatTensor)).data.max(1)[1].view(1, 1)
         else:
            ## return LongTensor([[random.randrange(2)]])
@@ -97,10 +95,9 @@ class Agent(object):
         # Compute the expected Q values
         Q_targets = rewards + (gamma * Q_targets_next * (1-dones))
         
-        self.q_local.train(mode=True)        
+        #self.q_local.train(mode=True)        
         self.optim.zero_grad()
         loss = self.mse_loss(Q_expected, Q_targets.unsqueeze(1))
-        # backpropagation of loss to NN        
         loss.backward()
         self.optim.step()
                                    
