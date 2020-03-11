@@ -31,7 +31,8 @@ the following mechanisms:
 
 ### Neural Networks
 
-The Deep Q-Learning agent uses 3 following _neural networks_ (see method _learn()_):
+The Deep Q-Learning agent uses 3 following _tensors_ (see method _learn()_)
+constructed by two _neural networks_ **q_local** and **q_target**:
 
 ![](images/3_netws_wt_unsq_070_wt_cap.png)
 
