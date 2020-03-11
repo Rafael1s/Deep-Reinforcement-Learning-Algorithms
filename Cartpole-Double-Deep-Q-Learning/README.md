@@ -20,15 +20,15 @@ For another solution, see
 * [Cartpole with Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning).         
 ### Training History
 
-1.  For Cartpole-v0: Score **195** achieved in **246** episodes   
+1.  For Cartpole-v0: Score **195** achieved in **239** episodes   
 
-![](images/plot_v0_ddqn_246episodes.png)
+![](images/plot_v0_ddqn_239epis.png)
 
 2.  For Cartpole-v0: Score **195** achieved in **612** episodes   
 
 ![](images/plot_v0_ddqn_612epis.png)
 
-Note that such a quick achievement (246 episodes) of threshold 195       
+Note that such a quick achievement (239 episodes) of threshold 195       
 is a very rare case, the second example (612 episodes) is a much more typical result.    
 
 3.  For Cartpole-v1: Score **475** achived in **1030** episodes   
