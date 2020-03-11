@@ -18,7 +18,7 @@ from replay_buffer import ReplayMemory, Transition
 
 class Agent(object):
 
-    def __init__(self, n_states, n_actions, hidden_dim, double_dqn=False):
+    def __init__(self, n_states, n_actions, hidden_dim):
         """Agent class that choose action and train
 
         Args:
@@ -36,8 +36,6 @@ class Agent(object):
         self.n_states = n_states
         self.n_actions = n_actions
         
-        self.double_dqn = double_dqn
-
         #  ReplayMemory: trajectory is saved here
         self.replay_memory = ReplayMemory(10000)
         
@@ -92,27 +90,17 @@ class Agent(object):
         # Compute Q(s_t, a) - the model computes Q(s_t), then we select the
         # columns of actions taken. These are the actions which would've been taken
         # for each batch state according to policy_net
-#        Q_expected = self.q_local(states).gather(1, actions) ## current 
+        # Use local model to choose an action, and target model to evaluate that action
         
-        if self.double_dqn:
-             # print('go to double_dqn')
-             # Use local model to choose an action, and target model to evaluate that action
-            Q_local_max_action = self.q_local(next_states).detach().max(1)[1].unsqueeze(1)
-            Q_targets_next = self.q_target(next_states).gather(1, Q_local_max_action).reshape(-1)
-            '''after reshape:
-                Q_expected.shape:  torch.Size([64, 1])
-                Q_targets_next.shape:  torch.Size([64])
-                Q_targets.shape:  torch.Size([64])
-            '''
-        else:
-            Q_targets_next = self.q_target(next_states).detach().max(1)[0] ## .unsqueeze(1)
+        Q_max_action = self.q_local(next_states).detach().max(1)[1].unsqueeze(1)
+        Q_targets_next = self.q_target(next_states).gather(1, Q_max_action).reshape(-1)
 
         # Compute the expected Q values
         Q_targets = rewards + (gamma * Q_targets_next * (1-dones))
 
         Q_expected = self.q_local(states).gather(1, actions) ## current 
         
-        self.q_local.train(mode=True)        
+        #self.q_local.train(mode=True)        
         self.optim.zero_grad()
 
         #print('Q_expected.shape: ', Q_expected.shape)
@@ -121,20 +109,6 @@ class Agent(object):
         
         loss = self.mse_loss(Q_expected, Q_targets.unsqueeze(1))
         
-        '''
-        if self.double_dqn:            
-            #Q_expected.shape:  torch.Size([64, 1])
-            #Q_targets_next.shape:  torch.Size([64, 1])
-            #Q_targets.shape:  torch.Size([64, 64])
-            
-            loss = self.mse_loss(Q_expected, Q_targets.unsqueeze(1))
-        else:    
-            #Q_expected.shape:  torch.Size([64, 1])
-            #Q_targets_next.shape:  torch.Size([64])
-            #Q_targets.shape:  torch.Size([64])            
-            
-            loss = self.mse_loss(Q_expected, Q_targets.unsqueeze(1))
-         '''   
         # backpropagation of loss to NN        
         loss.backward()
         self.optim.step()
