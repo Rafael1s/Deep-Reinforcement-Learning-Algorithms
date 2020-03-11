@@ -32,7 +32,7 @@ the following mechanisms:
 ### Three important tensors
 
 The Deep Q-Learning agent uses 3 following _tensors_ (see method _learn()_)
-constructed by two _neural networks_ **q_local** and **q_target**:
+constructed on the basis of two _neural networks_ **q_local** and **q_target**:
 
 ![](images/3_netws_wt_unsq_070_wt_cap.png)
 
