@@ -29,7 +29,7 @@ the following mechanisms:
 * Computing the loss function by MSE loss
 * Minimize the loss by gradient descend mechanism using the ADAM optimizer
 
-### Neural Networks
+### Three important tensors
 
 The Deep Q-Learning agent uses 3 following _tensors_ (see method _learn()_)
 constructed by two _neural networks_ **q_local** and **q_target**:
