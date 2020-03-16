@@ -1,4 +1,4 @@
-# Project -  Cartpole with Doouble Deep Q-Learning (DDQN)
+# Project -  Cartpole with Double Deep Q-Learning (DDQN)
 
 ### Environment
 
@@ -18,6 +18,13 @@ For another solution, see
 * [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing), or
 *  [CartPole-Policy-Gradient-Reinforce](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce), or      
 * [Cartpole with Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning).         
+### Four important tensors
+
+The Deep Q-Learning agent uses 4 following _tensors_ (see method _learn()_)
+constructed on the basis of two _neural networks_ **q_local** and **q_target**:
+
+![](images/four_tensors_DDQN.png)
+
 ### Training History
 
 1.  For Cartpole-v0: Score **195** achieved in **239** episodes   
