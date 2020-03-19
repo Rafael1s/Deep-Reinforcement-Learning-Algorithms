@@ -21,6 +21,12 @@ the **policy function** that maps state to action (select actions without using 
 
 The environment is solved in just 113 episodes!     
 
+For other solutions, see 
+* [CartPole-Policy-Gradient-Reinforce](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce), or  
+* [CartPole-Policy-Deep-Q_Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning), or  
+* [Cartpole with Double Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)      
+![](images/gif_cartpole.gif)
+
 ## Class Policy
 
 The only values that class Policy contains are weights.   
