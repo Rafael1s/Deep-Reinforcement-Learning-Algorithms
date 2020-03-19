@@ -30,6 +30,14 @@ a bigger part of the state-action space in much less time.
 
 ### Projects, models and methods
 
+[CartPole, Policy Based Methods, Hill Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing)    
+
+[CartPole, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce)   
+
+[Cartpole, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning)  
+
+[Cartpole, Doouble DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)   
+
 [Markov Decision Process, Monte-Carlo, Gridworld 6x6](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Markov-Decision-Process_6x6)    
 
 [Pong, Policy Gradient Methods, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO)    
