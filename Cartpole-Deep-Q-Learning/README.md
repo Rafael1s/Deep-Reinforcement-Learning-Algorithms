@@ -11,11 +11,15 @@ For other solutions, see
 * [Cartpole with Doouble Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)      
 ![](images/gif_cartpole.gif)
 
-### Deep Q-Learning   
+### Deep Q-Learning (DQN)   
 
-For another Deep Q-Learning project, see [Navigation](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN).    
-In the project _Navigation_,  4 discrete actions are available:  0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
-In the project _Cartpole_, 2 discrete actions are available:  0 - push cart to the left, 1 - push cart to the right.    
+In _Cartpole_, 2 discrete actions are available:  0 - push cart to the left, 1 - push cart to the right.    
+
+For other DQN projects, see    
+[_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN), 4 discrete actions are available:     
+0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
+[_LunarLaunder_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/new/master/LunarLander-v2-DQN), 4 discrete actions are available:  
+ 0 - do nothing, 1 - fire left orientation engine, 2 - fire main engine,  3 - fire right orientation engine   
 
 ### Agent   
 
