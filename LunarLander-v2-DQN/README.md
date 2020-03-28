@@ -23,10 +23,15 @@ For other DQN projects, see
 [_Cartpole_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/edit/master/Cartpole-Deep-Q-Learning), 2 discrete actions are available:  
 0 - push cart to the left, 1 - push cart to the right.
 
-# Training  
+### Training  
 
 Score **200** achieved in **688** episodes  
 
 ![](images/plot-LunaLander-v2-DQN-688epis.png)
+
+### Watch the Trained Agent   
+For both neural networks, _q_local_ and _q_traget_, we save the trained weights into checkpoint files    
+with the extension _pth_. The corresponding files are saved into the directory _dir_chk_.    
+Using notebook **WatchAgent-DQN.ipynb** we can load the trained weights and replay them.
 
 
