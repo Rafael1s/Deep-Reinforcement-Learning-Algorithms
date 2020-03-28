@@ -22,3 +22,11 @@ For other DQN projects, see
 0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
 [_Cartpole_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/edit/master/Cartpole-Deep-Q-Learning), 2 discrete actions are available:  
 0 - push cart to the left, 1 - push cart to the right.
+
+# Training  
+
+Score **200** achieved in **688** episodes  
+
+![](images/plot-LunaLander-v2-DQN-688epis.png)
+
+
