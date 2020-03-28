@@ -13,6 +13,8 @@ its first attempt. Four discrete actions available:
 * 2 - fire main engine,   direction = 0,
 * 3 - fire right orientation engine, direction = 1
 
+![](images/LunaLander.png)
+
 ### Deep Q-Network (DQN)
 
 For other DQN projects, see    
