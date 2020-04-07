@@ -110,6 +110,11 @@ Episode 740 Score: 191.62 Average Score: 194.17, Time: 01:26:18 ***
 Episode 746 Score: 139.54 Average Score: 200.03, Time: 01:26:49 ***    
 Environment solved !   
 
+### Watch the Trained Agent   
+For both neural networks, _q_local_ and _q_traget_, we save the trained weights into checkpoint files    
+(extension _pth_). The corresponding files are saved into the directory _dir_chk_1_  (case 2560 episodes),   
+and _dir_chk_2_ (case 746 episodes). Using notebook **WatchAgent-DDPG.ipynb** we can load the trained weights   
+and replay them.
 
 
 
