@@ -14,3 +14,9 @@ its first attempt. Four discrete actions available:
 ### Deep Deterministic Policy Gradient (DDPG)
 
 The main paper: [_Continuous control with Deep RL_](https://arxiv.org/abs/1509.02971)
+
+For other DDPG project, see [_Reacher_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Reacher-DDPG).
+
+
+
+
