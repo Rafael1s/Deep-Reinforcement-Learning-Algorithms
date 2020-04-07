@@ -128,6 +128,11 @@ You need at least the following three packages:
      Episode: 1 Average Score (over agents): 38.71349913468585   
      Episode: 2 Average Score (over agents): 38.77949913321063   
      
+### Deep Deterministic Policy Gradient (DDPG)
+
+For other DDPG project, see [_LunarLanderContinuous_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLanderContinuous-v2-DDPG).
+
+     
 ### Credit
 
 Most of the code is based on the Udacity code for DDPG.     
