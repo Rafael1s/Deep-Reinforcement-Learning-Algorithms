@@ -14,9 +14,9 @@ its first attempt.
 ### Avtions in LunarLanderContinuous
 
 Any action is the vector of two real numbers **{_v1_, _v2_}**, such that **-1 < _v1_, _v2_ < 1**.   
-The first coordinate _v1_ controls main engine: if **-1 < _v1_ <= 0** the main engine off.   
+The first coordinate **_v1_** controls main engine: if **-1 < _v1_ <= 0** the main engine off.   
 The values  **0 < _v1_ < 1** are corresponding to the throttle from **50%** to **100%** power, i.e., **power = 50(_v1_+1)**.   
-The second coordinate **v2** controls left/right engines:    
+The second coordinate **_v2_** controls left/right engines:    
 Values  **-1 < _v2_ <= -0.5** fire the left engine, 
 Values  **0.5 <= _v2_ <  1** fire the right engine, 
 Values  **-0.5 < _v2_ 0.5** left and right engines off.
