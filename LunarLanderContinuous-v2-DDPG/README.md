@@ -11,11 +11,23 @@ its first attempt.
 
 ![](images/LunaLander_300.png)
 
+### Actions in LunarLanderContinuous   
+
+Any action is the vector of two real numbers **{_v1_, _v2_}**, such that **-1 < _v1_, _v2_ < 1**.    
+The first coordinate **_v1_** controls main engine: if **-1 < _v1_ <= 0** the main engine off.     
+The values  **0 < _v1_ < 1** are corresponding to the throttle from **50%** to **100%** power, i.e., **power = 50(_v1_+1)**.     
+The second coordinate **_v2_** controls left/right engines:        
+Values  **-1 < _v2_ <= -0.5** fire the left engine; values  **0.5 <= _v2_ <  1** fire the right engine,    
+Values  **-0.5 < _v2_ 0.5** left and right engines off.   
+
 ### Deep Deterministic Policy Gradient (DDPG)
 
 The main paper: [_Continuous control with Deep RL_](https://arxiv.org/abs/1509.02971)
 
 For other DDPG project, see [_Reacher_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Reacher-DDPG).
+
+
+
 
 ### Training
 
