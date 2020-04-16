@@ -48,11 +48,11 @@ a bigger part of the state-action space in much less time.
 
 [Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning) 
 
+[HopperBulletEnv_v0, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv_v0-TD3)  
+
 [LunarLander-v2, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLander-v2-DQN)
 
 [LunarLanderContinuous-v2, DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLanderContinuous-v2-DDPG)
-
-[HopperBulletEnv_v0, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv_v0-TD3)  
 
 [Markov Decision Process, Monte-Carlo, Gridworld 6x6](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Markov-Decision-Process_6x6)    
 
