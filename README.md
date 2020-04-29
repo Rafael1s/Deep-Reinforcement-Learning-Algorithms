@@ -117,6 +117,6 @@ a bigger part of the state-action space in much less time.
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
 * [BipedalWalker by Training Stages](https://www.youtube.com/watch?v=g01mIFbxVns)  
 * [CarRacing by Training Stages](https://www.youtube.com/watch?v=55buBR2pPdc)
-
+* [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0)
 
 
