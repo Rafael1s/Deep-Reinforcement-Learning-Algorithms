@@ -10,5 +10,17 @@ and in **5438** episodes with **noise std = 0.01**.
 
 ![](images/TrainedHopper_2stages.png)
 
+### Training the Agent
+
+![](images/plot_0.03std_3240epis_HBEnv-v0.png)
+
+The score 2500 was achieved in the episode 3240 after training 25 hours 28 minutes.
+
+
+![](images/plot_0.02std_5438epis_HBEnv-v0.png)
+
+The score 2500 was achieved in the episode 5438 after training 36 hours 59 minutes.
+
+
 ### Video
 See video on [youtube](https://www.youtube.com/watch?v=Ipctq89yLB0).
