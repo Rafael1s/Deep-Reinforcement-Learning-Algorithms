@@ -9,3 +9,6 @@ In this directory we solve the HopperBulletEnv environment in **3240 episodes** 
 and in **5438** episodes with **noise std = 0.01**.
 
 ![](images/TrainedHopper_2stages.png)
+
+### Video
+See video on [youtube](https://www.youtube.com/watch?v=Ipctq89yLB0).
