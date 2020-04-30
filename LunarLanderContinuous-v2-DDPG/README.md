@@ -2,7 +2,7 @@
 
 ### Environment
 
-Solving the environment require an average total reward of over **200** over 100 consecutive episodes.   
+Solving the environment require an average total reward of over **200** on 100 consecutive episodes.   
 If lander moves away from landing pad it loses reward back. Episode finishes if the lander crashes or   
 comes to rest, receiving additional -100 or +100 points. Each leg ground contact is +10. Firing main   
 engine is -0.3 points each frame. Firing side engine is -0.03 points each frame.   
