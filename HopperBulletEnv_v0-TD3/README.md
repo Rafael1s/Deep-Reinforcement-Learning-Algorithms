@@ -1,4 +1,4 @@
-# Project - BipedalWalker with Twin Delayed DDPG (TD3)
+# Project - HopperBulletEnv with Twin Delayed DDPG (TD3)
 
 ### Environment  
 
