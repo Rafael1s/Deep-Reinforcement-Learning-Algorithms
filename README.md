@@ -119,5 +119,6 @@ a bigger part of the state-action space in much less time.
 * [CarRacing by Training Stages](https://www.youtube.com/watch?v=55buBR2pPdc)
 * [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0)
 * [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk)
+* [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs)
 
 
