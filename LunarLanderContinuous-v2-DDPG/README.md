@@ -29,6 +29,8 @@ For other DDPG project, see [_Reacher_](https://github.com/Rafael1s/Deep-Reinfor
 
 
 
+
+
 ### Training
 
 1. Score **200** achieved in **2560** episodes.
@@ -126,13 +128,6 @@ Environment solved !
 For both neural networks, _q_local_ and _q_traget_, we save the trained weights into checkpoint files    
 (extension _pth_). The corresponding files are saved into the directory _dir_chk_1_  (case 2560 episodes),   
 and _dir_chk_2_ (case 746 episodes). Using notebook **WatchAgent-DDPG.ipynb** we can load the trained weights   
-and replay them.
+and replay them.    
 
-
-
-
-
-
-
-
-
+See video [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs) on youtube.
