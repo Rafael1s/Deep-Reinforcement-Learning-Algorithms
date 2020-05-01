@@ -23,4 +23,4 @@ The score 2500 was achieved in the episode 5438 after training 36 hours 59 minut
 
 
 ### Video
-See video on [youtube](https://www.youtube.com/watch?v=Ipctq89yLB0).
+See video [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) on youtube.
