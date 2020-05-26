@@ -14,12 +14,12 @@ and in **5438** episodes with **noise std = 0.02**.
 
 ![](images/plot_0.03std_3240epis_HBEnv-v0.png)
 
-The score 2500 was achieved in the episode 3240 after training 25 hours 28 minutes.
+The score 2500 was achieved in the episode **3240** after training **25 hours 28 minutes**.
 
 
 ![](images/plot_0.02std_5438epis_HBEnv-v0.png)
 
-The score 2500 was achieved in the episode 5438 after training 36 hours 59 minutes.
+The score 2500 was achieved in the episode **5438** after training **36 hours 59 minutes**.
 
 ### Relevant paper
 [Three aspects of Deep RL: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)   
