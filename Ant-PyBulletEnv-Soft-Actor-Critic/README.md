@@ -13,3 +13,6 @@ The threshold score **2500** was achived in the episode **1811**  after training
 
 ![](images/plot_Ant_1811epis.png)
 
+### Video
+See video [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) on youtube.
+
