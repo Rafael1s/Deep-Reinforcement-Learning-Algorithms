@@ -8,7 +8,7 @@ We solve the environment  by usage of the __SAC__ algorithm, see the basic paper
 ![](images/Ant_two_stages.png)
 
 ### Requirement
-* [python 3.7.3quit()](https://www.python.org) 
+* [python 3.7.3](https://www.python.org) 
 * [pytorch 1.2.0](https://pytorch.org/)
 * [gym 0.13.1](https://github.com/openai/gym)
 * [pybullet 2.5.6](https://pypi.org/project/pybullet/)
@@ -23,6 +23,15 @@ action space dimension:  Box(8,)
 
 batch size: 256    
 learning rate:  0.0001
+
+### Entropy regularization  
+
+A central feature of SAC is [entropy regularization](https://spinningup.openai.com/en/latest/algorithms/sac.html).     
+The major difference with common RL algorithms is training to maximize a trade-off between     
+expected return and entropy, a measure of randomness in the policy. This has a close connection     
+to the exploration-exploitation trade-off: increasing entropy results in more exploration,   
+which can accelerate learning later on. It can also prevent the policy from prematurely    
+converging to a bad local optimum.
 
 ### Learning Curve
 
