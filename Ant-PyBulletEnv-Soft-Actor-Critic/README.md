@@ -7,6 +7,12 @@ We solve the environment  by usage of the __SAC__ algorithm, see the basic paper
 
 ![](images/Ant_two_stages.png)
 
+### Requirement
+* [python 3.7.3quit()](https://www.python.org) 
+* [pytorch 1.2.0](https://pytorch.org/)
+* [gym 0.13.1](https://github.com/openai/gym)
+* [pybullet 2.5.6](https://pypi.org/project/pybullet/)
+
 ### Environment parameters
 
 max steps in episode:  1000   
