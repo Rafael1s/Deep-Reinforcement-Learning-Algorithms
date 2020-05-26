@@ -9,7 +9,7 @@ We solve the environment  by usage of the __SAC__ algorithm, see the basic paper
 
 ### Learning Curve
 
-The threshold score **2500** was achived in the episode **1811**  after training **24 hours**.
+The threshold score **2500** was achieved in the episode **1811**  after training **24 hours**.
 
 ![](images/plot_Ant_1811epis.png)
 
