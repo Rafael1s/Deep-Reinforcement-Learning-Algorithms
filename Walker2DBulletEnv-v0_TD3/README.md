@@ -27,6 +27,11 @@ for the policy to exploit Q-function errors by smoothing out Q along changes in 
 See parameter **policy_noise**  in the function _train()_, _class TD3_.
 TD3 uses Gaussian noise, not Ornstein-Uhlenbeck noise as in DDPG.
 
+### Exploration noise 
+
+Exploration noise is the crucial parameterin in TD3. For this project, the parameter **std_noise** is choosed **0.02**.      
+For details, see [Three aspects of Deep RL: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b).    
+
 ### Off-policy
 
 TD3 is an **off-policy** algorithm. In other words, the TD3 algorithm allows reusing the already collected data.
