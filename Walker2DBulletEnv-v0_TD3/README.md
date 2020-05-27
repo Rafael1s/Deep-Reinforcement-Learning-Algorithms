@@ -42,7 +42,7 @@ In the **agent.train** we get the batch of (_state, action, next_state, done, re
             
 ### Learning Curve
 
-![](plots/plot_Walker2D_9361epis.png)
+![](images/plot_Walker2D_9361epis.png)
 
 ### Credit
 
