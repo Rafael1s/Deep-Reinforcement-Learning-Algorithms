@@ -68,6 +68,8 @@ a bigger part of the state-action space in much less time.
      
 [Udacity Project 3: Collaboration_Competition-Tennis, Multi-agent DDPG](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-3_Collaboration_Competition-Tennis-Maddpg), environment [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis)     
 
+[Walker2DBulletEnv-v0, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_TD3)   
+
 ### Projects with DQN
 
 * [Cartpole, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning)    
