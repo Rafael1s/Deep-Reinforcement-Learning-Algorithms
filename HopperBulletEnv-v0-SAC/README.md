@@ -25,8 +25,7 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
  
  The **hyperbolic tangent function** torch.tanh is very similar to  the [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function).    
  However, the range of _sigmoid function_ is [0,1] and the range of _tanh_ is [-1,1].   
- Then _tanh_ is should be more efficient because it has a wider range.  
- To further compare the efficient of the activation function,     
+ Then _tanh_ is should be more efficient because it has a wider range, and derivative is more steep,       
  see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
  #### Reparameterization
