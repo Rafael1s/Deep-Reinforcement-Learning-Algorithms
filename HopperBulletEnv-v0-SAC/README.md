@@ -21,13 +21,19 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
     
    These values give the map  [low, high]  --> [(low - bias)/scale, (high - bias)/scale] = [-1,1].  
    
- #### Hyperbolic Tangent Function
+ #### Activation Function
  
- x_t = normal.rsample(),  y_t = torch.tanh(x_t)
+ The **hyperbolic tangent function** torch.tanh is very similar to  the [sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function).    
+ However, the range of _sigmoid function_ is [0,1] and the range of _tanh_ is [-1,1].   
+ Then _tanh_ is should be more efficient because it has a wider range.  
+ To further compare the efficient of the activation function,     
+ see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
- [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a)
-    
-    
+ #### Mapping of expectations
+ In the _sample()_ function 
+       x = normal.rsample(),  y = torch.tanh(x_t)
+ 
+       
    
 ###  Reparameterization Trick 
 
