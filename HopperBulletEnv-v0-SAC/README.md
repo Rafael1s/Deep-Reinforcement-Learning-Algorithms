@@ -13,10 +13,10 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
 
 #### Scale and Bias 
 
-    The varaible _scale_ is the length of the interval [low, high]:   
+   The varaible _scale_ is the length of the interval [low, high]:     
      _scale = (action_space.high - action_space.low)/2_     
    
-   The varaible  _bias_  is the center of  the interval [low, high]: 
+   The varaible  _bias_  is the center of  the interval [low, high]:    
     _bias =  (action_space.high + action_space.low)/2_   
     
    These values give the map  [low, high]  --> [(low - bias)/scale, (high - bias)/scale] = [-1,1].  
