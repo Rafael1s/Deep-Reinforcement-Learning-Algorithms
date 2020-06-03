@@ -30,13 +30,13 @@ a bigger part of the state-action space in much less time.
 
 ### Projects, models and methods
 
-[AntBulletEnv, Soft-Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)    
+[AntBulletEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)    
 
 [BipedalWalker, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))     
 
 [BipedalWalker, PPO, Vectorized Environment](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/blob/master/BipedalWalker-PPO-VectorizedEnv)
 
-[BipedalWalker, Soft-Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)
+[BipedalWalker, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)
 
 [BipedalWalker, A2C, Vectorized Environment](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)
 
@@ -51,6 +51,8 @@ a bigger part of the state-action space in much less time.
 [Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning) 
 
 [HopperBulletEnv, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv_v0-TD3)  
+
+[HopperBulletEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv-v0-SAC)  
 
 [LunarLander-v2, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLander-v2-DQN)
 
