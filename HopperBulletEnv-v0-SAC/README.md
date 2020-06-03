@@ -9,6 +9,28 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
 
 ![](images/Hopper_two_stages_2.png)
 
+### Tips to class GaussianPolicy
+
+#### Scale and Bias 
+
+    The varaible _scale_ is the length of the interval [low, high]:   
+     _scale = (action_space.high - action_space.low)/2_     
+   
+   The varaible  _bias_  is the center of  the interval [low, high]: 
+    _bias =  (action_space.high + action_space.low)/2_   
+    
+   These values give the map  [low, high]  --> [(low - bias)/scale, (high - bias)/scale] = [-1,1].  
+   
+ #### Hyperbolic Tangent Function
+ 
+ x_t = normal.rsample(),  y_t = torch.tanh(x_t)
+ 
+ [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a)
+    
+    
+   
+###  Reparameterization Trick 
+
 ### Learning Curve
 
 ![](images/plot_Hopper_SAC_7662epis.png)
