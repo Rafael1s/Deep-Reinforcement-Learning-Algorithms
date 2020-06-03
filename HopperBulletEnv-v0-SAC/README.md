@@ -29,12 +29,10 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
  To further compare the efficient of the activation function,     
  see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
- #### Mapping of expectations
- In the _sample()_ function,  _x = normal.rsample()_,  _y = torch.tanh(x)_.
+ #### Reparameterization
  
+ ![](images/reparameterization.png)
        
-   
-###  Reparameterization Trick 
 
 ### Learning Curve
 
