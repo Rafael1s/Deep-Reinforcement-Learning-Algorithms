@@ -30,8 +30,7 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
  see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
  #### Mapping of expectations
- In the _sample()_ function 
-       x = normal.rsample(),  y = torch.tanh(x_t)
+ In the _sample()_ function,  _x = normal.rsample()_,  _y = torch.tanh(x)_.
  
        
    
