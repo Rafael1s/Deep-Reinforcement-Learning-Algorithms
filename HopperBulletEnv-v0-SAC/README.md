@@ -31,6 +31,8 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
  #### Reparameterization
  
  ![](images/reparameterization.png)
+ 
+ see [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) by D.Kingma, M.Welling
        
 
 ### Learning Curve
