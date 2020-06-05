@@ -74,7 +74,9 @@ a bigger part of the state-action space in much less time.
 
 [Walker2DBulletEnv, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_TD3)   
 
-### Projects with DQN
+[Walker2DBulletEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_SAC)
+
+### Projects with DQN and Double DQN
 
 * [Cartpole, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning)    
 * [Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)  
@@ -86,6 +88,13 @@ a bigger part of the state-action space in much less time.
   * [CarRacing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
   * [C r a w l e r  ](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
   * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master//BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
+  
+ ### Projects with Soft Actor-Critic (SAC)
+ * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
+ * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)   
+ * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv-v0-SAC)   
+ * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_SAC)   
+ 
   
  ###  BipedalWalker, different models
   
