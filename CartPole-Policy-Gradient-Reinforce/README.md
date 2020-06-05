@@ -7,7 +7,8 @@ using a procedure known as **gradient ascent**.
 
 ![](gradient_ascent.jpg) 
 
-For other solutions, see 
+## Other CartPole projects
+
 * [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing), or  
 * [CartPole-Policy-Deep-Q_Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Deep-Q-Learning), or  
 * [Cartpole with Double Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)      
