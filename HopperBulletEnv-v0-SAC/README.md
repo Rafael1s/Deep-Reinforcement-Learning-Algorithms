@@ -44,5 +44,11 @@ and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We sol
 
 The score 2500 was achieved in the episode **7662** after training **89 hours 23 minutes**.
 
+### Other Soft Actor-Critic  projects    
+
+* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
+* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)
+* [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_SAC)
+
 ### Video
 See video [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) on youtube.
