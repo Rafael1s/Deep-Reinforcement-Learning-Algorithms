@@ -1,4 +1,4 @@
-# Project - BipedalWalker with Soft Actor Critic (SAC)
+# Project - BipedalWalker with Soft Actor-Critic (SAC)
 
 
 ### Introduction
@@ -109,11 +109,17 @@ The score **300.5** was achieved
 
 ![](images/plot_SAC_756episodes.png)
 
-### Other BipedalWalker projects:
+### Other BipedalWalker projects
 
 * [BipedalWalker, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
 * [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-PPO-VectorizedEnv)  
 * [BipedalWalker, A2C, VectorizedEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-A2C-VectorizedEnv)  
+  
+### Other Soft Actor-Critic  projects    
+
+* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
+* [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv-v0-SAC)  
+* [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_SAC)
   
 ### Credit   
 
