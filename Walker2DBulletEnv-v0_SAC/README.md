@@ -7,3 +7,9 @@ Training of Walker2DBulletEnv is performed using the __Soft Actor-Critic (SAC)__
 two basic papers [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290)     
 and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We solve the HopperBulletEnv environment in **6394 episodes**.    
 By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Walker2DBulletEnv-v0_TD3), the environment is solved in **9361 episodes**.  
+
+![](images/Walker2D_two_stages_B.png)
+
+### Learning Curve
+
+![](images/plot_Walker2D_SAC_lr0.0003_epis6934.png)
