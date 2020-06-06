@@ -42,12 +42,12 @@ in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.
 ### Learning Curve
 
 i.  The score 2500 was achieved in the episode **7662** after training **89 hours 23 minutes**.    
-Learning rate = 0.0001.
+Learning rate = **0.0001**.
 
 ![](images/plot_Hopper_SAC_7662epis.png)
 
 ii.  The score 2500 was achieved in the episode **3814** after training **37 hours 58 minutes**.    
-Here, learning rate = 0.0003.
+Here, learning rate = **0.0003**.
 
 ![](images/plot_Hopper_SAC_3814epis.png)
 
