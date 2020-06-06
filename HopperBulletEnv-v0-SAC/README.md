@@ -6,7 +6,7 @@ Solving the environment require an average total reward of over **2500** on 100 
 Training of HopperBulletEnv is performed using the __Soft Actor-Critic (SAC)__ algorithm, see    
 two basic papers [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290)     
 and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905). The HopperBulletEnv environment was solved   
-in 2 experiments:  (1) in **7662 episodes**. ,  (2)  in **3814** episodes.     
+in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.     
 
 ![](images/Hopper_two_stages_2.png)
 
@@ -41,9 +41,16 @@ in 2 experiments:  (1) in **7662 episodes**. ,  (2)  in **3814** episodes.
 
 ### Learning Curve
 
+i.  The score 2500 was achieved in the episode **7662** after training **89 hours 23 minutes**.    
+Learning rate = 0.0001.
+
 ![](images/plot_Hopper_SAC_7662epis.png)
 
-The score 2500 was achieved in the episode **7662** after training **89 hours 23 minutes**.
+ii.  The score 2500 was achieved in the episode **3814** after training **37 hours 58 minutes**.    
+Here, learning rate = 0.0003.
+
+![](images/plot_Hopper_SAC_3814epis.png)
+
 
 ### Other Soft Actor-Critic  projects    
 
