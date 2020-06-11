@@ -10,7 +10,7 @@ By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/
 
 ![](images/Walker2D_two_stages_B.png)
 
-### Learning Curve
+### Training Score
 
 ![](images/plot_Walker2D_SAC_lr0.0003_epis6934.png)
 
