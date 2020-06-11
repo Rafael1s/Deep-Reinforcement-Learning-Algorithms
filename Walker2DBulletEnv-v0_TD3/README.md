@@ -45,7 +45,7 @@ In the **agent.train** we get the batch of (_state, action, next_state, done, re
             done = torch.FloatTensor(1 - d).to(device)
             reward = torch.FloatTensor(r).to(device)
             
-### Learning Curve
+### Training Score
 
 ![](images/plot_Walker2D_9361epis.png)
 
