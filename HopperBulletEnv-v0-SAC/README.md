@@ -39,7 +39,7 @@ in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.
  see [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) by D.Kingma, M.Welling
        
 
-### Learning Curve
+### Training Score
 
 i.  The score 2500 was achieved in the episode **7662** after training **89 hours 23 minutes**.    
 Learning rate = **0.0001**.
