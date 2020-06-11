@@ -39,7 +39,7 @@ This trick makes training converge better due to lower variance. See function _s
 _GaussianPolicy_ from _model.py_. The reparameterization trick allows us to rewrite the expectation over actions   
 (which contains a pain point: the distribution depends on the policy parameters) into an [expectation over noise](https://spinningup.openai.com/en/latest/algorithms/sac.html).
 
-### Learning Curve
+### Training Score
 
 The threshold score **2500** was achieved in the episode **1811**  after training **24 hours**.
 
