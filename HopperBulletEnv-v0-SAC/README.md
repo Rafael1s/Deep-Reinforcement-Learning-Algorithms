@@ -33,7 +33,8 @@ in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.
  Then _tanh_ is should be more efficient because it has a wider range, and derivative is more steep,       
  see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
-Actually,  _tanh_ is the rescaled logistic sigmoid function, namely,  _tanh(x) = 2g(2x) - 1_,   
+Actually,  _tanh_ is the rescaled logistic sigmoid function, namely,  _tanh(x) = 2g(2x) - 1_.    
+We also note that  _(tanh(x))' = 1 - (tanh(x))^2_.    
             
  
  #### Reparameterization
