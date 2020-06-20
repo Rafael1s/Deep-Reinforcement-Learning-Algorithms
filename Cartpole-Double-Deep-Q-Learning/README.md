@@ -1,4 +1,4 @@
-# Project -  Cartpole with Double Deep Q-Learning (DDQN)
+# Project -  Cartpole with Double Deep Q-Learning
 
 ### Environment
 
