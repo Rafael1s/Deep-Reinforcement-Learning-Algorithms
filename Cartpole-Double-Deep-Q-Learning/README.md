@@ -1,4 +1,4 @@
-# Project -  Cartpole with Double Deep Q-Learning
+# Project -  Cartpole with Double Deep Q-Network
 
 ### Environment
 
