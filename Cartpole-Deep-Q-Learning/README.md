@@ -1,4 +1,4 @@
-# Project -  Cartpole with Deep Q-Learning,  Pytorch
+# Project -  Cartpole with Deep Q-Network,  Pytorch
 
 ### Environment
 
