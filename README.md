@@ -8,6 +8,10 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 [**_Policy-Gradient Methods_**](https://towardsdatascience.com/policy-gradients-in-a-nutshell-8b72f9743c5d) and 
 [**_Actor-Critic_**](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f) Methods.
 
+The projects are deployed in the matrix form: **[env x model]**, where **env** is the environment to be solved, and    
+**model** is the model/algorithm which solves this environment. In some cases, the same environment is resolved by several   
+algorithms. All projects are presented as a **jupyter notebook** containing **log** of all episodes (sometimes log  contains only the part of episodes, which are tracked with a certain period).
+ 
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)       
 In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards collected on the way   
 and move backward  to the start of the episode. We repeat this method a sufficient number of times and we average    
