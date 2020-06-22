@@ -10,7 +10,22 @@ Several projects are devoted to [**_Deep Reinforcement Learning Architectures_**
 
 The projects are deployed in the matrix form: **[env x model]**, where **env** is the environment to be solved, and    
 **model** is the model/algorithm which solves this environment. In some cases, the same environment is resolved by several   
-algorithms. All projects are presented as a **jupyter notebook** containing **log** of all episodes (sometimes log  contains only the part of episodes, which are tracked with a certain period).
+algorithms. All projects are presented as a **jupyter notebook** containing **log** of all episodes (sometimes log  contains only the part of episodes, which are tracked with a certain period). The following environments are currently supported:
+
+* AntBulletEnv    
+* Bipedalwalker    
+* CarRacing  
+* CartPole    
+* HopperBulletEnv     
+* LunarLander   
+* LunarLanderContinuous    
+* Markov Decision 6x6   
+* Pong   
+* Navigation   
+* Crawler   
+* Reacher   
+* Tennis   
+* Waker2DBulletEnv   
  
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)       
 In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards collected on the way   
