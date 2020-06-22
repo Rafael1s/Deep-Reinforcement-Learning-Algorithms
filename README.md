@@ -12,8 +12,8 @@ The projects are deployed in the matrix form: **[env x model]**, where **env** i
 **model** is the model/algorithm which solves this environment. In some cases, the same environment is resolved by several   
 algorithms. All projects are presented as a **jupyter notebook** containing **log** of all episodes (sometimes log  contains only the part of episodes, which are tracked with a certain period). The following environments are currently supported:
 
-_AntBulletEnv_,  _Bipedalwalker_, _CarRacing_, _CartPole_, _HopperBulletEnv_, _LunarLander_,  _LunarLanderContinuous_     
-_Markov Decision 6x6_,  _Pong_, _Navigation_,  _Crawler_, _Reacher_,  _Tennis_, _Waker2DBulletEnv_.   
+__AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,     
+__Markov Decision 6x6__,  __Pong__, __Navigation__,  __Crawler__, __Reacher__,  __Tennis__, __Waker2DBulletEnv__.   
  
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)       
 In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards collected on the way   
