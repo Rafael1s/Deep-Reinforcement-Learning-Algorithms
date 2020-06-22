@@ -3,7 +3,8 @@
 Here you can find several projects dedicated to the Deep Reinforcement Learning methods.     
 The projects are deployed in the matrix form: **[env x model]**, where **env** is the environment to be solved, and    
 **model** is the model/algorithm which solves this environment. In some cases, the same environment is resolved by several   
-algorithms. All projects are presented as a **jupyter notebook** containing **training log** :
+algorithms. All projects are presented as a **jupyter notebook** containing **training log**.   
+The following environments are supported:  
 
 __AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,     
 __Markov Decision 6x6__,  __Pong__, __Navigation__,  __Crawler__, __Reacher__,  __Tennis__, __Waker2DBulletEnv__.   
