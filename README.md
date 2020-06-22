@@ -8,7 +8,8 @@ algorithms. All projects are presented as a **jupyter notebook** containing **lo
 __AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,     
 __Markov Decision 6x6__,  __Pong__, __Navigation__,  __Crawler__, __Reacher__,  __Tennis__, __Waker2DBulletEnv__.   
 
-Four projects (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are developed as part of the [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
+Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are solved in the framework of the   
+[**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
  
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)       
 In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards collected on the way   
