@@ -15,9 +15,9 @@ Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are s
 [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
  
 * [_Monte-Carlo Methods_](https://medium.com/@zsalloum/monte-carlo-in-reinforcement-learning-the-easy-way-564c53010511)       
-In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards collected on the way   
-and move backward  to the start of the episode. We repeat this method a sufficient number of times and we average    
-the value of each state.   
+In Monte Carlo (MC), we play episodes of the game until we reach the end, we grab the rewards     
+collected on the way and move backward to the start of the episode. We repeat this method   
+a sufficient number of times and we average  the value of each state.   
 * [_Temporal Difference Methods and Q-learning_](https://en.wikipedia.org/wiki/Temporal_difference_learning)
 * [_Reinforcement Learning in Continuous Space (Deep Q-Network)_](https://en.wikipedia.org/wiki/Reinforcement_learning)
 * [_Function Approximation and Neural Network_](https://medium.com/biffures/rl-course-by-david-silver-lectures-5-to-7-576188d3b033)    
