@@ -53,7 +53,7 @@ constructed on the basis of two _neural networks_ **q_local** and **q_target**:
 
 
 ## Watch the Trained Agent   
-For both neural networks, _q_local_ and _q_traget_, we save the trained weights into checkpoint files      
+For both neural networks, _q_local_ and _q_target_, we save the trained weights into checkpoint files      
 with the extension _pth_. The corresponding files are saved into the directory _dir_chk_V0_  for _Cartpole-v0_       
 and the directory _dir_chk_V1_ for _Cartpole-v1_. Using notebook **WatchAgent-DQN.ipynb**    
 we can load the trained weights and replay them.
