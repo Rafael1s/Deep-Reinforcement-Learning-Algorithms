@@ -51,7 +51,7 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
  
  ### Credit
  
- Most of the code is based on https://github.com/stefanlclarke/Snake-AI-DQN-
+ Several parts of the code are based on https://github.com/stefanlclarke/Snake-AI-DQN-
 
  
  
