@@ -49,6 +49,9 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
  ![](images/len_snake_lr0.00001_max-avglen=18_max-maxlen=44.png)
  ![](images/snake-ai-dqn-lr0.00001_60000epis.png)
  
+ ### Credit
+ 
+ Most of the code is based on https://github.com/stefanlclarke/Snake-AI-DQN-
 
  
  
