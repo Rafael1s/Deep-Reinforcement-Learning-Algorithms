@@ -10,7 +10,11 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
 
 ![](images/snake.png)
 
-## Other DQN projects
+### Actions
+0 - turn left,  1 - turn right, 2 - move up, 3 - move down
+
+
+### Other DQN projects
 
 [_Cartpole_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/edit/master/Cartpole-Deep-Q-Learning), 2 discrete actions are available:  
 0 - push cart to the left, 1 - push cart to the right.     
