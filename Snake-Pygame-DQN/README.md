@@ -22,3 +22,16 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
 0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
 [_LunarLaunder_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/new/master/LunarLander-v2-DQN), 4 discrete actions are available:  
  0 - do nothing, 1 - fire left orientation engine, 2 - fire main engine,  3 - fire right orientation engine.   
+ 
+ ### Training
+ 
+ For any 100 consecutive episodes we get value 'Avg.LenOfSnake' adn 'Max.LenOfSnake'.
+ 
+ 1.  For Learning rate = 1e-4, and number of episodes = 50000
+ Avg.LenOfSnake = 18,  Max.LenOfSnake = 46
+ ![](images/hist_snake_lr0.0001)
+ 
+ 2.  For Learning rate = 1e-5, and number of episodes = 60000
+ Avg.LenOfSnake = 18,  Max.LenOfSnake = 44
+ ![](images/hist_snake_lr0.00001)
+ 
