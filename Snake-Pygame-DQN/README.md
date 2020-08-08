@@ -30,10 +30,10 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
  1.  For Learning rate = 1e-4, and number of episodes = 50000      
  Avg.LenOfSnake = 18,  Max.LenOfSnake = 46    
  
- ![](images/hist_snake_lr0.0001)    
+ ![](images/hist-snake_lr-e-4.png)    
  
  2.  For Learning rate = 1e-5, and number of episodes = 60000    
  Avg.LenOfSnake = 18,  Max.LenOfSnake = 44    
  
- ![](images/hist_snake_lr0.00001)    
+ ![](images/hist-snake-lr-e-5.png)    
  
