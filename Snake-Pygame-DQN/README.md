@@ -49,6 +49,10 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
  ![](images/len_snake_lr0.00001_max-avglen=18_max-maxlen=44.png)
  ![](images/snake-ai-dqn-lr0.00001_60000epis.png)
  
+ ### Video 
+ 
+ See video [Wooden Snake](https://www.youtube.com/watch?v=-T4wQirNDRo) on youtube.
+ 
  ### Credit
  
  Several parts of the code are based on https://github.com/stefanlclarke/Snake-AI-DQN-
