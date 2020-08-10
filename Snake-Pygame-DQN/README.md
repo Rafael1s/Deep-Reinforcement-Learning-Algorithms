@@ -27,13 +27,32 @@ bumps into the border of the board, or if it does not eat an apple for a long ti
  
  For any 100 consecutive episodes we get value 'Avg.LenOfSnake' adn 'Max.LenOfSnake'.
  
- 1.  For Learning rate = 1e-4, and number of episodes = 50000      
+ 1.  For Learning rate = 1e-4, number of episodes = 50000      
  Avg.LenOfSnake = 18,  Max.LenOfSnake = 46    
  
  ![](images/hist-snake_lr-e-4.png)    
  
- 2.  For Learning rate = 1e-5, and number of episodes = 60000    
+ 2.  For Learning rate = 1e-5, number of episodes = 60000    
  Avg.LenOfSnake = 18,  Max.LenOfSnake = 44    
  
  ![](images/hist-snake-lr-e-5.png)    
+ 
+ ### Train
+ 
+ 1.  For Learning rate = 1e-4, number of episodes = 50000   
+ 
+ ![](images/len_snake_lr0.0001_max-avglen=18_max-maxlen=46.png)   
+ ![](images/snake-ai-dqn-lr0.0001_50000epis.png)   
+ 
+ 2.  For Learning rate = 1e-5, number of episodes = 60000    
+ 
+ ![](images/len_snake_lr0.00001_max-avglen=18_max-maxlen=44.png)
+ ![](images/snake-ai-dqn-lr0.00001_60000epis.png)
+ 
+ ### Credit
+ 
+ Several parts of the code are based on https://github.com/stefanlclarke/Snake-AI-DQN-
+
+ 
+ 
  
