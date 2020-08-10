@@ -91,6 +91,7 @@ a bigger part of the state-action space in much less time.
 * [Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)  
 * [LunarLander-v2, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLander-v2-DQN)   
 * [Navigation, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN)      
+* [Snake, DQN, Pygame](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Snake-Pygame-DQN)
   
 ### Projects with PPO
   * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO), 8 parallel agents
