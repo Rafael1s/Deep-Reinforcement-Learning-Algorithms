@@ -8,7 +8,7 @@ The snake's length and reward increase by 1 each time an apple is eaten.
 The reward is reduced by 1 every time the snake collides with itself,    
 bumps into the border of the board, or if it does not eat an apple for a long time. 
 
-![](images/snake.png)
+![](images/snake_3.png)
 
 ### Actions
 0 - turn left,  1 - turn right, 2 - move up, 3 - move down
