@@ -69,7 +69,9 @@ a bigger part of the state-action space in much less time.
 
 [Pong, Policy Gradient Methods, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO)    
 
-[Pong, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE)    
+[Pong, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE)   
+
+[Snake, DQN, Pygame](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Snake-Pygame-DQN)
 
 [Udacity Project 1: Navigation, DQN, ReplayBuffer](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN)   
 
@@ -142,5 +144,6 @@ a bigger part of the state-action space in much less time.
 * [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0)
 * [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk)
 * [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs)
+* [Wooden Snake](https://www.youtube.com/watch?v=-T4wQirNDRo)
 
 
