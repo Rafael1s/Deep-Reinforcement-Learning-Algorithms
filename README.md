@@ -69,7 +69,9 @@ a bigger part of the state-action space in much less time.
 
 [Pong, Policy Gradient Methods, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO)    
 
-[Pong, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE)    
+[Pong, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE)   
+
+[Snake, DQN, Pygame](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Snake-Pygame-DQN)
 
 [Udacity Project 1: Navigation, DQN, ReplayBuffer](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN)   
 
@@ -89,6 +91,7 @@ a bigger part of the state-action space in much less time.
 * [Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)  
 * [LunarLander-v2, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLander-v2-DQN)   
 * [Navigation, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN)      
+* [Snake, DQN, Pygame](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Snake-Pygame-DQN)
   
 ### Projects with PPO
   * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-PPO), 8 parallel agents
@@ -135,12 +138,13 @@ a bigger part of the state-action space in much less time.
 [A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
 [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
 
-### Videos
+### Videos developed under these projects
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
 * [BipedalWalker by Training Stages](https://www.youtube.com/watch?v=g01mIFbxVns)  
 * [CarRacing by Training Stages](https://www.youtube.com/watch?v=55buBR2pPdc)
 * [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0)
 * [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk)
 * [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs)
+* [Wooden Snake](https://www.youtube.com/watch?v=-T4wQirNDRo)
 
 
