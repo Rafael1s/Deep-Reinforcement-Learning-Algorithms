@@ -24,14 +24,16 @@ in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.
    
  #### Activation Function
  
+ ![](images/hyb_tangent_with_sigmoid.png)
+ 
  The **hyperbolic tangent function** torch.tanh is very similar to  the [logistic sigmoid function]
  (https://en.wikipedia.org/wiki/Sigmoid_function) g(x) = 1/(1 + exp(-x)).    
  However, the range of _logistic sigmoid function_ is [0,1] and the range of _tanh_ is [-1,1].   
- 
- ![](images/sigm_hybtg_deriv.png)   
- 
  Then _tanh_ is should be more efficient because it has a wider range, and derivative is more steep,       
- see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
+
+ ![](images/sigm_hybtg_deriv.png)   
+
+see [Comparison of Activation Functions for Deep Neural Networks](https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a). 
  
 Actually,  _tanh_ is the rescaled logistic sigmoid function, namely,  _tanh(x) = 2g(2x) - 1_.    
 We also note that  _(tanh(x))' = 1 - (tanh(x))^2_.    
