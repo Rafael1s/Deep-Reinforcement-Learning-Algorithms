@@ -26,8 +26,8 @@ in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.
  
  ![](images/hyb_tangent_with_sigmoid.png)
  
- The **hyperbolic tangent function** torch.tanh is very similar to  the [logistic sigmoid function]
- (https://en.wikipedia.org/wiki/Sigmoid_function) g(x) = 1/(1 + exp(-x)).    
+ The **hyperbolic tangent function** torch.tanh is very similar to     
+ the [logistic sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function) g(x) = 1/(1 + exp(-x)).    
  However, the range of _logistic sigmoid function_ is [0,1] and the range of _tanh_ is [-1,1].   
  Then _tanh_ is should be more efficient because it has a wider range, and derivative is more steep,       
 
