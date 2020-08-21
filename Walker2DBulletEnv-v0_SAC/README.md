@@ -19,3 +19,7 @@ By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/
 * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)
 * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/BipedalWalker-Soft-Actor-Critic)
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/HopperBulletEnv-v0-SAC)
+
+###  Videp
+
+See video [walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk) on youtube.
