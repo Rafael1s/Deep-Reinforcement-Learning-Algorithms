@@ -130,7 +130,7 @@ You need at least the following three packages:
      
 ### Deep Deterministic Policy Gradient (DDPG)
 
-For other DDPG project, see [_LunarLanderContinuous_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/LunarLanderContinuous-v2-DDPG).
+For other DDPG project, see [_LunarLanderContinuous_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/LunarLanderContinuous-v2-DDPG).
 
      
 ### Credit
