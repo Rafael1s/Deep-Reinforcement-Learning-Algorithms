@@ -7,9 +7,9 @@ over 100 consecutive episodes. A pole is attached by an joint to a cart, which m
 
 ## Other CartPole projects
 
-* [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Based-Hill-Climbing),  
-* [CartPole-Policy-Gradient-Reinforce](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/CartPole-Policy-Gradient-Reinforce), 
-* [Cartpole with Doouble Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Cartpole-Double-Deep-Q-Learning)      
+* [CartPole-Policy-Based-Hill-Climbing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/CartPole-Policy-Based-Hill-Climbing),  
+* [CartPole-Policy-Gradient-Reinforce](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/CartPole-Policy-Gradient-Reinforce), 
+* [Cartpole with Doouble Deep Q-Learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Cartpole-Double-Deep-Q-Learning)      
 ![](images/gif_cartpole.gif)
 
 ### Deep Q-Learning (DQN)   
@@ -17,9 +17,9 @@ over 100 consecutive episodes. A pole is attached by an joint to a cart, which m
 In _Cartpole_, 2 discrete actions are available:  0 - push cart to the left, 1 - push cart to the right.    
 
 For other DQN projects, see    
-[_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN), 4 discrete actions are available:     
+[_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-1_Navigation-DQN), 4 discrete actions are available:     
 0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
-[_LunarLaunder_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/new/master/LunarLander-v2-DQN), 4 discrete actions are available:  
+[_LunarLaunder_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/new/master/LunarLander-v2-DQN), 4 discrete actions are available:  
  0 - do nothing, 1 - fire left orientation engine, 2 - fire main engine,  3 - fire right orientation engine.   
 
 ### Agent   
