@@ -4,7 +4,7 @@
 
 In this notebook, we implement an agent learning to play Pong with
 algorithm PPO ([Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/)).  
-As with the [REINFORCE version](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Pong-Policy-Gradient-REINFORCE), 
+As with the [REINFORCE version](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-REINFORCE), 
 the model learns from pixels.
 
 ![](images/pong.gif)
