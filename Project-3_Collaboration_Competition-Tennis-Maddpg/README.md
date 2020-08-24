@@ -142,4 +142,4 @@ You need at least the following three packages:
      
 ### Credit
 
-Most of the code is based on the Udacity code for Mupti-agent DDPG.     
+Most of the code is based on Udacity's Mupti-agent DDPG code.
