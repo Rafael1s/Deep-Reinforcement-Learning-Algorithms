@@ -18,9 +18,9 @@ its first attempt. Four discrete actions available:
 ### Deep Q-Network (DQN)
 
 For other DQN projects, see    
-[_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-1_Navigation-DQN), 4 discrete actions are available:     
+[_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-1_Navigation-DQN), 4 discrete actions are available:     
 0 - move forward, 1 - move backward, 2 - turn left, 3 - turn right.    
-[_Cartpole_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/edit/master/Cartpole-Deep-Q-Learning), 2 discrete actions are available:  
+[_Cartpole_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/edit/master/Cartpole-Deep-Q-Learning), 2 discrete actions are available:  
 0 - push cart to the left, 1 - push cart to the right.
 
 ### Training  
