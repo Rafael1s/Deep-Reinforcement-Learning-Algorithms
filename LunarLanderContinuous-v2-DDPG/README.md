@@ -24,7 +24,7 @@ Values  **-0.5 < _v2_ 0.5** left and right engines off.
 
 The main paper: [_Continuous control with Deep RL_](https://arxiv.org/abs/1509.02971)
 
-For other DDPG project, see [_Reacher_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Udacity/tree/master/Project-2_Continuous-Control-Reacher-DDPG).
+For other DDPG project, see [_Reacher_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-2_Continuous-Control-Reacher-DDPG).
 
 
 
