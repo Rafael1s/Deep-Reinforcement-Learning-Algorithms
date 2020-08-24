@@ -211,6 +211,6 @@ Train: 4, Test: 5, Episode: 633, fc1_units: 80, fc2_units: 88, eps_start: 0.989,
 
 ### Credit
 
-Most of the code is based on the Udacity code for DQN.
+Most of the code is based on Udacity's DQN code.
 
         
