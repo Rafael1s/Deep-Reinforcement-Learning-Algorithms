@@ -147,7 +147,7 @@ a bigger part of the state-action space in much less time.
 * [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs)
 * [Wooden Snake](https://www.youtube.com/watch?v=-T4wQirNDRo)
 * [Walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk)
-* [Artificial Brooding Snake](https://www.youtube.com/watch?v=-jNfUrVniNg)
+* [Artificial snake on the way](https://www.youtube.com/watch?v=-jNfUrVniNg)
 * [Learned Long Snake](https://www.youtube.com/watch?v=Tt1rqWTR8ZA)
 
 
