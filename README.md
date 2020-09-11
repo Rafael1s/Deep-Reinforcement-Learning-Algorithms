@@ -149,5 +149,6 @@ a bigger part of the state-action space in much less time.
 * [Walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk)
 * [Artificial snake on the way](https://www.youtube.com/watch?v=-jNfUrVniNg)
 * [Learned Long Snake](https://www.youtube.com/watch?v=Tt1rqWTR8ZA)
+* [Such a Cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk)
 
 
