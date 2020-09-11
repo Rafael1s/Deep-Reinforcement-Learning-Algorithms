@@ -32,3 +32,10 @@ The score 2500 was achieved in the episode **5438** after training **36 hours 59
 
 ### Video
 See video [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) on youtube.
+
+### Credit
+
+The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)  
+by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger_.
+
+
