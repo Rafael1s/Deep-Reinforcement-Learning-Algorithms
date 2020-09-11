@@ -25,6 +25,9 @@ For details, see [Three aspects of Deep RL: noise, overestimation and exploratio
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)
 * [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)
 
+### Video
+See video [Lucky Hopper](https://www.youtube.com/watch?v=Q-FchLEZKRk) on youtube.
+
 ### Credit
 
 The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)  
