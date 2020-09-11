@@ -26,7 +26,7 @@ For details, see [Three aspects of Deep RL: noise, overestimation and exploratio
 * [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)
 
 ### Video
-See video [Lucky Hopper](https://www.youtube.com/watch?v=Q-FchLEZKRk) on youtube.
+See video [Such a fast cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk) on youtube.
 
 ### Credit
 
