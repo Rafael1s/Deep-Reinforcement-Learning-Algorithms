@@ -20,3 +20,6 @@ For details, see [Three aspects of Deep RL: noise, overestimation and exploratio
 ![](images/plot_HalfCheetah_1588epis_sc3000.png)
 
 ### Credit
+
+The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)  
+by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger_.
