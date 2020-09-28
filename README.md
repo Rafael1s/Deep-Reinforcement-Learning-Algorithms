@@ -8,8 +8,9 @@ a **jupyter notebook** containing **training log**.
 
 The following environments are supported:  
 
-__AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,     
-__Markov Decision 6x6__,  __Pong__, __Navigation__,  __Crawler__, __Reacher__,  __Tennis__, __Waker2DBulletEnv__.   
+__AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __HalfCheetahBulletEnv__,     
+__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Pong__,     
+__Navigation__,  __Crawler__, __Reacher__,  __Snake__, __Tennis__, __Waker2DBulletEnv__.          
 
 Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are solved in the framework of the   
 [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
@@ -55,7 +56,9 @@ a bigger part of the state-action space in much less time.
 
 [Cartpole, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Cartpole-Deep-Q-Learning)  
 
-[Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Cartpole-Double-Deep-Q-Learning) 
+[Cartpole, Double DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Cartpole-Double-Deep-Q-Learning)   
+
+[HalfCheetahBulletEnv, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HalfCheetahBulletEnv-TD3)   
 
 [HopperBulletEnv, Twin Delayed DDPG (TD3)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)  
 
@@ -95,9 +98,15 @@ a bigger part of the state-action space in much less time.
   
 ### Projects with PPO
   * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-PPO), 8 parallel agents
-  * [CarRacing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels
-  * [C r a w l e r  ](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents
-  * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master//BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
+  * [CarRacing](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/CarRacing-From-Pixels-PPO),  Single agent, Learning from pixels   
+  * [C r a w l e r  ](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-2_Continuous-Control-Crawler-PPO), 12 parallel agents   
+  * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master//BipedalWalker-PPO-VectorizedEnv),   16 parallel agents   
+  
+### Projects with TD3
+  * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))    
+  * [HalfChhetahBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HalfCheetahBulletEnv-TD3)     
+  * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)    
+  * [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)   
   
  ### Projects with Soft Actor-Critic (SAC)
  * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
@@ -138,7 +147,7 @@ a bigger part of the state-action space in much less time.
 [A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
 [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
 
-### Videos I have developed under these projects
+### Videos I have developed within the above projects
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
 * [BipedalWalker by Training Stages](https://www.youtube.com/watch?v=g01mIFbxVns)  
 * [CarRacing by Training Stages](https://www.youtube.com/watch?v=55buBR2pPdc)
