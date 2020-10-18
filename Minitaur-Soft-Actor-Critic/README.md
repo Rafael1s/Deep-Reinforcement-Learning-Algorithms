@@ -38,5 +38,5 @@ Ep.: 1730, Tot.St.: 538166, Avg.Num.St.: 778.1, Min-Max.Sc.: (0.04, 22.51), Avg.
 Ep.: 1740, Tot.St.: 545961, Avg.Num.St.: 800.1, Min-Max.Sc.: (0.04, 22.51), Avg.Score: 14.872, Time: 19:56:14   
 Solved environment with Avg Score:   15.097705826385656    
 
-Full log available in the  [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Minitaur-Soft-Actor-Critic/Minitaur-SAC_lr0.0001-b128-1745ep.ipynb).     
+Full log is available in the  [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Minitaur-Soft-Actor-Critic/Minitaur-SAC_lr0.0001-b128-1745ep.ipynb).     
 
