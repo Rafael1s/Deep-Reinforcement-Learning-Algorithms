@@ -125,8 +125,6 @@ The score **300.5** was achieved
 ### The last few lines from the log    
 
 ...   
-Ep.: 395, Total Steps: 431988, Ep.Steps: 948, Score: 302.51, Avg.Score: 296.83, Time: 07:17:59   
-Ep.: 396, Total Steps: 432937, Ep.Steps: 949, Score: 304.57, Avg.Score: 296.95, Time: 07:18:55   
 Ep.: 397, Total Steps: 433858, Ep.Steps: 921, Score: 305.46, Avg.Score: 299.45, Time: 07:19:50    
 Ep.: 398, Total Steps: 434802, Ep.Steps: 944, Score: 304.52, Avg.Score: 299.57, Time: 07:20:46    
 Ep.: 399, Total Steps: 435723, Ep.Steps: 921, Score: 305.65, Avg.Score: 299.69, Time: 07:21:40    
@@ -140,7 +138,7 @@ Ep.: 406, Total Steps: 442235, Ep.Steps: 915, Score: 306.88, Avg.Score: 300.44, 
 Ep.: 407, Total Steps: 443146, Ep.Steps: 911, Score: 305.48, Avg.Score: 300.56, Time: 07:29:01    
 Solved environment with Avg Score:   300.56121912236614   
 
-Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/BipedalWalker-Soft-Actor-Critic/BipedalWalker-SAC_lr00008_408epis.ipynb).   
+Full log is available in the [jupyter notebook file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/BipedalWalker-Soft-Actor-Critic/BipedalWalker-SAC_lr00008_408epis.ipynb).   
 
   
 ### Credit   
