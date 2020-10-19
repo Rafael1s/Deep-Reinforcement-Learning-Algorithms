@@ -121,6 +121,27 @@ The score **300.5** was achieved
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC) 
 * [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)
 * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
+
+### The last few lines from the log    
+
+...   
+Ep.: 395, Total Steps: 431988, Ep.Steps: 948, Score: 302.51, Avg.Score: 296.83, Time: 07:17:59   
+Ep.: 396, Total Steps: 432937, Ep.Steps: 949, Score: 304.57, Avg.Score: 296.95, Time: 07:18:55   
+Ep.: 397, Total Steps: 433858, Ep.Steps: 921, Score: 305.46, Avg.Score: 299.45, Time: 07:19:50    
+Ep.: 398, Total Steps: 434802, Ep.Steps: 944, Score: 304.52, Avg.Score: 299.57, Time: 07:20:46    
+Ep.: 399, Total Steps: 435723, Ep.Steps: 921, Score: 305.65, Avg.Score: 299.69, Time: 07:21:40    
+Ep.: 400, Total Steps: 436684, Ep.Steps: 961, Score: 303.97, Avg.Score: 299.78, Time: 07:22:38    
+Ep.: 401, Total Steps: 437608, Ep.Steps: 924, Score: 306.29, Avg.Score: 299.90, Time: 07:23:33    
+Ep.: 402, Total Steps: 438541, Ep.Steps: 933, Score: 304.28, Avg.Score: 299.99, Time: 07:24:28    
+Ep.: 403, Total Steps: 439491, Ep.Steps: 950, Score: 304.15, Avg.Score: 300.09, Time: 07:25:24    
+Ep.: 404, Total Steps: 440417, Ep.Steps: 926, Score: 305.15, Avg.Score: 300.21, Time: 07:26:19    
+Ep.: 405, Total Steps: 441320, Ep.Steps: 903, Score: 305.71, Avg.Score: 300.27, Time: 07:27:13    
+Ep.: 406, Total Steps: 442235, Ep.Steps: 915, Score: 306.88, Avg.Score: 300.44, Time: 07:28:07    
+Ep.: 407, Total Steps: 443146, Ep.Steps: 911, Score: 305.48, Avg.Score: 300.56, Time: 07:29:01    
+Solved environment with Avg Score:   300.56121912236614   
+
+Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/commit/60cc50c1ec21cd1d41bb8a84dd4e31ba2f5209b7).   
+
   
 ### Credit   
 
