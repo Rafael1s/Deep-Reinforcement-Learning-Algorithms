@@ -25,7 +25,7 @@ Here is a graph of the average number of steps for 100 series.
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)
 * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
 
-### The last few lines form the log
+### The last few lines from the log
 
 ...     
 Ep.: 1670, Tot.St.: 489093, Avg.Num.St.: 753.8, Min-Max.Sc.: (0.04, 20.80), Avg.Score: 13.621, Time: 17:11:46    
