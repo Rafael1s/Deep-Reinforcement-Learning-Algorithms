@@ -140,7 +140,7 @@ Ep.: 406, Total Steps: 442235, Ep.Steps: 915, Score: 306.88, Avg.Score: 300.44, 
 Ep.: 407, Total Steps: 443146, Ep.Steps: 911, Score: 305.48, Avg.Score: 300.56, Time: 07:29:01    
 Solved environment with Avg Score:   300.56121912236614   
 
-Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/commit/60cc50c1ec21cd1d41bb8a84dd4e31ba2f5209b7).   
+Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/BipedalWalker-Soft-Actor-Critic/BipedalWalker-SAC_lr00008_408epis.ipynb).   
 
   
 ### Credit   
