@@ -50,11 +50,12 @@ The threshold score **2500** was achieved in the episode **1811**  after trainin
 
 * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)
+* [MinitaurBulletEnv]()
 * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
 
 ### The last few lines from the log
 
-...
+...   
 Ep.: 1801, Total Steps: 1600122, Ep.Steps: 1000, Score: 2577.40, Avg.Score: 2479.95, Time: 23:52:46    
 Ep.: 1802, Total Steps: 1601122, Ep.Steps: 1000, Score: 2618.20, Avg.Score: 2483.22, Time: 23:53:37   
 Ep.: 1803, Total Steps: 1602122, Ep.Steps: 1000, Score: 2606.14, Avg.Score: 2485.22, Time: 23:54:29    
@@ -66,6 +67,8 @@ Ep.: 1808, Total Steps: 1607122, Ep.Steps: 1000, Score: 2633.31, Avg.Score: 2495
 Ep.: 1809, Total Steps: 1608122, Ep.Steps: 1000, Score: 2658.44, Avg.Score: 2498.11, Time: 23:59:34    
 Ep.: 1810, Total Steps: 1609122, Ep.Steps: 1000, Score: 2624.06, Avg.Score: 2500.38, Time: 24:00:24   
 Solved environment with Avg Score:   2500.383402639514   
+
+Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Minitaur-Soft-Actor-Critic/Minitaur-SAC_lr0.0001-b128-1745ep.ipynb).
 
 ### Video
 See video [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) on youtube.
