@@ -68,7 +68,7 @@ Ep.: 1809, Total Steps: 1608122, Ep.Steps: 1000, Score: 2658.44, Avg.Score: 2498
 Ep.: 1810, Total Steps: 1609122, Ep.Steps: 1000, Score: 2624.06, Avg.Score: 2500.38, Time: 24:00:24   
 Solved environment with Avg Score:   2500.383402639514   
 
-Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Minitaur-Soft-Actor-Critic/Minitaur-SAC_lr0.0001-b128-1745ep.ipynb).
+Full log is available in the [Jupyter Notebook ipynb file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Ant-PyBulletEnv-Soft-Actor-Critic/AntPyBulletEnv-SAC_lr0001-sc2500.ipynb).
 
 ### Video
 See video [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) on youtube.
