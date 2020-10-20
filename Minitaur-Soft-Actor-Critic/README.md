@@ -42,12 +42,19 @@ Full log is available in the  [jupyter notebook file](https://github.com/Rafael1
 
 ### Other trials for Minitaur    
 
-#### lr = 0.0001, batch size - 512, 10000 episodes maximal vaue for average score = 13.85   
-![](images/plot_Minitaur-SAC_lr0.0001b512_10000ep_sc13.85.png)   
+lr = 0.0001,  
+batch size = 512,    
+10000 episodes,   
+maximal vaue for average score = 13.85     
+![](images/plot_Minitaur-SAC_lr0.0001b512_10000ep_sc13.85.png)     
 
-#### lr = 0.00001, batch size - 128, 40000 episodes maximal vaue for average score = 13.09   
+lr = 0.00001,   
+batch size = 128,   
+40000 episodes,   
+maximal vaue for average score = 13.09     
+![](images/plot_Minitaur-SAC_lr0.00001_bs128__40000ep_sc13.097)      
 
-![](images/plot_Minitaur-SAC_lr0.00001_bs128__40000ep_sc13.097)   
+
 
 
 
