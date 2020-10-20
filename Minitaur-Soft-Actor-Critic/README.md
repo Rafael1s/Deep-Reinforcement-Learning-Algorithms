@@ -40,7 +40,7 @@ Solved environment with Avg Score:   15.097705826385656
 
 Full log is available in the  [jupyter notebook file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Minitaur-Soft-Actor-Critic/Minitaur-SAC_lr0.0001-b128-1745ep.ipynb).     
 
-### Other trials for Minitaur    
+### Trials not reaching the threshold 
 
 lr = 0.0001,  
 batch size = 512,    
