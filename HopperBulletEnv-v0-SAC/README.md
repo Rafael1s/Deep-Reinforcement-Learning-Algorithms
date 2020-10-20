@@ -6,7 +6,7 @@ Solving the environment require an average total reward of over **2500** on 100 
 Training of HopperBulletEnv is performed using the __Soft Actor-Critic (SAC)__ algorithm, see    
 two basic papers [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor](https://arxiv.org/abs/1801.01290)     
 and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905). The HopperBulletEnv environment was solved   
-in 2 experiments:  (I) in **7662 episodes**. ,  (II)  in **3814** episodes.     
+in 2 experiments:  (I) in **7662 episodes**,   (II)  in **3814** episodes.     
 
 ![](images/Hopper_two_stages_2.png)
 
@@ -63,7 +63,24 @@ Here, learning rate = **0.0003**.
 
 * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
 * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)
+* [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)    
 * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
+
+### The last few lines from the log
+
+...   
+Ep.: 3803, Total Steps: 2498568, Ep.Steps: 1000, Score: 2518.460, Avg.Score: 2494.938, Max.Score: 2557.114, Time: 37:48:57     
+Ep.: 3804, Total Steps: 2499568, Ep.Steps: 1000, Score: 2522.515, Avg.Score: 2495.311, Max.Score: 2557.114, Time: 37:49:54    
+Ep.: 3805, Total Steps: 2500568, Ep.Steps: 1000, Score: 2517.100, Avg.Score: 2495.309, Max.Score: 2557.114, Time: 37:50:52    
+Ep.: 3806, Total Steps: 2501568, Ep.Steps: 1000, Score: 2529.950, Avg.Score: 2495.785, Max.Score: 2557.114, Time: 37:51:50     
+Ep.: 3807, Total Steps: 2502568, Ep.Steps: 1000, Score: 2544.071, Avg.Score: 2496.402, Max.Score: 2557.114, Time: 37:52:48   
+Ep.: 3808, Total Steps: 2503568, Ep.Steps: 1000, Score: 2545.314, Avg.Score: 2496.918, Max.Score: 2557.114, Time: 37:53:45    
+Ep.: 3809, Total Steps: 2504568, Ep.Steps: 1000, Score: 2548.591, Avg.Score: 2497.434, Max.Score: 2557.114, Time: 37:54:43    
+Ep.: 3810, Total Steps: 2505568, Ep.Steps: 1000, Score: 2543.297, Avg.Score: 2498.089, Max.Score: 2557.114, Time: 37:55:41    
+Ep.: 3811, Total Steps: 2506568, Ep.Steps: 1000, Score: 2548.280, Avg.Score: 2498.782, Max.Score: 2557.114, Time: 37:56:39    
+Ep.: 3812, Total Steps: 2507568, Ep.Steps: 1000, Score: 2555.617, Avg.Score: 2499.684, Max.Score: 2557.114, Time: 37:57:37    
+Ep.: 3813, Total Steps: 2508568, Ep.Steps: 1000, Score: 2562.541, Avg.Score: 2500.254, Max.Score: 2562.541, Time: 37:58:35    
+Solved environment with Avg Score:   2500.253525302146   
 
 ### Video
 See video [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) on youtube.
