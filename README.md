@@ -9,10 +9,10 @@ a **jupyter notebook** containing **training log**.
 The following environments are supported:  
 
 __AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,     
-__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur,    
+__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__,    
 __Pong__, __Navigation__, __Reacher__,  __Snake__, __Tennis__, __Waker2DBulletEnv__.   
 
-![](images/all_envs_08.png)
+![](images/all_envs_minitaur_08.png)
 
 Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are solved in the framework of the   
 [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
