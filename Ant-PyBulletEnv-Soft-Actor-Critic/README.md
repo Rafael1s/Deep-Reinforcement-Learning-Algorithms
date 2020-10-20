@@ -74,4 +74,4 @@ Full log is available in the [jupyter notebook file](https://github.com/Rafael1s
 See video [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) on youtube.
 
 ### Credit
-Most of the code is based on the Udacity code, and Pranjal Tandon's code (https://github.com/pranz24).
+Most of the code is based on Pranjal Tandon's code (https://github.com/pranz24).
