@@ -52,7 +52,12 @@ lr = 0.00001,
 batch size = 128,   
 40000 episodes,   
 maximal vaue for average score = 13.09     
-![](images/plot_Minitaur-SAC_lr0.00001_bs128__40000ep_sc13.097)      
+![](images/plot_Minitaur-SAC_lr0.00001_bs128__40000ep_sc13.097.png)   
+
+### Credit
+Most of the code is based on Pranjal Tandon's code (https://github.com/pranz24).
+
+
 
 
 
