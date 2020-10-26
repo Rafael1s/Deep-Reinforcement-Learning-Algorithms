@@ -61,7 +61,7 @@ maximal vaue for average score = __12.41__
 ![](images/plot_Minitaur-SAC_lr0.0001-sc14-b1024_sc=12.4.png)     
 
 ### Credit
-Most of the code is based on Pranjal Tandon's code (https://github.com/pranz24).
+The code is based on Pranjal Tandon's code (https://github.com/pranz24).
 
 
 
