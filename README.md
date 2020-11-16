@@ -9,8 +9,8 @@ a **jupyter notebook** containing **training log**.
 The following environments are supported:  
 
 __AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,     
-__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__,    
-__Pong__, __Navigation__, __Reacher__,  __Snake__, __Tennis__, __Waker2DBulletEnv__.   
+__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__,  
+__Minitaur with Duck__, __Pong__, __Navigation__, __Reacher__,  __Snake__, __Tennis__, __Waker2DBulletEnv__.   
 
 ![](images/all_envs_minitaur_08.png)
 
@@ -74,6 +74,8 @@ a bigger part of the state-action space in much less time.
 
 [MinitaurBulletEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)
 
+[MinitaurBulletDuckEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)   
+
 [Pong, Policy Gradient Methods, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-PPO)    
 
 [Pong, Policy Gradient Methods, REINFORCE](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-REINFORCE)   
@@ -116,7 +118,8 @@ a bigger part of the state-action space in much less time.
  * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
  * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)   
  * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)   
- * [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)    
+ * [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)   
+ * [MinitaurBulletDuckEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)
  * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)   
  
   
