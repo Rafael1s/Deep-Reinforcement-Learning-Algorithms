@@ -60,8 +60,11 @@ batch size = 1024
 maximal vaue for average score = __12.41__    
 ![](images/plot_Minitaur-SAC_lr0.0001-sc14-b1024_sc=12.4.png)     
 
+### Video
+See video [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEAqyEwvi54) on youtube.
+
 ### Credit
-Most of the code is based on Pranjal Tandon's code (https://github.com/pranz24).
+The code is based on Pranjal Tandon's code (https://github.com/pranz24).
 
 
 
