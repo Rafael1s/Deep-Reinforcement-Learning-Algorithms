@@ -47,3 +47,10 @@ is a very rare case, the second example (612 episodes) is a much more typical re
 For both neural networks, _q_local_ and _q_traget_, we save the trained weights into checkpoint files    
 with the extension _pth_. The corresponding files are saved into the directory _dir_chk_V0_ddqn_ for _Cartpole-v0_    
 and the directory _dir_chk_V1_ddqn_ for _Cartpole-v1_. Using this notebook we load the trained weights and replay them.  
+
+### Paper
+
+[A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)
+
+
+
