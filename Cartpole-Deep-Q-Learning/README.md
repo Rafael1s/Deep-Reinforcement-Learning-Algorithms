@@ -43,11 +43,11 @@ constructed on the basis of two _neural networks_ **q_local** and **q_target**:
 
 ### Training History
 
-1.  For Cartpole-v0: Score **195** achieved in **962** episodes   
+1.  For Cartpole-v0: Score **195** is achieved in **962** episodes   
 
 ![](images/plot_v0_962epis.png)
 
-2.  For Cartpole-v1: Score **475** achived in **1345** episodes   
+2.  For Cartpole-v1: Score **475** is achived in **1345** episodes   
      
 ![](images/plot_v1_1345epis.png)
 
