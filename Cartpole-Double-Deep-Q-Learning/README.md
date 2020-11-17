@@ -39,7 +39,7 @@ constructed on the basis of two _neural networks_ **q_local** and **q_target**:
 Note that such a quick achievement (239 episodes) of threshold 195       
 is a very rare case, the second example (612 episodes) is a much more typical result.    
 
-3.  For Cartpole-v1: Score **475** achived in **1030** episodes   
+3.  For Cartpole-v1: Score **475** is achieved in **1030** episodes   
      
 ![](images/plot_v1-ddqn_1030epis.png)
 
