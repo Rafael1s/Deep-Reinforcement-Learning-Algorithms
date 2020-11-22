@@ -63,6 +63,9 @@ maximal vaue for average score = __12.41__
 ### Video
 See video [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEAqyEwvi54) on youtube.
 
+### Real Minitaur
+Learning to Walk via Deep Reinforcement Learning, [Minitaur-Locomotion](https://sites.google.com/view/minitaur-locomotion/).
+
 ### Credit
 The code is based on Pranjal Tandon's code (https://github.com/pranz24).
 
