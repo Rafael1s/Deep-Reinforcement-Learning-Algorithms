@@ -168,5 +168,6 @@ a bigger part of the state-action space in much less time.
 * [Learned Long Snake](https://www.youtube.com/watch?v=Tt1rqWTR8ZA)
 * [Such a fast cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk)
 * [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEAqyEwvi54)
+* [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM)
 
 
