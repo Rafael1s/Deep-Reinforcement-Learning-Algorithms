@@ -70,8 +70,11 @@ Solved environment with Avg Score:   2500.383402639514
 
 Full log is available in the [jupyter notebook file](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/blob/master/Ant-PyBulletEnv-Soft-Actor-Critic/AntPyBulletEnv-SAC_lr0001-sc2500.ipynb).
 
-### Video
-See video [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) on youtube.
+### Videos  
+
+See videos   
+[Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) and    
+[Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.  
 
 ### Credit
 The code is based on Pranjal Tandon's code (https://github.com/pranz24).
