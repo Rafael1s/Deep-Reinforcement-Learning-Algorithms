@@ -14,9 +14,21 @@ see the basic paper [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic A
 
 ### Steps of episodes
 
-Here is a graph of the average number of steps for 100 series.
+Here is the graph of the average number of steps for 100 series.
 
 ![](images/plot_avgnumsteps_MinitaurBulletDuck_lr0.00003.png)
+
+
+### Trials not reaching the threshold   
+
+lr = 0.0005,   
+batch size = 128,   
+40000 episodes,   
+maximal vaue for average score = 2.6,   
+![](images/plot_MinitaurDuck-SAC_lr0.00005-b128_sc=2.6.png)   
+
+The graph of the average number of steps for 100 series.   
+![](images/plot_avgnumsteps_MinitaurDuck-SAC_lr0.00005-b128.png)   
 
 ### Other SAC projects
 
