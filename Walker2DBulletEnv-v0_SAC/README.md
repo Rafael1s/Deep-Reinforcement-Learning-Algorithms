@@ -16,10 +16,11 @@ By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/
 
 ### Other SAC projects
 
-* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)
-* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)
-* [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)
-* [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)
+* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
+* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)   
+* [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)   
+* [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)   
+* [MinitaurBulletDuckEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)   
 
 ### The last few lines from the log
 
@@ -37,6 +38,8 @@ Ep.: 6932, Total Steps: 5173722, Ep.Steps: 1000, Score: 2527.365, Avg.Score: 249
 Ep.: 6933, Total Steps: 5174722, Ep.Steps: 1000, Score: 2531.127, Avg.Score: 2516.000, Max.Score: 2544.886, Time: 75:27:28    
 Solved environment with Avg Score:   2516.0003478152444    
 
-###  Video
+###  Videos
 
-See video [walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk) on youtube.
+See youtube videos:     
+[Walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk) and     
+[Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM).

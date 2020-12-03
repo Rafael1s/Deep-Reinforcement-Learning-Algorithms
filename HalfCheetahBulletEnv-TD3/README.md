@@ -25,8 +25,10 @@ For details, see [Three aspects of Deep RL: noise, overestimation and exploratio
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)
 * [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)
 
-### Video
-See video [Such a fast cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk) on youtube.
+### Videos
+See videos 
+[Such a fast cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk) and    
+[Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.
 
 ### Credit
 

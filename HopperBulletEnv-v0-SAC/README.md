@@ -61,10 +61,12 @@ Here, learning rate = **0.0003**.
 
 ### Other Soft Actor-Critic  projects    
 
-* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)   
-* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)
+* [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)    
+* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)  
 * [MinitaurBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)    
-* [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
+* [MinitaurBulletDuckEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)  
+* [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)   
+
 
 ### The last few lines from the log
 
@@ -82,5 +84,7 @@ Ep.: 3812, Total Steps: 2507568, Ep.Steps: 1000, Score: 2555.617, Avg.Score: 249
 Ep.: 3813, Total Steps: 2508568, Ep.Steps: 1000, Score: 2562.541, Avg.Score: 2500.254, Max.Score: 2562.541, Time: 37:58:35    
 Solved environment with Avg Score:   2500.253525302146   
 
-### Video
-See video [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) on youtube.
+### Videos
+See videos   
+[Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) and   
+[Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.   
