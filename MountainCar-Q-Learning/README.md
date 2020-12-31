@@ -22,7 +22,10 @@ and one-dimensional discrete __action space__ with values (0,1,2).
 
 Solving the environment require an average total reward of over __-110__ on 100 consecutive episodes.    
 By using the __Q-learning__ algorithm we solve __MountainCar-v0__ environment in **283600 episodes**   
-in **22 minutes !**.
+in **22 minutes !**.   
+
+_Note that Q-learning is the core of the DQN (Deep Q-Network) algoritm, but it is not Deep Learning,   
+since we do not use neural networks!_
 
 ### Discretization
 
