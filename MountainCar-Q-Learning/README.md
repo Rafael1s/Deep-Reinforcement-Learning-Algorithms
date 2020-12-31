@@ -24,4 +24,11 @@ Solving the environment require an average total reward of over __-110__ on 100 
 By using the __Q-learning__ algorithm we solve __MountainCar-v0__ environment in **283600 episodes**   
 in **22 minutes !**.
 
+### Discretization
+
+The state space [position x velocity] is discretized into __12x12__  buckets.
+![](images/discretize_function.png)
+
+
+
 
