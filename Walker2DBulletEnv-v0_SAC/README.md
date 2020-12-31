@@ -8,7 +8,7 @@ two basic papers [SAC: Off-Policy Maximum Entropy Deep RL with a Stochastic Acto
 and [SAC Algorithms and Applications](https://arxiv.org/abs/1812.05905).  We solve the HopperBulletEnv environment in **6934 episodes**, in __75.5__ hours.    
 By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3), the environment is solved in **9361 episodes**.  
 
-![](images/Walker2D_two_stages_B.png)
+![](images/Walker2D_two_stages_0.5.png)
 
 ### Training Score
 
