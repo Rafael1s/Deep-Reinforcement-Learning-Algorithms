@@ -58,4 +58,4 @@ The training is performed by **8 parallel agents**. The agents run in
   * [BipedalWalker](../BipedalWalker-PPO-VectorizedEnv),   16 parallel agents
 
 ## Credit       
-Most of the code is based on the Udacity code for the PPO algorithm.  
+The implementation of the PPO algorithm code is based on the Udacity code.  
