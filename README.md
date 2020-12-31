@@ -169,5 +169,6 @@ a bigger part of the state-action space in much less time.
 * [Such a fast cheetah](https://www.youtube.com/watch?v=Q-FchLEZKRk)
 * [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEAqyEwvi54)
 * [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM)
+* [You can sleep while I drive, Minitaur with Duck](https://www.youtube.com/watch?v=_7_Rke5R3JQ)
 
 
