@@ -32,6 +32,29 @@ since we do not use neural networks!_
 The state space [position x velocity] is discretized into __12x12__  buckets.
 ![](images/discretize_function.png)
 
+### Training Score
+
+![](images/plot_score_n_mountainCar.png)
+
+### The last few lines from the log
+...      
+Episode: 278400, Timesteps:  114, Score: -114.0,  Avg.Score: -138.80, eps-greedy:  0.01, Time: 00:21:46    
+Episode: 278800, Timesteps:  160, Score: -160.0,  Avg.Score: -145.13, eps-greedy:  0.01, Time: 00:21:48    
+Episode: 279200, Timesteps:  101, Score: -101.0,  Avg.Score: -136.76, eps-greedy:  0.01, Time: 00:21:50     
+Episode: 279600, Timesteps:  148, Score: -148.0,  Avg.Score: -128.03, eps-greedy:  0.01, Time: 00:21:52     
+Episode: 280000, Timesteps:  174, Score: -174.0,  Avg.Score: -122.91, eps-greedy:  0.01, Time: 00:21:54    
+Episode: 280400, Timesteps:  107, Score: -107.0,  Avg.Score: -121.37, eps-greedy:  0.01, Time: 00:21:55    
+Episode: 280800, Timesteps:  114, Score: -114.0,  Avg.Score: -119.33, eps-greedy:  0.01, Time: 00:21:57    
+Episode: 281200, Timesteps:  135, Score: -135.0,  Avg.Score: -120.35, eps-greedy:  0.01, Time: 00:21:59    
+Episode: 281600, Timesteps:  116, Score: -116.0,  Avg.Score: -122.64, eps-greedy:  0.01, Time: 00:22:00    
+Episode: 282000, Timesteps:  97, Score: -97.0,  Avg.Score: -116.98, eps-greedy:  0.01, Time: 00:22:02    
+Episode: 282400, Timesteps:  89, Score: -89.0,  Avg.Score: -121.86, eps-greedy:  0.01, Time: 00:22:04    
+Episode: 282800, Timesteps:  113, Score: -113.0,  Avg.Score: -119.09, eps-greedy:  0.01, Time: 00:22:05   
+Episode: 283200, Timesteps:  85, Score: -85.0,  Avg.Score: -115.96, eps-greedy:  0.01, Time: 00:22:07    
+Episode: 283600, Timesteps:  114, Score: -114.0,  Avg.Score: -109.86, eps-greedy:  0.01, Time: 00:22:08   
+
+
+
 
 
 
