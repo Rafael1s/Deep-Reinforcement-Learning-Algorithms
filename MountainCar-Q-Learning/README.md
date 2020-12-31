@@ -1,6 +1,5 @@
 # Project - MountainCar with Q-learning   
-
-(from Wikipedia)    
+    
 Mountain Car, is a problem in which an under-powered car must drive up a steep hill.   
     
 ![](images/two_diagr_mcar_0.5.png)
@@ -10,3 +9,12 @@ the car cannot simply accelerate up the steep slope. The car is situated in a va
 and must learn to leverage potential energy by driving up the opposite hill     
 before the car is able to make it to the goal at the top of the rightmost hill.   
 The domain has been used as a test bed in various Reinforcement Learning papers.   
+
+### Environment
+
+The states are the position of the car in the horizontal axis on the range [-1.2, 0.6]      
+and its velocity on the range [-0.07, 0.07]. The goal is to get the car to accelerate    
+up the hill and get to the flag.  The possible actions are __(left, neutral, right)__.   
+Thus, we have the two-dimensional continuous __state space__   [position x velocity].   
+and one-dimensional discrete __action space__ with values (0,1,2).    
+
