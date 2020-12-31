@@ -34,7 +34,7 @@ The state space [position x velocity] is discretized into __12x12__  buckets.
 
 ### Training Score
 
-![](images/plot_score_n_mountainCar.png)
+![](images/plot_score_n_mountainCar_0.7.png)
 
 ### The last few lines from the log
 ...      
