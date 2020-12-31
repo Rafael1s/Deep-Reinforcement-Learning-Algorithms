@@ -1,8 +1,6 @@
-# Project - MountainCar with Q-learning
+# Project - MountainCar with Q-learning   
 
-## ![](images/mcar_problem_2.png)
-
-(from Wikipedia)
+(from Wikipedia)    
 Mountain Car, is a problem in which an under-powered car must drive up a steep hill.   
     
 ![](images/two_diagr_mcar.png)
