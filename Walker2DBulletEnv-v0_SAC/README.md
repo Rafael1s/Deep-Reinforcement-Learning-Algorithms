@@ -24,7 +24,7 @@ By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/
 
 ### The last few lines from the log
 
-...   
+...    
 Ep.: 6923, Total Steps: 5164722, Ep.Steps: 1000, Score: 2510.848, Avg.Score: 2434.984, Max.Score: 2544.886, Time: 75:18:42   
 Ep.: 6924, Total Steps: 5165722, Ep.Steps: 1000, Score: 2511.237, Avg.Score: 2458.445, Max.Score: 2544.886, Time: 75:19:39    
 Ep.: 6925, Total Steps: 5166722, Ep.Steps: 1000, Score: 2531.342, Avg.Score: 2458.312, Max.Score: 2544.886, Time: 75:20:32    
