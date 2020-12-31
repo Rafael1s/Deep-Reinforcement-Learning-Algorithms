@@ -53,6 +53,9 @@ Episode: 282800, Timesteps:  113, Score: -113.0,  Avg.Score: -119.09, eps-greedy
 Episode: 283200, Timesteps:  85, Score: -85.0,  Avg.Score: -115.96, eps-greedy:  0.01, Time: 00:22:07    
 Episode: 283600, Timesteps:  114, Score: -114.0,  Avg.Score: -109.86, eps-greedy:  0.01, Time: 00:22:08   
 
+### Credit   
+
+The notebook code is based on Isaac Patole's implementation (https://github.com/IsaacPatole/Mountaincar-v0-using-Q-learning/blob/master/Qlearning_for_Mountaincar.py).   
 
 
 
