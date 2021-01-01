@@ -1,4 +1,4 @@
-## Deep Reinforcement Learning Nanodegree Algorithms
+## Deep Reinforcement Learning Algorithms
 
 Here you can find several projects dedicated to the Deep Reinforcement Learning methods.     
 The projects are deployed in the matrix form: **[env x model]**, where **env** is the environment   
