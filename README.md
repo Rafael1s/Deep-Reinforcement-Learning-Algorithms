@@ -8,9 +8,9 @@ a **jupyter notebook** containing **training log**.
 
 The following environments are supported:  
 
-__AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,     
-__HopperBulletEnv__, __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__,  
-__Minitaur with Duck__, __Pong__, __Navigation__, __Reacher__,  __Snake__, __Tennis__, __Waker2DBulletEnv__.   
+__AntBulletEnv__,  __Bipedalwalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,  __HopperBulletEnv__,     
+__LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__, __MountainCar__,   
+__Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
 
 ![](images/all_envs_minitaur_duck_0.8.png)
 
@@ -101,6 +101,7 @@ a bigger part of the state-action space in much less time.
 * [LunarLander-v2, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/LunarLander-v2-DQN)   
 * [Navigation, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-1_Navigation-DQN)      
 * [Snake, DQN, Pygame](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Snake-Pygame-DQN)
+* [MountainCar, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-DQN)
   
 ### Projects with PPO
   * [Pong](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-PPO), 8 parallel agents
