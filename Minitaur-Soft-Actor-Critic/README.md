@@ -66,8 +66,8 @@ See video [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEA
 ### Real Minitaur
 Learning to Walk via Deep Reinforcement Learning, [Minitaur-Locomotion](https://sites.google.com/view/minitaur-locomotion/).
 
-### Credit
-The code is based on Pranjal Tandon's code (https://github.com/pranz24).
+### Credit    
+The implementation of the SAC algorithm is based on Pranjal Tandon's code (https://github.com/pranz24).   
 
 
 
