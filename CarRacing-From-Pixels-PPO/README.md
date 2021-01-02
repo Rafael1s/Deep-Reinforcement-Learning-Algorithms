@@ -8,7 +8,7 @@ where N is the total number of tiles in track. For example, if you have finished
 your reward is 1000 - 0.1\*732 = 926.8 points. The indicators shown at the bottom of the window. 
 CarRacing-v0 defines "solving" as getting average reward of 900 over 100 consecutive trials.
 
-![](images/plot_Reward_200-1000.png)
+![](images/plot_Reward_200-1000_0.8.png)  
 
 ### Requirement
 
