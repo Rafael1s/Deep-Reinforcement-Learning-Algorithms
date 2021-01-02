@@ -103,4 +103,12 @@ by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger_.
 "_TD3 is the successor to the Deep Deterministic Policy Gradient (DDPG)(Lillicrap et al, 2016).     
  Up until recently, DDPG was one of the most used algorithms for continuous control problems such as robotics and autonomous driving._"  
  
+ * [Addressing Function Approximation Error in Actor-Critic Methods].   
+ "_TD3 maintains a pair of critics along with a single actor._"   
+ "_...to address the coupling of value and policy, we propose delaying policy updates until the value estimate has converged._"   
+ "_Unlike the original implementation of DDPG, we used uncorrelated noise for exploration._"
+ 
+ 
+ 
+ 
  
