@@ -130,4 +130,10 @@ For both neural networks, _q_local_ and _q_traget_, we save the trained weights 
 and _dir_chk_2_ (case 746 episodes). Using notebook **WatchAgent-DDPG.ipynb** we can load the trained weights   
 and replay them.    
 
-See video [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs) on youtube.
+### Video   
+See video [Lunar Armada](https://www.youtube.com/watch?v=6O6g9LCWvIs) on youtube.  
+
+### References   
+[Deep Deterministic Policy Gradient (DDPG): Theory and Implementation](https://towardsdatascience.com/deep-deterministic-policy-gradient-ddpg-theory-and-implementation-747a3010e82f)    
+"_Deep Deterministic Policy Gradient (DDPG) is a reinforcement learning technique that combines both Q-learning and Policy gradients._"    
+
