@@ -80,20 +80,35 @@ of this average:
 
 More points in fewer episodes. It happens!
 
-### Other BipedalWalker projects:
+### Other BipedalWalker projects:   
 
 * [BipedalWalker, SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)    
 * [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-PPO-VectorizedEnv)  
 * [BipedalWalker, A2C, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-A2C-VectorizedEnv)  
 
-### Other TD3 projects
+### Other TD3 projects   
 
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)
 * [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)
 * [HalfCheetahBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HalfCheetahBulletEnv-TD3)
 
 
-### Credit
+### Credit   
 
-The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)  
-by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger_.
+The source paper is [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477)   
+by _Scott Fujimoto_ , _Herke van Hoof_, _David Meger_.  
+
+### References
+* [TD3: Learning To Run With AI](https://towardsdatascience.com/td3-learning-to-run-with-ai-40dfc512f93).  
+"_TD3 is the successor to the Deep Deterministic Policy Gradient (DDPG)(Lillicrap et al, 2016).     
+ Up until recently, DDPG was one of the most used algorithms for continuous control problems such as robotics and autonomous driving._"  
+ 
+ * [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477).   
+ "_TD3 maintains a pair of critics along with a single actor._"   
+ "_...to address the coupling of value and policy, we propose delaying policy updates until the value estimate has converged._"   
+ "_Unlike the original implementation of DDPG, we used uncorrelated noise for exploration._"
+ 
+ 
+ 
+ 
+ 

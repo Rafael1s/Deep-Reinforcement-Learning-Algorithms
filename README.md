@@ -1,4 +1,4 @@
-## Deep Reinforcement Learning Nanodegree Algorithms
+## Deep Reinforcement Learning Algorithms
 
 Here you can find several projects dedicated to the Deep Reinforcement Learning methods.     
 The projects are deployed in the matrix form: **[env x model]**, where **env** is the environment   
@@ -75,6 +75,10 @@ a bigger part of the state-action space in much less time.
 [MinitaurBulletEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Minitaur-Soft-Actor-Critic)
 
 [MinitaurBulletDuckEnv, Soft Actor-Critic (SAC)](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)   
+
+[MountainCar, Q-learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-Q-Learning)    
+
+[MountainCar, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-DQN)
 
 [Pong, Policy Gradient Methods, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Pong-Policy-Gradient-PPO)    
 
