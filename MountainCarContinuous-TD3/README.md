@@ -30,3 +30,11 @@ Ep. 1140, Timestep 1018362,  Ep.Timesteps 65, Score: 93.77, Avg.Score: 89.098, M
 Ep. 1150, Timestep 1019031,  Ep.Timesteps 68, Score: 93.64, Avg.Score: 89.277, Max.Score: 95.83,  Time: 10:15:44    
 Ep. 1156, Timestep 1019431,  Ep.Timesteps 66, Score: 93.68, Avg.Score: 90.408, Max.Score: 95.83,  Time: 10:15:59    
 Environment solved with Average Score:  90.40762049331501   
+
+### Other TD3 projects
+
+* [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))  
+* [HalfCheetahBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HalfCheetahBulletEnv-TD3)   
+* [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv_v0-TD3)   
+* [Walker2DBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_TD3)   
+
