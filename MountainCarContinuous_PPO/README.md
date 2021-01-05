@@ -1,4 +1,4 @@
-# Project - MountainCarContinuous with PPO (vectorized 
+## Project - MountainCarContinuous with PPO (vectorized environments)
 
 ###  Environment   
 Usually, solving the environment require an average total reward of over the threshold over 100 consecutive episodes.      
