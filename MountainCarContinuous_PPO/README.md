@@ -40,6 +40,12 @@ Ep. 19, Timesteps 999, Score.Agents: 553.75, Avg.Score: 129.38, Time: 00:01:18, 
 Ep. 20, Timesteps 999, Score.Agents: 619.99, Avg.Score: 152.74, Time: 00:01:22, Interval: 00:04  
 Environment solved with Average Score:  152.7411231610043    
 
+### MountainCar, different models
+
+* [MountainCar, Q-learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-Q-Learning)
+* [MountainCar, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-DQN)
+* [MountainCarContinuous, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCarContinuous-TD3) 
+
 ### Other PPO projects
 
   * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master//BipedalWalker-PPO-VectorizedEnv),   16 parallel agents 
