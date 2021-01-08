@@ -31,6 +31,12 @@ Ep. 1150, Timestep 1019031,  Ep.Timesteps 68, Score: 93.64, Avg.Score: 89.277, M
 Ep. 1156, Timestep 1019431,  Ep.Timesteps 66, Score: 93.68, Avg.Score: 90.408, Max.Score: 95.83,  Time: 10:15:59    
 Environment solved with Average Score:  90.40762049331501   
 
+### MountainCar, different models
+
+* [MountainCar, Q-learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-Q-Learning)
+* [MountainCar, DQN](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-DQN)
+* [MountainCarContinuous, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCarContinuous_PPO) 
+
 ### Other TD3 projects
 
 * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-TwinDelayed-DDPG%20(TD3))  
