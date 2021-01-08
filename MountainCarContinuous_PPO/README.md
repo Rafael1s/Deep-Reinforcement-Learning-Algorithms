@@ -9,7 +9,7 @@ is __21x16 = 336__.
 ![](images/4_diagrams_0.7.png)
 
 We use PPO with vectorized environments, the basic paper: [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347).    
-**Vectorized Environments** (in our case there are  16 environments) is a method that means that the agent is trained in  
+**Vectorized Environments** (in our case there are  16 environments) is a method that means that the agent is trained in     
 16 environments simultaneously.
 
 ### Training score
