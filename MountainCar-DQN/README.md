@@ -32,6 +32,12 @@ Episode:  1830 Score: -86.0  Avg.Score: -110.42, eps-greedy: 0.010 Time: 01:41:0
 
  Environment solved in 1834 episodes!	Average Score: -109.95    
  
+ ### MountainCar, different models
+
+* [MountainCar, Q-learning](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCar-Q-Learning)
+* [MountainCarContinuous, PPO](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MountainCarContinuous_PPO) 
+* [MountainCarContinuous, TD3](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/edit/master/MountainCarContinuous-TD3) 
+ 
 ### Other DQN projects
 
 [_Navigation_](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Project-1_Navigation-DQN)   
