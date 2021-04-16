@@ -26,3 +26,5 @@ it needs to learn to be successful."](https://ai.stackexchange.com/questions/138
 In this directory we solve the environment in __6783 episodes__ ib __18 hours__   
 by usage of the __TD3-FORK__ algorithm, see the basic paper [FORK: A Forward-Looking Actor For Model-Free Reinforcement Learning](https://arxiv.org/abs/2010.01652).
 
+![](images/2-image_bph_1.png)
+
