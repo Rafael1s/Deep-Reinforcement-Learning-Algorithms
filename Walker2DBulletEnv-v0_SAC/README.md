@@ -12,7 +12,7 @@ By usage of the [Twin Delayed DDPG (TD3) algorithm](https://github.com/Rafael1s/
 
 ### Training Score
 
-![](images/plot_Walker2D_SAC_lr0.0003_epis6934.png)
+![](images/plot_Walker2D_SAC_lr0.0003_epis6934.png)   
 
 ### Other SAC projects
 

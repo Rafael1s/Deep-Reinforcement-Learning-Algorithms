@@ -80,7 +80,7 @@ of this average:
 
 More points in fewer episodes. It happens!
 
-### Other BipedalWalker projects:   
+### BipedalWalker, differenet models:   
 
 * [BipedalWalker, SAC](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)    
 * [BipedalWalker, PPO, Vectorized Env](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-PPO-VectorizedEnv)  
