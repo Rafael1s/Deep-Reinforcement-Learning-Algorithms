@@ -30,6 +30,17 @@ by usage of the __TD3-FORK__ algorithm, see the basic paper [FORK: A Forward-Loo
 
 ![](images/2-image_bph_1.png)
 
+### Algorithm Forward-Looking Actor or FORK
+
+The algorithm __FORK__ propose a new type of Actor (in the Actor-Critic framwework), named [Forwrd-Looking Actor](https://arxiv.org/abs/2010.01652).   
+
+The neural network __Actor__ (policy) maps __states to actions__.  
+The neural network __Critic__ (value) maps __(state, action) pair to Q-values__.  
+The neural network __System__ forecasts __new state given current state and current action__.  
+
+Generally speaking, FORK includes anothe network called __reward network__ that forecasts the reward based on the (state, action) pair.   
+However, currently, we don't use this neural network.   
+
 
 ### Training History
 
