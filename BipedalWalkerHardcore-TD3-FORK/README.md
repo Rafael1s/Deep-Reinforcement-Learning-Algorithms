@@ -41,6 +41,16 @@ The neural network __System__ forecasts __new state given current state and curr
 Generally speaking, FORK includes anothe network called __reward network__ that forecasts the reward based on the (state, action) pair.   
 However, currently, we don't use this neural network.   
 
+### System Neural Network and Model-Based Reinforcement Learning
+
+The system model is not a new idea in Reinforcement Learning (RL). Historically, this type of RL was called 
+the __Model-Based RL__ , see [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/abs/1907.02057).
+
+[FORK only uses the system network as a blackbox to forecast future states, and does not use it as a mathematical model
+for optimizing control actions. With this key distinction, any model-free Actor-Critic algorithm with FORK
+remains to be model-free.](https://arxiv.org/abs/2010.01652).
+
+
 
 ### Training History
 
