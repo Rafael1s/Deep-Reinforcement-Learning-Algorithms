@@ -8,9 +8,9 @@ a **jupyter notebook** containing **training log**.
 
 The following environments are supported:  
 
-__AntBulletEnv__,  __BipedalWalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,  __HopperBulletEnv__,      
-__LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__, __MountainCar__,   
-__MountainCarContinuous__, __Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
+__AntBulletEnv__,  __BipedalWalker__, __BipedalWalkerHardcore__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,   
+__HopperBulletEnv__,  __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__,      
+__MountainCar__, __MountainCarContinuous__, __Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
 
 ![](images/all_16_envs.png)
 
