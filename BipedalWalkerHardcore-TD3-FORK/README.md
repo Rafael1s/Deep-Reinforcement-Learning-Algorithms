@@ -23,7 +23,9 @@ to find the complex series of actions required before it converges
 on not going near the pit. Not to mention all of the other things 
 it needs to learn to be successful."](https://ai.stackexchange.com/questions/13848/has-anyone-been-able-to-solve-openais-hardcore-bipedal-walker-with-their-implem).
 
-In this directory we solve the environment in __6783 episodes__ ib __18 h 47 m__   
+In this directory we solve the environment:   
+(1) in __6783 episodes__ in __18 h 47 m__   and    
+(2) in __8681__ episodes in __24 h 42 m__       
 by usage of the __TD3-FORK__ algorithm, see the basic paper [FORK: A Forward-Looking Actor For Model-Free Reinforcement Learning](https://arxiv.org/abs/2010.01652).
 
 ![](images/2-image_bph_1.png)
@@ -31,11 +33,18 @@ by usage of the __TD3-FORK__ algorithm, see the basic paper [FORK: A Forward-Loo
 
 ### Training History
 
-1. Score 303.7,  Achieved in 6783 episodes
+1. Score __303.7__,  achieved in __6783__ episodes
 
 ![](images/plot_avgscore_BipedalWalkerHardcore_6783epis.png)
 
        Average number of steps:    
 ![](images/plot_avgnumsteps_BWH_6783epis.png)
+
+1. Score __301.6__,  achieved in __8681__ episodes
+
+![](images/plot_avgscore_BipedalWalkerHardcore_8681epis.png)
+
+       Average number of steps:    
+![](images/plot_avgnumsteps_BWH_8681epis.png)
 
 
