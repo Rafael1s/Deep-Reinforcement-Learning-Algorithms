@@ -12,7 +12,7 @@ __AntBulletEnv__,  __BipedalWalker__, __CarRacing__, __CartPole__, __Crawler__, 
 __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__, __MountainCar__,   
 __MountainCarContinuous__, __Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
 
-![](images/all_envs_mcar_08.png)
+![](images/all_16_envs.png)
 
 Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are solved in the framework of the   
 [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
