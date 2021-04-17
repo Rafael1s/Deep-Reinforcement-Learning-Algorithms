@@ -30,6 +30,27 @@ by usage of the __TD3-FORK__ algorithm, see the basic paper [FORK: A Forward-Loo
 
 ![](images/2-image_bph_1.png)
 
+### Forward-Looking Actor Algorithm or FORK
+
+The algorithm __FORK__ propose a new type of Actor (in the Actor-Critic framwework), named [Forwrd-Looking Actor](https://arxiv.org/abs/2010.01652).   
+
+The neural network __Actor__ (policy) maps __states to actions__.  
+The neural network __Critic__ (value) maps __(state, action) pair to Q-values__.  
+The neural network __System__ forecasts __new state given current state and current action__.  
+
+Generally speaking, FORK includes anothe network called __reward network__ that forecasts the reward based on the (state, action) pair.   
+However, currently, we don't use this neural network.   
+
+### System Network and Model-Based RL
+
+The system model is not a new idea in Reinforcement Learning (RL). Historically, this type of RL was called 
+the __Model-Based RL__ , see [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/abs/1907.02057).
+
+[FORK only uses the system network as a blackbox to forecast future states, and does not use it as a mathematical model
+for optimizing control actions. With this key distinction, any model-free Actor-Critic algorithm with FORK
+remains to be model-free.](https://arxiv.org/abs/2010.01652).
+
+
 
 ### Training History
 
