@@ -8,11 +8,11 @@ a **jupyter notebook** containing **training log**.
 
 The following environments are supported:  
 
-__AntBulletEnv__,  __BipedalWalker__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,  __HopperBulletEnv__,      
-__LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__, __MountainCar__,   
-__MountainCarContinuous__, __Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
+__AntBulletEnv__,  __BipedalWalker__, __BipedalWalkerHardcore__, __CarRacing__, __CartPole__, __Crawler__, __HalfCheetahBulletEnv__,   
+__HopperBulletEnv__,  __LunarLander__,  __LunarLanderContinuous__,  __Markov Decision 6x6__,  __Minitaur__, __Minitaur with Duck__,      
+__MountainCar__, __MountainCarContinuous__, __Pong__, __Navigation__, __Reacher__,  __Snake__,  __Tennis__, __Waker2DBulletEnv__.   
 
-![](images/all_envs_mcar_08.png)
+![](images/all_16_envs.png)
 
 Four environments (__Navigation__,  __Crawler__, __Reacher__,  __Tennis__) are solved in the framework of the   
 [**_Udacity Deep Reinforcement Learning Nanodegree Program_**](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).  
@@ -36,7 +36,15 @@ Define a performance measure _J(\theta)_ to maximaze. Learn policy paramter \the
 * [_Actor-Critic Methods_](https://towardsdatascience.com/soft-actor-critic-demystified-b8427df61665), [_A3C_](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2), [_A2C_](https://hackernoon.com/intuitive-rl-intro-to-advantage-actor-critic-a2c-4ff545978752), [_DDPG_](https://medium.com/@amitpatel.gt/policy-gradients-1edbbbc8de6b), [_TD3_](https://arxiv.org/abs/1802.09477), [_SAC_](https://towardsdatascience.com/soft-actor-critic-demystified-b8427df61665)    
 The key difference from A2C is the Asynchronous part. A3C consists of multiple independent agents(networks) with   
 their own weights, who interact with a different copy of the environment in parallel. Thus, they can explore    
-a bigger part of the state-action space in much less time.
+a bigger part of the state-action space in much less time.  
+* [_Forward-Looking Actor or FORK_](https://arxiv.org/abs/2010.01652)    
+Model-based reinforcement learning uses the model in a sophisticated way, often based   
+on deterministic or stochastic optimal control theory to optimize the policy based   
+on the model. FORK only uses the _system network_ as a blackbox  to forecast future states,   
+and does not use it as a mathematical model for optimizing control actions.     
+With this key distinction, any model-free Actor-Critic algorithm with FORK  remains  
+to be model-free.  
+
 
 ### Projects, models and methods
 

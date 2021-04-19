@@ -46,9 +46,19 @@ However, currently, we don't use this neural network.
 The system model is not a new idea in Reinforcement Learning (RL). Historically, this type of RL was called 
 the __Model-Based RL__ , see [Benchmarking Model-Based Reinforcement Learning](https://arxiv.org/abs/1907.02057).
 
+Model-based reinforcement learning uses the model in a sophisticated way, often based on deterministic or stochastic   
+optimal control theory to optimize the policy based on the model.   
 [FORK only uses the system network as a blackbox to forecast future states, and does not use it as a mathematical model
 for optimizing control actions. With this key distinction, any model-free Actor-Critic algorithm with FORK
 remains to be model-free.](https://arxiv.org/abs/2010.01652).
+
+### A bug in v2 Lidar tracing - Before fix and After fix
+ Lidar is an acronym of "light detection and ranging".
+ 
+ [Finding this bug makes me even more impressed anyone has solved BipedalWalkerHardcore-v2 - it seems the observations from lidar have been inconsistent and incorrect,    returning the furthest hit result instead of closest.In screenshots below, I've tweaked the lidar drawing routine to draw last (in front of terrain and objects),    
+and draw every trace each frame to more clearly see what's happening.](https://github.com/openai/gym/pull/1789)
+
+Before fix - lidar traces through ground, and hits the side of a pit, giving the agent the impression of a "phantom canyon" in front of the pit:
 
 
 
