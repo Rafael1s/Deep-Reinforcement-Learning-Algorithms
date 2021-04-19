@@ -67,9 +67,13 @@ in front of the pit:
 After fix - lidar is stopped by terrain, even when another object is behind it    
 ![](images/stopped_even_when_another_object.png)
 
+### A step ahead
 
-
-
+[It seems to me that solutions to BipedalWalkerHardcore-v2 have not just learned to deal with the complex environment -    
+but advanced a step ahead, and are able to deal with the complex environment and sensory hallucinations causing them to jump    
+at the slightest hint of a cube, and keep running even when it looks like the ground is not visible below their feet,     
+relying more on the touch sensor than the lidar, or perhaps recognising the difference in "shape" between a real pit and     
+a "fake pit" (A real pit has a floor)](https://github.com/openai/gym/pull/1789)
 
 
 ### Training History
