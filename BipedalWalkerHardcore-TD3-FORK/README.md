@@ -92,4 +92,12 @@ a "fake pit" (A real pit has a floor)](https://github.com/openai/gym/pull/1789)
        Average number of steps:    
 ![](images/plot_avgnumsteps_BWH_8681epis.png)
 
+### Credit
+
+The source paper: [FORK: A Forward-Looking Actor For Model-Free Reinforcement Learning](https://arxiv.org/abs/2010.01652)     
+Implementation : [HonghaoW](https://github.com/honghaow)
+
+
+
+
 
