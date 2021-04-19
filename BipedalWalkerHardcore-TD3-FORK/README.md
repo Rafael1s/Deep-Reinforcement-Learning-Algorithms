@@ -55,10 +55,20 @@ remains to be model-free.](https://arxiv.org/abs/2010.01652).
 ### A bug in v2 Lidar tracing - Before fix and After fix
  Lidar is an acronym of "light detection and ranging".
  
- [Finding this bug makes me even more impressed anyone has solved BipedalWalkerHardcore-v2 - it seems the observations from lidar have been inconsistent and incorrect,    returning the furthest hit result instead of closest.In screenshots below, I've tweaked the lidar drawing routine to draw last (in front of terrain and objects),    
-and draw every trace each frame to more clearly see what's happening.](https://github.com/openai/gym/pull/1789)
+[Finding this bug makes me even more impressed anyone has solved BipedalWalkerHardcore-v2 - it seems the observations from      
+lidar have been inconsistent and incorrect, returning the furthest hit result instead of closest.In screenshots below, I've tweaked     
+the lidar drawing routine to draw last (in front of terrain and objects) and draw every trace each frame to more clearly       
+see what's happening.](https://github.com/openai/gym/pull/1789)     
 
-Before fix - lidar traces through ground, and hits the side of a pit, giving the agent the impression of a "phantom canyon" in front of the pit:
+Before fix - lidar traces through ground, and hits the side of a pit, giving the agent the impression of a "phantom canyon"    
+in front of the pit:    
+![](images/in_front_of_the_pit.png)
+
+After fix - lidar is stopped by terrain, even when another object is behind it    
+![](images/stopped_even_when_another_object.png)
+
+
+
 
 
 
