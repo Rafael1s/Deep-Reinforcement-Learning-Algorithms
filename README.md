@@ -176,6 +176,9 @@ to be model-free.
       We can do this using neural networks, because they can approximate the function **Φ(t)** for any time **t**.
       
 * [A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
+      Comparing __two neural networks__ representing the same __Q-table__ and finding the point   
+      at which these networks are very close is the basic part of the **DQN** algorithm.   
+      
 * [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
 * [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
 
