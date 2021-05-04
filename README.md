@@ -168,11 +168,12 @@ to be model-free.
    * on _SAC_, see [1](https://arxiv.org/abs/1801.01290), [2](https://towardsdatascience.com/soft-actor-critic-demystified-b8427df61665), [3](https://stable-baselines.readthedocs.io/en/master/modules/sac.html), [4](https://spinningup.openai.com/en/latest/algorithms/sac.html), [5](https://sites.google.com/view/sac-and-applications)     
    * on _A2C_,  see [1](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f), [2](https://openai.com/blog/baselines-acktr-a2c/), [3](https://sergioskar.github.io/Actor_critics/), [4](https://stable-baselines.readthedocs.io/en/master/modules/a2c.html), [5](https://hackernoon.com/intuitive-rl-intro-to-advantage-actor-critic-a2c-4ff545978752)      
 
-### Papers on TowardsDataScience
+### My papers on TowardsDataScience
 
 [How does the Bellman equation work in Deep Reinforcement Learning?](https://towardsdatascience.com/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)    
 [A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
 [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
+[Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
 
 ### Videos I have developed within the above projects
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
