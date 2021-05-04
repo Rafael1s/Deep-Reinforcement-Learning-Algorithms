@@ -184,7 +184,10 @@ to be model-free.
        In our case, this means that for the given state, the agent finds the following action that __maximizes the Q-value__.    
        The __exploration__ means that the following action will be selected randomly.    
        
-* [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
+* [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)   
+       In the probability theory, there are two principles associated with entropy:   
+       the __principle of maximum entropy__ and the __principle of minimum cross-entropy__.     
+       At very beginning we notice that there are two types of entropy.     
 
 ### Videos I have developed within the above projects
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
