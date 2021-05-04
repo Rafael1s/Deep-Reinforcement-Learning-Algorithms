@@ -170,10 +170,14 @@ to be model-free.
 
 ### My papers on TowardsDataScience
 
-[How does the Bellman equation work in Deep Reinforcement Learning?](https://towardsdatascience.com/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)    
-[A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
-[Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
-[Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
+* [How does the Bellman equation work in Deep Reinforcement Learning?](https://towardsdatascience.com/how-the-bellman-equation-works-in-deep-reinforcement-learning-5301fe41b25a)         
+      In the __Bellman equation__, the value function **Φ(t)** depends on the value function **Φ(t+1)**.       
+      Despite this, the value of **Φ(t)** can be obtained before the state reaches time **t+1**.    
+      We can do this using neural networks, because they can approximate the function **Φ(t)** for any time **t**.
+      
+* [A pair of interrelated neural networks in Deep Q-Network](https://towardsdatascience.com/a-pair-of-interrelated-neural-networks-in-dqn-f0f58e09b3c4)    
+* [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
+* [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
 
 ### Videos I have developed within the above projects
 * [Four BipedalWalker Gaits](https://www.youtube.com/watch?v=PFixqZEYKh4)      
