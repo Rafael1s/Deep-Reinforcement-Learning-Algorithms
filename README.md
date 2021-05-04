@@ -179,7 +179,11 @@ to be model-free.
       Comparing __two neural networks__ representing the same __Q-table__ and finding the point   
       at which these networks are very close is the basic part of the **DQN** algorithm.   
       
-* [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)    
+* [Three aspects of Deep Reinforcement Learning: noise, overestimation and exploration](https://towardsdatascience.com/three-aspects-of-deep-rl-noise-overestimation-and-exploration-122ffb4bb92b)      
+       __Exploitation__ means, that the agent uses the accumulated knowledge to select the following action.   
+       In our case, this means that for the given state, the agent finds the following action that __maximizes the Q-value__.    
+       The __exploration__ means that the following action will be selected randomly.    
+       
 * [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)
 
 ### Videos I have developed within the above projects
