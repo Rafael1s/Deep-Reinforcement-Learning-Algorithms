@@ -71,9 +71,9 @@ class soft_actor_critic_agent(object):
         qf1_loss = F.mse_loss(qf1, next_q_value) 
         qf2_loss = F.mse_loss(qf2, next_q_value) 
   
-        pi, log_pi, _ = self.policy.sample(state_batch)
+        action_batch_pi, log_pi, _ = self.policy.sample(state_batch)
 
-        qf1_pi, qf2_pi = self.critic(state_batch, pi)
+        qf1_pi, qf2_pi = self.critic(state_batch, action_batch_pi)
         min_qf_pi = torch.min(qf1_pi, qf2_pi)
 
         policy_loss = ((self.alpha * log_pi) - min_qf_pi).mean() 
