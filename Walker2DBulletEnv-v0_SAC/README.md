@@ -43,3 +43,7 @@ Solved environment with Avg Score:   2516.0003478152444
 See youtube videos:     
 [Walking through the chess fields](https://www.youtube.com/watch?v=qUT3TznKWAk) and     
 [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM).
+
+### Credit   
+
+Based on Pranjal Tandon's code (https://github.com/pranz24).

@@ -23,6 +23,7 @@ Here is a graph of the average number of steps for 100 series.
 * [AntBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Ant-PyBulletEnv-Soft-Actor-Critic)
 * [BipedalWalker](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/BipedalWalker-Soft-Actor-Critic)
 * [HopperBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/HopperBulletEnv-v0-SAC)
+* [MinitaurBulletDuckEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/MinitaurDuck-Soft-Actor-Critic)  
 * [Walker2dBulletEnv](https://github.com/Rafael1s/Deep-Reinforcement-Learning-Algorithms/tree/master/Walker2DBulletEnv-v0_SAC)
 
 ### The last few lines from the log
@@ -60,13 +61,16 @@ batch size = 1024
 maximal vaue for average score = __12.41__    
 ![](images/plot_Minitaur-SAC_lr0.0001-sc14-b1024_sc=12.4.png)     
 
-### Video
+### Video  
+
 See video [Four stages of Minitaur training](https://www.youtube.com/watch?v=uEAqyEwvi54) on youtube.
 
-### Real Minitaur
+### Real Minitaur   
+
 Learning to Walk via Deep Reinforcement Learning, [Minitaur-Locomotion](https://sites.google.com/view/minitaur-locomotion/).
 
-### Credit    
+### Credit       
+
 The implementation of the SAC algorithm is based on Pranjal Tandon's code (https://github.com/pranz24).   
 
 

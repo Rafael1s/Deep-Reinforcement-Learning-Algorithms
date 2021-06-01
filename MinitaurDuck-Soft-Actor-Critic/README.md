@@ -56,3 +56,8 @@ The graph of the average number of steps for 100 series.
 ### Video
 
 See video [You can sleep while I drive, Minitaur with Duck](https://www.youtube.com/watch?v=_7_Rke5R3JQ) on youtube.   
+
+### Credit   
+
+Based on Pranjal Tandon's code (https://github.com/pranz24).
+

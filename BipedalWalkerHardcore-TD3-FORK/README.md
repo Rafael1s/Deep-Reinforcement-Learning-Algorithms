@@ -55,11 +55,25 @@ remains to be model-free.](https://arxiv.org/abs/2010.01652).
 ### A bug in v2 Lidar tracing - Before fix and After fix
  Lidar is an acronym of "light detection and ranging".
  
- [Finding this bug makes me even more impressed anyone has solved BipedalWalkerHardcore-v2 - it seems the observations from lidar have been inconsistent and incorrect,    returning the furthest hit result instead of closest.In screenshots below, I've tweaked the lidar drawing routine to draw last (in front of terrain and objects),    
-and draw every trace each frame to more clearly see what's happening.](https://github.com/openai/gym/pull/1789)
+[Finding this bug makes me even more impressed anyone has solved BipedalWalkerHardcore-v2 - it seems the observations from      
+lidar have been inconsistent and incorrect, returning the furthest hit result instead of closest.In screenshots below, I've tweaked     
+the lidar drawing routine to draw last (in front of terrain and objects) and draw every trace each frame to more clearly       
+see what's happening.](https://github.com/openai/gym/pull/1789)     
 
-Before fix - lidar traces through ground, and hits the side of a pit, giving the agent the impression of a "phantom canyon" in front of the pit:
+Before fix - lidar traces through ground, and hits the side of a pit, giving the agent the impression of a "phantom canyon"    
+in front of the pit:    
+![](images/in_front_of_the_pit.png)
 
+After fix - lidar is stopped by terrain, even when another object is behind it    
+![](images/stopped_even_when_another_object.png)
+
+### A step ahead
+
+[It seems to me that solutions to BipedalWalkerHardcore-v2 have not just learned to deal with the complex environment -    
+but advanced a step ahead, and are able to deal with the complex environment and sensory hallucinations causing them to jump    
+at the slightest hint of a cube, and keep running even when it looks like the ground is not visible below their feet,     
+relying more on the touch sensor than the lidar, or perhaps recognising the difference in "shape" between a real pit and     
+a "fake pit" (A real pit has a floor)](https://github.com/openai/gym/pull/1789)
 
 
 ### Training History
@@ -77,5 +91,13 @@ Before fix - lidar traces through ground, and hits the side of a pit, giving the
 
        Average number of steps:    
 ![](images/plot_avgnumsteps_BWH_8681epis.png)
+
+### Credit
+
+The source paper: [FORK: A Forward-Looking Actor For Model-Free Reinforcement Learning](https://arxiv.org/abs/2010.01652)     
+Implementation : [HonghaoW](https://github.com/honghaow)
+
+
+
 
 

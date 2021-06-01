@@ -88,3 +88,10 @@ Solved environment with Avg Score:   2500.253525302146
 See videos   
 [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) and   
 [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.   
+
+
+### Credit   
+
+Based on Pranjal Tandon's code (https://github.com/pranz24).    
+
+
