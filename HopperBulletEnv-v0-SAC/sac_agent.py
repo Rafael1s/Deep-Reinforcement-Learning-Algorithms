@@ -62,28 +62,28 @@ class soft_actor_critic_agent(object):
 
         with torch.no_grad():
             next_state_action, next_state_log_pi, _ = self.policy.sample(next_state_batch)
-            qf1_next_target, qf2_next_target = self.critic_target(next_state_batch, next_state_action)
-            min_qf_next_target = torch.min(qf1_next_target, qf2_next_target) - self.alpha * next_state_log_pi
-            next_q_value = reward_batch + mask_batch * self.gamma * (min_qf_next_target)
+            Q1_next_target, Q2_next_target = self.critic_target(next_state_batch, next_state_action)
+            min_q_next_target = torch.min(Q1_next_target, Q2_next_target) - self.alpha * next_state_log_pi
+            next_q_value = reward_batch + mask_batch * self.gamma * (min_q_next_target)
 
         # Two Q-functions to mitigate positive bias in the policy improvement step
-        qf1, qf2 = self.critic(state_batch, action_batch) 
-        qf1_loss = F.mse_loss(qf1, next_q_value) 
-        qf2_loss = F.mse_loss(qf2, next_q_value) 
+        Q1, Q2 = self.critic(state_batch, action_batch) 
+        Q1_loss = F.mse_loss(Q1, next_q_value) 
+        Q2_loss = F.mse_loss(Q2, next_q_value) 
   
         action_batch_pi, log_pi, _ = self.policy.sample(state_batch)
 
-        qf1_pi, qf2_pi = self.critic(state_batch, action_batch_pi)
-        min_qf_pi = torch.min(qf1_pi, qf2_pi)
+        Q1_pi, Q2_pi = self.critic(state_batch, action_batch_pi)
+        min_q_pi = torch.min(Q1_pi, Q2_pi)
 
-        policy_loss = ((self.alpha * log_pi) - min_qf_pi).mean() 
+        policy_loss = ((self.alpha * log_pi) - min_q_pi).mean() 
         
         self.critic_optim.zero_grad()
-        qf1_loss.backward()
+        Q1_loss.backward()
         self.critic_optim.step()
 
         self.critic_optim.zero_grad()
-        qf2_loss.backward()
+        Q2_loss.backward()
         self.critic_optim.step()
         
         self.policy_optim.zero_grad()
