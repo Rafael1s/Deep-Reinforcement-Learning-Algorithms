@@ -77,5 +77,11 @@ See videos
 [Martian Ant](https://www.youtube.com/watch?v=s7aMZ1bbQgk&t=18s) and    
 [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.  
 
+### Articles on Soft Aactor-Critic
+
+* [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)   
+* [Entropy in Soft Actor-Critic (Part 2)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-2-59821bdd5671)
+
+
 ### Credit
 The code is based on Pranjal Tandon's code (https://github.com/pranz24).
