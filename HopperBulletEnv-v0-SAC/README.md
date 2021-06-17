@@ -89,7 +89,7 @@ See videos
 [Lucky Hopper](https://www.youtube.com/watch?v=Ipctq89yLB0) and   
 [Chessboard chase with four Pybullet actors](https://www.youtube.com/watch?v=NXX4GTim_NM) on youtube.   
 
-### Articles on Soft Aactor-Critic
+### Articles on Soft Actor-Critic
 
 * [Entropy in Soft Actor-Critic (Part 1)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-1-92c2cd3a3515)   
 * [Entropy in Soft Actor-Critic (Part 2)](https://towardsdatascience.com/entropy-in-soft-actor-critic-part-2-59821bdd5671)
